@@ -1,0 +1,168 @@
+@charset'UTF-8';
+
+/*头部*/
+.header{
+	width: 100%;
+	height:30px;
+	background:#F5F5F5;
+	border-bottom:1px solid #ddd;
+}
+.header > ul{
+	float:right;
+	margin:0 195px 0 0;
+}
+.header > ul > li{
+	float: left;
+	margin:0 0 0 10px;
+	line-height:30px;
+}
+.header > ul li > span{
+	margin:10px 10px 0 0;
+
+}
+.header > ul > li:nth-child(3) > a{
+	color:#FF7C00;
+}
+
+
+/*内容*/
+
+.wrap{
+	width:980px;
+	height:560px;
+	margin:0 auto;
+}
+.wrap .logo{
+	width:100%;
+	height:55px;
+	padding: 20px 11px;
+	border-bottom:1px solid #ddd;
+}
+.wrap .logo > img{
+	width:138px;
+	height:100%;
+	float:left;
+	line-height: 55px;
+
+}
+.wrap .logo > h2{
+	display:inline-block;
+	width:138px;
+	height:100%;
+	float:left;
+	padding:34px 0 0 20px;
+}
+
+.wrap .log{
+	position: relative;
+	width:100%;
+	height:455px;
+	margin-top:10px;
+}
+.log > form{
+	width:500px;
+	height:411px;
+	padding:40px 0 0 30px;
+}
+.log .cty{
+	width:100%;
+	height:46px;
+	padding:10px 0;
+}
+.cty label{
+	display: inline-block;
+	width:80px;
+	padding-top:8px;
+	float:left;
+	text-align: right;
+	font-size: 14px;
+}
+.cty .inf{
+	width:256px;
+	height:36px;
+	float:left;
+	margin-left: 10px;
+	border:1px solid #ccc;
+}
+
+.inf > input{
+	width:214px;
+	height:34px;
+	border:none;
+	outline:none;
+	padding-left:10px;
+}
+
+.pwrap input{
+	width: 234px;
+	height:32px;
+	margin-left:10px;
+	padding-left:10px;
+}
+.pwrap button{
+	width:100px;
+	height:20px;
+	margin-left:10px;
+	background: #0B60F0;
+	border:0;
+}
+.cwrap{
+	width:525px;
+	padding: 5px 0 0 0;
+	margin-left:80px;
+}
+.cwrap > button{
+	width:131px;
+	height:30px;
+	background:#b6b6b6;
+	border:none;
+	color:#fff;
+}
+.cwrap > a{
+	color: #006BC8;
+}
+.cwrap > a:hover{
+	color:#f60;
+}
+
+/*登录*/
+.log .login{
+	position: absolute;
+	top: 0px;
+	right: 0;
+	width:350px;
+	height:404px;
+	padding:46px 0 0 0;
+	float: right;
+}
+.tiwrap> h3{
+	text-align:center;
+	font-size:16px;
+}
+ .prompt{
+ 	height:16px;
+ 	padding:0 0 0 30px;
+ 	text-align:center;
+ }
+ .prompt .p-left{
+ 	margin:0 20px 0 0;
+ 	float:left;
+
+ }
+ .prompt .p-right{
+ 	margin:0 20px 0 0;
+ 	float:left;
+ }
+ .prompt > a{
+	color:#0B60F0;
+ }
+ .btn .bton{
+	height:36px;
+	margin-top:10px;
+	text-align:center;
+ }
+ .bton button{
+ 	width:70%;
+ 	height:100%;
+ 	border:none;
+ }

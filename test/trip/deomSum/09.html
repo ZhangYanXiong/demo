@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>注册表单</title>
+</head>
+<body>
+  <form action="08.php" method="post" enctype="multipart/form-data">
+  姓名:<input type="text" name="name" value="">
+   <span class="error">* <?php echo $nameErr;?></span>
+  文件类型：<input type="file" name="file" id="file"/>
+  <img src="<?php echo "weiwei/".$_FILES['file']['name']?>" alt=""/>
+  
+  
+  <input type="submit" name="sub" value="提交"/>
+  </form>
+</body>
+</html>

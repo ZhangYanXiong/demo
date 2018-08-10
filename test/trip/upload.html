@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>上传</title>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<style>
+.upload{
+  width:300px;
+  height:200px;
+  position:relative;
+}
+.upload input[type='file']{
+  position:absolute;
+  width:70px;
+  top:0;
+  left:0;
+  z-index:10;
+  opacity:0;
+  filter:alpha(opacity=0);
+}
+.upload input.selbutton{
+  width:70px;
+  height:30px;
+  background:#cf001b;
+  color:#FFF;
+  font-size:14px;
+  position:absolute;
+  top:0;left:0;
+  z-index:9;
+  border:none;
+  cursor:pointer;
+}
+.upload input.upbutton{
+  width:70px;
+  height:30px;
+  background:#cf001b;
+  color:#FFF;
+  font-size:14px;
+  position:absolute;
+  top:50px;left:0;
+  z-index:10;
+  border:none;
+  cursor:pointer;
+}
+</style>
+</head>
+<body>
+<div class='upload'>
+  <input type="file" name="file" />
+  <input type="button" name="selbutton" class="selbutton" value="选择文件" />
+  <input type="button" name="upbutton" class="upbutton" value="上传" />
+</div>
+<div class='previews'>
+  <img src="#" class="image_thumb" alt="图片预览"/>
+</div>
+
+<script type="text/javascript">
+  $(".upbutton").click(function(){
+    //定义允许上传的图片格式 在前台就可以直接判断，不合法的格式将不会上传
+   var filetype = ['jpg','jpeg','png','gif'];
+   if($('.image').get(0).files){
+      fi = $('.image').get(0).files[0]; //得到文件信息
+      //判断文件格式是否是图片 如果不是图片则返回false
+      var fname = fi.name.split('.');
+      if(filetype.indexOf(fname[1].toLowerCase()) == -1){
+        alert('文件格式不支持');
+        return ;
+      }
+      //实例化h5的fileReader
+      var fr = new FileReader();
+      fr.readAsDataURL(fi); //以base64编码格式读取图片文件
+      fr.onload = function(frev){
+        pic = frev.target.result; //得到结果数据
+      //开始上传之前，预览图片
+ $('.image_thumb').attr('src',pic);
+//使用ajax 利用post方式提交数据
+        $.post(
+          'handle.php',
+          {
+             message:pic,
+            filename:fname[0],
+            filetype:fname[1],
+            filesize:fi.size
+          },
+          function(data){
+            data = eval('('+data+')');
+            if(data.code == 1 || data.code == 2){
+              console.log('上传失败')
+            }else if(data.code == 0){
+              console.log('上传成功')
+            }
+          }
+        );
+      }
+    }
+  })
+</script>
+</body>
+</html>
