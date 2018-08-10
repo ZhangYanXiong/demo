@@ -1,0 +1,416 @@
+@charset"utf-8";
+/* 导航开始 */
+.nav-wrap{
+	background:#f4f4f4;
+	border-bottom:1px solid #e5e5e5;
+	line-height:30px;
+}
+.nav-wrap .nav-con{
+	width:1228px;
+	height:30px;
+	margin:0 auto;
+}
+.nav-con .con-right ul{
+	width:373.48px;
+	height:30px;  
+}
+.nav-con .con-right ul li{
+	float:left;
+	margin-left:10px;
+}
+.nav-con .con-left:hover{
+	color:#ff4040;
+}
+.nav-con .con-right ul li:hover{
+	color:#ff4040;
+}
+/* 搜索栏 */
+.search{
+	width:1228px;
+	height:150px;
+	margin:0 auto;
+}
+/* logo部分 */
+.search .search-lo{
+	width:205px;
+	height:150px;
+}
+.search-lo a{
+	position:relative;
+	display:block;
+	width:205px;
+	height:150px;
+}
+.search-lo img{
+	position:absolute;
+	top:0;
+	width:261px;
+	height:150px;
+}
+/* 搜索框 */
+.search .searchBox{
+	width:754px;
+	height:40px;
+	margin:30px 0 0 30px;
+	border:2px solid #ff4040;
+	border-radius:2px;
+}
+.searchBox form{
+	height:40px;
+}
+.searchBox input{
+	width:700px;
+	height:36px;
+	margin-left:5px;
+	float:left;
+	border:none;
+	text-indent:14px;
+	line-height:36px;
+	outline:none;
+}
+.searchBox button{
+	width:49px;
+	height:40px;
+	border:none;
+	line-height:40px;
+	text-align:center;
+	background:#ff4040;
+	color:#fff;
+}
+.searchBox button i{
+	font-size:24px;
+}
+.search-hot{
+	height:36px;
+}
+.search-hot a{
+	height:36px;
+	float:left;
+	margin:0 15px 0 0;
+	font-size:14px;
+	line-height:36px;
+	color:#aaa;
+}
+.search-hot a:hover{
+	color:#ff4040;
+}
+.search-hot-01{
+	width:974px;
+	height:40px;
+}
+.search-hot-01 ul li{
+	height:40px;
+	float:left;
+	margin-right:30px;
+	line-height:40px;
+	color:#333;
+}
+.search-hot-01 ul li :hover{
+	color:#ff4040;
+}
+.search-shop{
+	position:relative;
+	top:30px;
+	width:132px;
+	height:40px;
+	z-index:999px;
+	float:right;
+	border:1px solid #d7d7d7;
+}
+.search-shop a{
+	display:block;
+	height:40px;
+	line-height:40px;
+	text-align:center;
+	font-size:16px;
+}
+/* 个人中心 */
+.personal{
+	position:absolute;
+	top:70px;
+	right:55px;
+	width:205px;
+	height:184px;
+	padding-top:52px;
+	background: url("../images/01-banner/vip_bg2.png") no-repeat #fff;
+	box-shadow:0 0 4px rgba(0,0,0,.2);
+}
+.personal .per-pic{
+	position:absolute;
+	top:-25px;
+	left:67px;
+	width:64px;
+	height:64px;
+	padding:4px;
+	border-radius:50%;
+	background:rgba(0,0,0,.1);
+}
+.per-pic a{
+	display:block;
+	width:64px;
+	height:64px;
+	background:url("../images/00-header/2.png") no-repeat 0 -150px;
+}
+.personal p{
+	text-align:center;
+	line-height:20px;
+	color:#999;
+}
+.personal .btn{
+	height:90px;
+	line-height:90px;
+	text-align:center;
+}
+.btn > a{
+	display:inline-block;
+	width:70px;
+	height:24px;
+	margin:0 5px;
+	border-radius:20px;
+	border:1px solid #ff4040;
+	background:#fff;
+	line-height:24px;
+	text-align:center;
+}
+.btn > a:hover{
+	background:#ff4040;
+}
+.personal >.p-con-00 a strong{
+	color:#ff4040;
+}
+.personal > .p-con:hover{
+	color:#ff4040;
+}
+
+.left-sideNav{
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	margin-left:-665px;
+	margin-top:-221px;
+	width: 38px;
+	z-index:999999;
+}
+.left-sideNav li{
+	margin-bottom:1px;
+}
+.left-sideNav li a{
+	display: block;
+	width: 28px;
+	height: 38px;
+	padding:5px;
+	background: #fff;
+}
+.left-sideNav li a:hover{
+	background: #990033;
+}
+.left-sideNav li a.list2:hover{
+	background: orange;
+}
+
+.right-sideNav{
+	position: fixed;
+	top: 0;
+	right: 0;
+	height: 100%;
+	width: 34px;
+	background: #000;
+	color:#fff;
+}
+.right-sideNav .r-top{
+	margin-top:167px;
+}
+.right-sideNav .r-top li.list2 a{
+	width: 14px;
+	height: 105px;
+	padding:15px 10px;
+	background:  #999;
+	line-height:1.5;
+}
+.right-sideNav .r-top li.list2 a .iconfont{
+	display: inline-block;
+	margin:0 0 5px -3px;
+	font-size: 18px;
+}
+.right-sideNav a{
+	display: block;
+	position: relative;
+	width: 34px;
+	height: 32px;
+	margin-bottom:4px;
+	z-index:99999;
+	background: #000;
+	text-align:center;
+	line-height:32px;
+}
+.right-sideNav a .iconfont{
+	font-size: 22px;
+	font-weight: bold;
+}
+.right-sideNav a span{
+	position: absolute;
+	top: 0;left:34px;
+	z-index:-1;
+	width: 60px;
+	height: 32px;
+	background: #FF4040;
+	transition:left 0.3s;
+}
+.right-sideNav  a:hover{
+	background:#FF4040;
+}
+.right-sideNav  a:hover span{
+	left:-60px;
+}
+
+
+
+.right-sideNav .r-bot{position: absolute;bottom: 0;left: 0;}
+/* 底部部分 */
+.footer{
+	width:1349px;
+	height:449px;
+	background:#fff;
+}
+.footer .f-top{
+	width:1228px;
+	height:67px;
+	margin:0 auto;
+	padding:30px 0;
+	border-bottom:1px solid #ebebeb;
+}
+.f-top ul li{
+	width:205px;
+	height:66px;
+	float:left;
+	margin:0 51px;
+	overflow:hidden;
+}
+.f-top ul li a{
+	display:block;
+	position:relative;
+	width:205px;
+	height:66px;
+}
+.f-top ul li a img{
+	display:block;
+	width:66px;
+	height:66px;
+	float:left;
+	margin-right:15px;
+}
+.f-top ul li a strong{
+	display:block;
+	font-size:16px;
+}
+.f-top ul li a span{
+	font-size:14px;
+	color:#999;
+}
+.footer .f-middle{
+	width:1228px;
+	height:152px;
+	margin:0 auto;
+	padding:20px 0 20px;
+}
+.f-middle .f-m-con{
+	width:780px;
+	height:152px;
+	float:left;
+	padding-left:15px;
+}
+.f-m-con dl{
+	display:block;
+	width:195px;
+	float:left;
+}
+.f-m-con dl dt{
+	overflow:hidden;
+	font-size:14px;
+	line-height:32px;
+	color:#666;
+}
+.f-m-con dl dd{
+	padding:0 8px;
+	overflow:hidden;
+	font-size:12px;
+	line-height:24px;
+}
+.f-m-con dl dd:hover{
+	color:#ff4040;
+}
+.f-middle .f-m-pic{
+	width:280px;
+	height:122px;
+	margin-right:-50px;
+	overflow:hidden;
+	float:left;
+}
+.f-m-pic > div{
+	float:left;
+	margin-right:50px;
+}
+.f-m-pic > div >p{
+	width:90px;
+	height:32px;
+	line-height:32px;
+	text-align:center;
+	font-size:14px;
+	font-weight:bold;
+	color:#666;
+}
+.f-bottom .f-b-p-00{
+	height:12px;
+	margin:15px 0;
+	line-height:100%;
+	text-align:center;
+}
+.f-b-p-00 ul li {
+	float:left;
+}
+.f-b-p-00 ul li:nth-child(1){
+	margin-left:35%;
+}
+.f-b-p-00 ul li a{
+	margin:0 10px;
+}
+.f-bottom > p{
+	margin:15px 0; 
+	margin-left:38%;
+}
+.f-bottom .f-b-pic-con{
+	height:31px;
+	padding:10px 0 20px;
+	text-align:center;
+}
+.f-b-pic-con a{
+	display:inline-block;
+	width:90px;
+	height:31px;
+	margin:0 4px;
+	float:left;
+}
+.f-b-pic-con a:nth-child(1){
+	margin-left:22%;
+}
+.f-b-pic-con a img{
+	width:90px;
+	height:31px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
