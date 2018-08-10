@@ -1,0 +1,171 @@
+/*头部*/
+.header{
+	width: 1686px;
+	height: 80px;
+	background: rgba(241,95,67);
+}
+.logo{
+	width: 169px;
+	height: 80px;
+}
+.logo> img{
+	width:100%;
+	height: 100%;
+}
+.tab{
+	width: 575px;
+	height: 78px;
+	float:right;
+}
+.tab ul{
+	width: 100%;
+}
+.tab ul li{
+	line-height: 78px;
+}
+/*登录模块*/
+.rowd{
+	padding:100px 100px;
+}
+.log-by{
+	left:18%;
+}
+/*内容*/
+.search{
+	width: 1686px;
+}
+.search-con{
+	width: 1686px;
+	height: 632px;
+	background: url('../image/banner/banner1.jpg') ;
+	background-size: cover; 
+}
+.search-box{
+	width: 1140px;
+	height:272px;
+	margin-top:177px;
+}
+.inp-box{
+	position: relative;
+	height: 32px;
+	margin:20px 0;
+}
+.inp-box input{	
+	width:149px;
+	height: 32px;
+	padding: 5px;
+	margin-right: 10px;
+}
+.prompt{
+	position: absolute;
+	left: 0;
+	top: 32px;
+}
+.prompt a{
+	display: inline-block;
+	width:148px;
+	background: #fff;
+}
+.promptw{
+	position: absolute;
+	left: 160px;
+	top: 32px;
+}
+.promptw a{
+	display: inline-block;
+	width:148px;
+	background: #fff;
+}
+/*轮播图*/
+.com{
+	width: 1140px;
+	padding:110px 0 35px;
+}
+.com h3{
+	
+}
+.com-log{
+	position:relative;
+	width: 1140px;
+	height: 60px;
+	margin-top: 53px;
+}
+.banner-img{
+	position:relative;
+	width: 88%;
+	height: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.com-log .navbox{
+	position: absolute;
+	width: 40px;
+	height: 80px;
+	text-align: center;
+	line-height: 80px;
+	cursor: pointer;
+	background: rgba(0,0,0,0.2);
+}
+.nav-left{
+	left:0;
+}
+.nav-right{
+	right: 0;
+}
+.banner-img >ul{
+	position: absolute;
+	left: 0;
+	top:0;
+	width: 100%;
+}
+.banner-img >ul>li{
+	float: left;
+	padding-left: 30px;
+}
+.banner-img >ul>li img{
+	width: 160px;
+	height: 60px;
+} 
+/*通知信息*/
+.notice-box{
+	padding: 80px 0;
+}
+.notice .col_1{
+	height: 510px;
+	overflow: hidden;
+	margin-bottom: 50px;
+}
+.notice  h3{
+	background: rgba(241,95,67,1);
+	padding: 10px;
+	color:#fff;
+	margin-bottom: 20px;
+}
+.notice ul>li{
+	margin-bottom: 20px;
+	line-height:24px;
+}
+.vote{
+	margin-bottom: 15px;
+}
+.company-profile h3{
+	background: rgba(241,95,67,1);
+	padding: 10px;
+	color:#fff;
+	margin-bottom: 20px;
+}
+.company-profile .col_3{
+	margin-bottom: 60px;
+}
+/*底部*/
+.footer{
+	width: 1686px;
+	padding: 30px 0;
+	background: rgba(68,68,68,1);
+}
+.footer ul li{
+	padding: 5px 0;
+}
+.number-con{
+	padding: 30px 0;
+}

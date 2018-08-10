@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>ajax无刷新上传文件</title>
+<script>
+window.onload = function(){
+  var oBtn = document.getElementById('btn');
+  var oMyFile = document.getElementById('myFile');
+ 
+  oBtn.onclick = function() {
+    //alert(oMyFile.value); //获取到的是file控件的value值,这个内容是显示给你看的文字,不是我们选择的文件
+ 
+    //oMyFile.files file控件中选择的文件列表对象
+    //alert(oMyFile.files);
+ 
+    //我们是要通过ajax把oMyFile.files[0]数据发送给后端
+ 
+    /*
+    for (var attr in oMyFile.files[0]) {
+      console.log( attr + ' : ' + oMyFile.files[0][attr] );
+    }
+    */
+ 
+    //利用ajax发送必须要有一个ajax对象
+    var xhr = new XMLHttpRequest();
+ 
+    //监听上传事件
+    xhr.onload = function(){
+      //alert(1);
+      // alert(this.responseText);//后端返回的数据
+
+      var d = JSON.parse(this.responseText);
+ 
+      alert(d.msg + ' : ' + d.url); //显示上传成功 并且显示文件路径
+    }
+ 
+    xhr.open('post','demo.php',true); //open打开的方式不能使用get,上传文件的地址,使用异步上传
+    //在使用post发送的时候必须要带一些请求头信息
+    xhr.setRequestHeader('X-Request-With', 'XMLHttpRequest');
+    //send要发送数据 
+    //将要上传的数据转换成二进制数据
+    //那么必须知道后端接收当前文件的名称是什么 然后后面带上当前文件的数据
+ 
+    var oFormData = new FormData(); //通过FormData来构建提交数据
+    oFormData.append('file',oMyFile.files[0]);
+ 
+    xhr.send(oFormData);
+  }
+}
+</script>
+</head>
+<body>
+  <div id="diva"></div>
+  <input type="file" id="myFile" /><input type="button" id="btn" value="上传" />
+</body>
+</html>

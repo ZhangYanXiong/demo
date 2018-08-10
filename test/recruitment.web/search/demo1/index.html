@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>反ajax推送</title>
+  <meta charset="utf-8">
+  <style>
+    .send{color:#555;text-align: left;}
+    .require{color:blue;text-align: right;}
+    .content_box{text-align: center;margin: 20px;
+          border: 1px solid #ddd;padding: 20px;}
+  </style>
+  <script src="http://code.jQuery.com/jquery-1.11.2.min.js"></script>
+</head>
+<body>
+  <div class="content_box" id="content_box_title" style="border: none;">消息框</div>
+  <div class="content_box" id="content_box">
+  </div>
+  <div style="width: 450px;margin: 0 auto;">
+    <select id="username" style="font-size: 20px;">
+      <option value="1" selected="selected">1</option>
+      <option value="2">2</option>
+    </select>
+    <input type="text" style="font-size: 20px;" value="" id="send_text">
+    <button id="btn_send" style="font-size: 20px;">发送</button>
+    <button id="btn_link" style="font-size: 20px">连接</button>
+  </div>
+  <div class="error_tip" id="error_tip" style="color: red;">
+  </div>
+  <script>
+    $(function(){
+      //发送消息
+      $('#btn_send').click(function(){
+        var send_text = $('#send_text').val();
+        if(send_text.length <= 0){
+          $('#error_tip').html('不能输入空值');
+        }else{
+          send(send_text);
+        }
+      });
+      //按回车键发送消息
+      $('#send_text').on('keyup',function(e){
+        if(e.keyCode == 13){
+          $('#btn_send').trigger('click');
+        }
+      });
+      //建立通讯链接
+      $('#btn_link').click(function(){
+        connect();
+        var _this = $(this);
+        _this.attr('disabled',true);
+        _this.html('已连接');
+      });
+    });
+    //建立通讯连接函数
+    function connect(){
+      $('#content_box_title').html($('#username').val()+'的消息窗口');
+      $.ajax({
+        data:{'user':$('#username').val()},
+        url:'ajaxPush.PHP',
+        type:'get',
+        timeout:0,
+        dataType:'json',
+        success:function(data){
+          $('#content_box').append('<div class="require">'+data.msg+'</div>');
+          connect();
+        }
+      });
+    }
+    //发送消息函数
+    function send(massege){
+      var user =$('#username').val();
+      $.getJSON('write.php',{'msg':massege,'user':user},function(data){
+        if(data.sf){
+          $('#content_box').append('<div class="send">'+massege+'</div>');
+          $('#send_text').val('');
+        }else{
+          $('#error_tip').html('输入保存错误！');
+        }
+      });
+    }
+  </script>
+</body>
+</html>

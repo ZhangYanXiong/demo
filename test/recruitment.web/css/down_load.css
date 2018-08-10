@@ -1,0 +1,32 @@
+.box{
+	width: 1686px;
+}
+/*Header*/
+.header{
+	width: 1686px;
+	height: 80px;
+	background: rgba(241,95,67);
+}
+/*End Header*/
+/*Content*/
+.content{
+	width:1686px;
+}
+.search{
+	background: url('../image/banner/banner.jpg') ;
+	background-size: cover; 
+}
+.load{
+	padding: 95px 0;
+}
+.input-em{
+	width:20%;
+}
+/*End Content*/
+/*Footer*/
+.footer{
+	width: 1686px;
+	padding: 30px 0;
+	background: rgba(68,68,68,1);
+}
+/*End Footer*/

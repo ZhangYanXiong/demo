@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>人才招聘网</title>
+
+	<meta http-equiv="content-type" content="text/html;charset=UTF-8"/>
+ 	<meta name="Keywords" content="关键词"/>
+    <meta name="Description" content="描述"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-3.3.7-dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/base.css"/>
+    <link rel="stylesheet" type="text/css" href="css/index.css"/>
+
+    <style type="text/css" media="screen"></style>
+    		
+</head>
+<body>
+	<div class="con">
+		<!-- start头部 -->
+		<div class="header">
+			<div class="container container-fluid clearfix ">
+				<div class="col-lg-1 dis-i-b logo">
+					<img src="image/logo.png" alt="logo" class="img-responsive" width="172" height="58"/>
+				</div>
+				<div class="col-lg-1 pull-right dis-i-b c-fff tab">
+					<ul class="clearfix text-center">
+						<li class="pull-left col-md-2">
+						    <div class="dropdown">
+						    	<a data-toggle="dropdown" href="#">
+						    		工作<span class="caret"></span>
+						    	</a>
+						    	<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+						    		<li role="presentation">
+						    			<a role="menuitem" tabindex="-1" href="work/send_work.html">发布工作</a>
+						    		</li>
+						    		<li role="presentation">
+						    			<a role="menuitem" tabindex="-1" href="work/work.html">查看工作</a>
+						    		</li>
+						    		<li role="presentation">
+						    			<a role="menuitem" tabindex="-1" href="#">3</a>
+						    		</li>
+						    		<li role="presentation">
+						    			<a role="menuitem" tabindex="-1" href="#">4</a>
+						    		</li>
+						    		<li role="presentation">
+						    			<a role="menuitem" tabindex="-1" href="#">5</a>
+						    		</li>
+						    		<li role="presentation">
+						    			<a role="menuitem" tabindex="-1" href="#">6</a>
+						    		</li>
+						    	</ul>
+						    </div>
+						</li>
+						<li class="pull-left col-md-2">
+							 <div class="dropdown">
+						    	<a data-toggle="dropdown" href="#">
+						    		服务<span class="caret"></span>
+						    	</a>
+						    	<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+						    		<li role="presentation">
+						    			<a role="menuitem" tabindex="-1" href="#">1</a>
+						    		</li>
+						    		<li role="presentation">
+						    			<a role="menuitem" tabindex="-1" href="#">2</a>
+						    		</li>
+						    		<li role="presentation">
+						    			<a role="menuitem" tabindex="-1" href="#">3</a>
+						    		</li>
+						    		<li role="presentation">
+						    			<a role="menuitem" tabindex="-1" href="#">4</a>
+						    		</li>
+						    		<li role="presentation">
+						    			<a role="menuitem" tabindex="-1" href="#">5</a>
+						    		</li>
+						    	</ul>
+						    </div>
+						</li>
+						<li class="pull-left col-md-2">
+							 <div class="dropdown">
+						    	<a data-toggle="dropdown" href="#">
+						    		招聘<span class="caret"></span>
+						    	</a>
+						    	<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+						    		<li role="presentation">
+						    			<a role="menuitem" tabindex="-1" href="#">1</a>
+						    		</li>
+						    		<li role="presentation">
+						    			<a role="menuitem" tabindex="-1" href="#">2</a>
+						    		</li>
+						    		<li role="presentation">
+						    			<a role="menuitem" tabindex="-1" href="#">3</a>
+						    		</li>
+						    	</ul>
+						    </div>
+						</li>
+						<li class="pull-left col-md-2">
+							 <div class="dropdown">
+						    	<a data-toggle="dropdown" href="#">
+						    		更多<span class="caret"></span>
+						    	</a>
+						    	<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+						    		<li role="presentation">
+						    			<a role="menuitem" tabindex="-1" href="#">1</a>
+						    		</li>
+						    		<li role="presentation">
+						    			<a role="menuitem" tabindex="-1" href="#">2</a>
+						    		</li>
+						    		<li role="presentation">
+						    			<a role="menuitem" tabindex="-1" href="#">3</a>
+						    		</li>
+						    		<li role="presentation">
+						    			<a role="menuitem" tabindex="-1" href="#">4</a>
+						    		</li>
+						    		<li role="presentation">
+						    			<a role="menuitem" tabindex="-1" href="#">5</a>
+						    		</li>
+						    		<li role="presentation">
+						    			<a role="menuitem" tabindex="-1" href="#">6</a>
+						    		</li>
+						    	</ul>
+						    </div>
+						</li>
+						<li class="pull-left col-md-2">
+							<a href="http://localhost/object/recruitment.web/down_load/down_load.html">简历上传</a>
+						</li>
+						<li class="pull-left col-md-2">
+							<a href="#" id="login">登录</a>
+						</li>
+					</ul>
+				</div>
+				<!-- 登录框 -->
+				<div role="dialog" class="modal fade" id="layer3">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+								<h4 class="modal-title text-center">登录页面</h4>
+							</div>
+							<div class="modal-body clearfix">
+								<div class="row row-centered">  
+                					<div class="well col-md-8 col-centered log-by">  
+                    					<h2>欢迎登录</h2>  
+					                    <form action="" method="post" role="form" id="user-info">  
+					                        <div class="input-group input-group-md">  
+					                            <span class="input-group-addon" id="sizing-addon"><i class="glyphicon glyphicon-user" aria-hidden="true"></i></span>
+					                            <input type="text" class="form-control" id="userid" name="userid" placeholder="请输入学号"/>  
+					                        </div>  
+					                        <div class="input-group input-group-md">  
+					                            <span class="input-group-addon" id="sizing-addon1"><i class="glyphicon glyphicon-lock"></i></span>  
+					                            <input type="password" class="form-control" id="password" name="password" placeholder="请输入密码"/>  
+					                        </div>  
+					                        <br/>  
+					                        <input type="submit" value="登录" class="btn btn-success btn-block" id="subm"/> 
+					                    </form>  
+					                </div>  
+					            </div>  
+							</div>
+							<div class="modal-footer text-right">
+								<button class="btn btn-primary btn-sm" data-dismiss="modal" >退出</button>
+							</div>
+						</div>
+					</div>
+				</div> 
+			</div>
+		</div>
+		<!-- end头部 -->
+		<!-- start内容 -->
+		<div class="search">
+			<div class="search-con">
+				<div class="container container-fluid clearfix">
+					<div class="search-box">
+						<!-- 搜索模块 -->
+						<div class="inp-box text-center">
+							<form action="" method="post" id="sch" name="" class="bs-example bs-example-form" role="form">
+								<input type="text" placeholder="城市"  class="input-group pull-left">
+								<input type="text" placeholder="职位" class="input-group pull-left">
+								<input type="submit" name="" value="提交" class="btn btn-primary btn-sm pull-left">
+							</form>
+							<div class="prompt">
+								<a href="http://localhost/object/recruitment.web/work/work.html" id="livesearch" class="text-left" ></a>
+							</div>
+							<div class="promptw">
+								<a href="http://localhost/object/recruitment.web/work/work.html" id="livesearchw" class="text-left" ></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+				<!-- 轮播图 -->
+			<div class="com-box">
+				<div class="container container-fluid clearfix">
+					<div class="com">
+						<h2 class="text-center">公司</h2>
+						<div class="container com-log" id="ner">
+							<div class="navbox nav-left"><span><i><</i></span></div>
+							<div class="navbox nav-right"><span><i>></i></span></div>
+							<div class="banner-img">
+									<ul class="clearfix">
+										<li><a href="#.html"><img src="image/company/360.png" alt="image/company/" width="370" height="244" /></a></li>
+										<li><a href="#.html"><img src="image/company/360game.png" alt="" width="370" height="244" /></a></li>
+										<li><a href="#.html"><img src="image/company/fenghuan.png" alt="" width="370" height="244" /></a></li>
+										<li><a href="#.html"><img src="image/company/jd.png" alt="" width="370" height="244" /></a></li>
+										<li><a href="#.html"><img src="image/company/renren.png" alt="" width="370" height="244" /></a></li>
+									</ul>
+							</div>	
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- 通知信息 -->
+			<div class="container notice-box clearfix">
+				<div class="col-md-4 notice">
+						<div class="col_1 hid">
+							<h3 class="text-center">今日的招聘信息</h3>
+							<button type="button" id="refresh" class="pull-right btn btn-success btn-xs">刷新</button>
+							<ul id="joffers">
+								<li>
+									<h4>
+			            				<div class="pull-left" id="fed">前端开发</div>
+			            				<i>|</i><span id="wage">4k-6k</span>
+			            				<i>|</i><span id="com"><a href="#">京东</a></span>
+			            				<p>
+			            					<span id="city">北京</span><i>|</i><span id="exp">经验</span><i>|</i><span id="edu">学历</span><i>|</i><span id="timer">时间</span>
+			            				</p>
+		            				</h4>
+								</li>
+								<li>
+									<h4>
+			            				<div class="pull-left" id="fed">前端开发</div>
+			            				<i>|</i><span id="wage">4k-6k</span>
+			            				<i>|</i><span id="com"><a href="#">京东</a></span>
+			            				<p>
+			            					<span id="city">北京</span><i>|</i><span id="exp">经验</span><i>|</i><span id="edu">学历</span><i>|</i><span id="timer">时间</span>
+			            				</p>
+		            				</h4>
+								</li>
+								<li>
+									<h4>
+			            				<div class="pull-left" id="fed">前端开发</div>
+			            				<i>|</i><span id="wage">4k-6k</span>
+			            				<i>|</i><span id="com"><a href="#">京东</a></span>
+			            				<p>
+			            					<span id="city">北京</span><i>|</i><span id="exp">经验</span><i>|</i><span id="edu">学历</span><i>|</i><span id="timer">时间</span>
+			            				</p>
+		            				</h4>
+								</li>
+								<li>
+									<h4>
+			            				<div class="pull-left" id="fed">前端开发</div>
+			            				<i>|</i><span id="wage">4k-6k</span>
+			            				<i>|</i><span id="com"><a href="#">京东</a></span>
+			            				<p>
+			            					<span id="city">北京</span><i>|</i><span id="exp">经验</span><i>|</i><span id="edu">学历</span><i>|</i><span id="timer">时间</span>
+			            				</p>
+		            				</h4>
+								</li>
+								<li>
+									<h4>
+			            				<div class="pull-left" id="fed">前端开发</div>
+			            				<i>|</i><span id="wage">4k-6k</span>
+			            				<i>|</i><span id="com"><a href="#">京东</a></span>
+			            				<p>
+			            					<span id="city">北京</span><i>|</i><span id="exp">经验</span><i>|</i><span id="edu">学历</span><i>|</i><span id="timer">时间</span>
+			            				</p>
+		            				</h4>
+								</li>
+								<li>
+									<h4>
+			            				<div class="pull-left" id="fed">前端开发</div>
+			            				<i>|</i><span id="wage">4k-6k</span>
+			            				<i>|</i><span id="com"><a href="#">京东</a></span>
+			            				<p>
+			            					<span id="city">北京</span><i>|</i><span id="exp">经验</span><i>|</i><span id="edu">学历</span><i>|</i><span id="timer">时间</span>
+			            				</p>
+		            				</h4>
+								</li>
+								<li>
+									<h4>
+			            				<div class="pull-left" id="fed">前端开发</div>
+			            				<i>|</i><span id="wage">4k-6k</span>
+			            				<i>|</i><span id="com"><a href="#">京东</a></span>
+			            				<p>
+			            					<span id="city">北京</span><i>|</i><span id="exp">经验</span><i>|</i><span id="edu">学历</span><i>|</i><span id="timer">时间</span>
+			            				</p>
+		            				</h4>
+								</li>
+								<li>
+									<h4>
+			            				<div class="pull-left" id="fed">前端开发</div>
+			            				<i>|</i><span id="wage">4k-6k</span>
+			            				<i>|</i><span id="com"><a href="#">京东</a></span>
+			            				<p>
+			            					<span id="city">北京</span><i>|</i><span id="exp">经验</span><i>|</i><span id="edu">学历</span><i>|</i><span id="timer">时间</span>
+			            				</p>
+		            				</h4>
+								</li>
+								<li>
+									<h4>
+			            				<div class="pull-left" id="fed">前端开发</div>
+			            				<i>|</i><span id="wage">4k-6k</span>
+			            				<i>|</i><span id="com"><a href="#">京东</a></span>
+			            				<p>
+			            					<span id="city">北京</span><i>|</i><span id="exp">经验</span><i>|</i><span id="edu">学历</span><i>|</i><span id="timer">时间</span>
+			            				</p>
+		            				</h4>
+								</li>
+							</ul>
+							<div class="row" id="work">
+	            				<h4>
+		            				<div class="pull-left" id="fed">前端开发</div>
+			            				<i>|</i><span id="wage">4k-6k</span>
+			            				<i>|</i><span id="com"><a href="#">京东</a></span>
+			            				<p>
+			            					<span id="city">北京</span><i>|</i><span id="exp">经验</span><i>|</i><span id="edu">学历</span><i>|</i><span id="timer">时间</span>
+			            				</p>
+	            				</h4>
+							</div>
+						</div>
+						<div class="col_1">
+							<h3 class="text-center">分类工作</h3>
+							<button type="button" class="pull-right btn btn-success btn-xs">刷新</button>
+							<ul>
+								<ul >
+								<li>
+									<h4>
+			            				<div class="pull-left">前端开发</div>
+			            				<span>4k-6k</span>
+			            				<p><span>北京</span><i>|</i><span>经验</span><i>|</i><span>学历</span></p>
+		            				</h4>
+								</li>
+								<li>
+									<h4>
+			            				<div class="pull-left">前端开发</div>
+			            				<span>4k-6k</span>
+			            				<p><span>北京</span><i>|</i><span>经验</span><i>|</i><span>学历</span></p>
+		            				</h4>
+								</li>
+								<li>
+									<h4>
+			            				<div class="pull-left">前端开发</div>
+			            				<span>4k-6k</span>
+			            				<p><span>北京</span><i>|</i><span>经验</span><i>|</i><span>学历</span></p>
+		            				</h4>
+								</li>
+								<li>
+									<h4>
+			            				<div class="pull-left">前端开发</div>
+			            				<span>4k-6k</span>
+			            				<p><span>北京</span><i>|</i><span>经验</span><i>|</i><span>学历</span></p>
+		            				</h4>
+								</li>
+								<li>
+									<h4>
+			            				<div class="pull-left">前端开发</div>
+			            				<span>4k-6k</span>
+			            				<p><span>北京</span><i>|</i><span>经验</span><i>|</i><span>学历</span></p>
+		            				</h4>
+								</li>
+								<li>
+									<h4>
+			            				<div class="pull-left">前端开发</div>
+			            				<span>4k-6k</span>
+			            				<p><span>北京</span><i>|</i><span>经验</span><i>|</i><span>学历</span></p>
+		            				</h4>
+								</li>
+								<li>
+									<h4>
+			            				<div class="pull-left">前端开发</div>
+			            				<span>4k-6k</span>
+			            				<p><span>北京</span><i>|</i><span>经验</span><i>|</i><span>学历</span></p>
+		            				</h4>
+								</li>
+								<li>
+									<h4>
+			            				<div class="pull-left">前端开发</div>
+			            				<span>4k-6k</span>
+			            				<p><span>北京</span><i>|</i><span>经验</span><i>|</i><span>学历</span></p>
+		            				</h4>
+								</li>
+								<li>
+									<h4>
+			            				<div class="pull-left">前端开发</div>
+			            				<span>4k-6k</span>
+			            				<p><span>北京</span><i>|</i><span>经验</span><i>|</i><span>学历</span></p>
+		            				</h4>
+								</li>
+							</ul>
+						</div>
+						<div class="col_1">
+							<h3 class="text-center">民意调查</h3>
+							<form action="" method="post" accept-charset="utf-8" id="list">
+								<div class="vote"><input type="radio" name="vote" value="1" id="inp1" /><label for="inp1">工作环境</label></div>
+								<div class="vote"><input type="radio" name="vote" value="2" id="inp2" /><label for="inp2">工资待遇</label></div>
+								<div class="vote"><input type="radio" name="vote" value="3" id="inp3" /><label for="inp3">地域</label></div>
+								<div class="vote"><input type="radio" name="vote" value="4" id="inp4" /><label for="inp4">发展前景</label></div>
+								<div class="vote"><input type="submit" name="" value="投票" class="btn btn-danger"/></div>	
+							</form>
+							<div id="vote">
+								<canvas id="drawing" width="320" height="320"></canvas>	
+							</div>
+						</div>
+				</div>
+				<div class="col-md-8 company-profile">
+					<h3 class="text-center">企业介绍</h3>
+					<div class="col_3 clearfix">
+							<div class="col-sm-4">
+								<a href="#.html"><img src="image/company/jd.png" alt="" width="370" height="224" class="img-responsive" /></a>
+							</div>
+							<div class="col-sm-8">
+								<h4 class="text-center">京东</h4>
+								<p>
+									京东是中国的综合网络零售商，是中国电子商务领域受消费者欢迎和具有影响力的电子商务网站之一，在线销售家电、数码通讯、电脑、家居百货、服装服饰、母婴、图书、食品、在线旅游等12大类数万个品牌百万种优质商品。京东在2012年的中国自营B2C市场占据49%的份额，凭借全供应链继续扩大在中国电子商务市场的优势。京东已经建立华北、华东、华南、西南、华中、东北六大物流中心，同时在全国超过360座城市建立核心城市配送站。2012年8月14日，京东与苏宁开打"史上最惨烈价格战" 。
+								</p>
+							</div>
+					</div>
+					<div class="col_3 clearfix">
+							<div class="col-sm-4">
+								<a href="#.html"><img src="image/company/360.png" alt="" width="370" height="224" class="img-responsive" /></a>
+							</div>
+							<div class="col-sm-8">
+								<h4 class="text-center">京东</h4>
+								<p>
+									京东是中国的综合网络零售商，是中国电子商务领域受消费者欢迎和具有影响力的电子商务网站之一，在线销售家电、数码通讯、电脑、家居百货、服装服饰、母婴、图书、食品、在线旅游等12大类数万个品牌百万种优质商品。京东在2012年的中国自营B2C市场占据49%的份额，凭借全供应链继续扩大在中国电子商务市场的优势。京东已经建立华北、华东、华南、西南、华中、东北六大物流中心，同时在全国超过360座城市建立核心城市配送站。2012年8月14日，京东与苏宁开打"史上最惨烈价格战" 。
+								</p>
+							</div>
+					</div>
+					<div class="col_3 clearfix">
+							<div class="col-sm-4">
+								<a href="#.html"><img src="image/company/fenghuan.png" alt="" width="370" height="224" class="img-responsive" /></a>
+							</div>
+							<div class="col-sm-8">
+								<h4 class="text-center">京东</h4>
+								<p>
+									京东是中国的综合网络零售商，是中国电子商务领域受消费者欢迎和具有影响力的电子商务网站之一，在线销售家电、数码通讯、电脑、家居百货、服装服饰、母婴、图书、食品、在线旅游等12大类数万个品牌百万种优质商品。京东在2012年的中国自营B2C市场占据49%的份额，凭借全供应链继续扩大在中国电子商务市场的优势。京东已经建立华北、华东、华南、西南、华中、东北六大物流中心，同时在全国超过360座城市建立核心城市配送站。2012年8月14日，京东与苏宁开打"史上最惨烈价格战" 。
+								</p>
+							</div>
+					</div>
+					<div class="col_3 clearfix">
+							<div class="col-sm-4">
+								<a href="#.html"><img src="image/company/taobao.png" alt="" width="370" height="224" class="img-responsive" /></a>
+							</div>
+							<div class="col-sm-8">
+								<h4 class="text-center">京东</h4>
+								<p>
+									京东是中国的综合网络零售商，是中国电子商务领域受消费者欢迎和具有影响力的电子商务网站之一，在线销售家电、数码通讯、电脑、家居百货、服装服饰、母婴、图书、食品、在线旅游等12大类数万个品牌百万种优质商品。京东在2012年的中国自营B2C市场占据49%的份额，凭借全供应链继续扩大在中国电子商务市场的优势。京东已经建立华北、华东、华南、西南、华中、东北六大物流中心，同时在全国超过360座城市建立核心城市配送站。2012年8月14日，京东与苏宁开打"史上最惨烈价格战" 。
+								</p>
+							</div>
+					</div>
+					<div class="col_3 clearfix">
+							<div class="col-sm-4">
+								<a href="#.html"><img src="image/company/renren.png" alt="" width="370" height="224" class="img-responsive" /></a>
+							</div>
+							<div class="col-sm-8">
+								<h4 class="text-center">京东</h4>
+								<p>
+									京东是中国的综合网络零售商，是中国电子商务领域受消费者欢迎和具有影响力的电子商务网站之一，在线销售家电、数码通讯、电脑、家居百货、服装服饰、母婴、图书、食品、在线旅游等12大类数万个品牌百万种优质商品。京东在2012年的中国自营B2C市场占据49%的份额，凭借全供应链继续扩大在中国电子商务市场的优势。京东已经建立华北、华东、华南、西南、华中、东北六大物流中心，同时在全国超过360座城市建立核心城市配送站。2012年8月14日，京东与苏宁开打"史上最惨烈价格战" 。
+								</p>
+							</div>
+					</div>
+					<div class="col_3 clearfix">
+							<div class="col-sm-4">
+								<a href="#.html"><img src="image/company/youku.png" alt="" width="370" height="224" class="img-responsive" /></a>
+							</div>
+							<div class="col-sm-8">
+								<h4 class="text-center">京东</h4>
+								<p>
+									京东是中国的综合网络零售商，是中国电子商务领域受消费者欢迎和具有影响力的电子商务网站之一，在线销售家电、数码通讯、电脑、家居百货、服装服饰、母婴、图书、食品、在线旅游等12大类数万个品牌百万种优质商品。京东在2012年的中国自营B2C市场占据49%的份额，凭借全供应链继续扩大在中国电子商务市场的优势。京东已经建立华北、华东、华南、西南、华中、东北六大物流中心，同时在全国超过360座城市建立核心城市配送站。2012年8月14日，京东与苏宁开打"史上最惨烈价格战" 。
+								</p>
+							</div>
+					</div>		
+				</div>
+			</div>
+		</div>
+		<!-- end内容 -->
+		<!-- start底部 -->
+		<div class="footer c-fff">
+			<div class="container container-fluid clearfix">
+				<div class="clearfix text-center">
+					<div  class="col-sm-2">
+						<span><i></i></span>
+						<p>服务热线(免话费)</p>
+						<p>400-2023-222</p>
+						<p>工作日：9:00-19:00</p>
+					</div>
+					<div class="col-sm-2">
+						<ul>
+							<li><strong class="h4">简介</strong></li>
+							<li><a href="">猎聘网简介</a></li>
+							<li><a href="">猎聘网简介</a></li>
+							<li><a href="">猎聘网简介</a></li>
+							<li><a href="">猎聘网简介</a></li>
+							<li><a href="">猎聘网简介</a></li>
+						</ul>
+					</div>
+					<div class="col-sm-2">
+						<ul>
+							<li><strong class="h4">简介</strong></li>
+							<li><a href="">猎聘网简介</a></li>
+							<li><a href="">猎聘网简介</a></li>
+							<li><a href="">猎聘网简介</a></li>
+							<li><a href="">猎聘网简介</a></li>
+							<li><a href="">猎聘网简介</a></li>
+						</ul>
+					</div>
+					<div class="col-sm-2">
+						<ul>
+							<li><strong class="h4">简介</strong></li>
+							<li><a href="">猎聘网简介</a></li>
+							<li><a href="">猎聘网简介</a></li>
+							<li><a href="">猎聘网简介</a></li>
+							<li><a href="">猎聘网简介</a></li>
+							<li><a href="">猎聘网简介</a></li>
+						</ul>
+					</div>
+					<div class="col-sm-2">
+						<ul>
+							<li><strong class="h4">简介</strong></li>
+							<li><a href="">猎聘网简介</a></li>
+							<li><a href="">猎聘网简介</a></li>
+							<li><a href="">猎聘网简介</a></li>
+							<li><a href="">猎聘网简介</a></li>
+							<li><a href="">猎聘网简介</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="copy-footer number-con">
+					<p class="text-center">
+						京ICP备09083200号 合字B2-20160007 人才服务许可证:120116174002号<a href="#.html">京公网安备 11010502035189号</a>
+					</p>
+				<p class="text-center">Copyright © 2006-2018 liepin.com All Rights Reserved</p>
+				</div>
+			</div>
+		</div>
+		<!-- end底部 -->
+	</div>
+	<script src="css/bootstrap-3.3.7-dist/js/jquery.js"></script>
+    <script src="css/bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+    <script src="js/cross_browser.js"></script>
+    <script src="js/ajax.js"></script>
+    <script src="js/index.js"></script>
+    <script src="work/js/send_work.js"></script>
+    <script src="js/vote.js"></script>
+    <!-- <script src="work/js/send_work.js"></script> -->
+    <script type="text/javascript">
+    	//登录模态框
+        var login=document.getElementById("login");
+        login.onclick=function(){
+            $(function () { $('#layer3').modal({
+                keyboard: true
+            })});
+         };
+        /*登录提交*/ 
+        var subm=document.getElementById('user-info');
+         EventUtil.addHandler(subm,"submit",submitLogin);
+        function submitLogin(event){
+        	event=EventUtil.getEvent(event);
+            EventUtil.preventDefault(event);
+             ajax('login/login.php',function(str){
+                alert("账号&密码:"+str);
+            }); 
+           
+        };
+        /*投票模块*/ 
+    	var list=document.getElementById('list');
+    	EventUtil.addHandler(list,"submit",submitVote);
+            function submitVote(event){
+            	event=EventUtil.getEvent(event);
+	            EventUtil.preventDefault(event);
+			   	ajax('vote/vote.php',function(str){
+			   		num=JSON.parse(str);
+			   		voteS(num);
+                }); 
+        	};
+        EventUtil.addHandler(window,"load",loadVote);
+        	 function loadVote(event){
+            	event=EventUtil.getEvent(event);
+	            EventUtil.preventDefault(event);
+			   	ajax('vote/vote.php',function(str){
+			   		num=JSON.parse(str);
+			   		voteS(num);
+                });   
+        	};
+        /*搜索模块*/
+        var sch=document.getElementById('sch');
+        sch[0].onkeyup=function(event){
+        	event=EventUtil.getEvent(event);
+        	EventUtil.preventDefault(event);
+        	if(this.value.length==0){
+			   	document.getElementById("livesearch").innerHTML="";
+				document.getElementById("livesearch").style.border="0px";
+				return;
+			}
+        	this.id="c";
+            ajax('search/search.php',function(str){
+			   	document.getElementById("livesearch").innerHTML=str;
+				document.getElementById("livesearch").style.border="1px solid #A5ACB2";
+                });
+        };
+        sch[1].onkeyup=function(event){
+        	event=EventUtil.getEvent(event);
+        	EventUtil.preventDefault(event);
+        	if(this.value.length==0){
+			   	document.getElementById("livesearchw").innerHTML="";
+				document.getElementById("livesearchw").style.border="0px";
+				return;
+			}
+			this.id="p";
+            ajax('search/search.php',function(str){
+			   	document.getElementById("livesearchw").innerHTML=str;
+				document.getElementById("livesearchw").style.border="1px solid #A5ACB2";
+                });
+        };
+        EventUtil.addHandler(sch,"submit",searchData);
+        	function searchData(event){
+        		event=EventUtil.getEvent(event);
+        		EventUtil.preventDefault(event);
+                ajax('search/search.php',function(str){
+			   		if(str.length==0){
+			   			document.getElementById("livesearch").innerHTML="";
+					    document.getElementById("livesearch").style.border="0px";
+					    return;
+			   		}
+                });
+        	};
+        /*实时推送模块*/
+        var refresh=document.getElementById('refresh');
+       	EventUtil.addHandler(refresh,"click",refreshData);
+        	function refreshData(event){
+        		event=EventUtil.getEvent(event);
+        		EventUtil.preventDefault(event);
+                ajax('work/send.php',function(workStr){
+			   		Push(JSON.parse(workStr));
+                });
+        	};
+    </script>
+</body>
+</html>

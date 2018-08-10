@@ -1,0 +1,10 @@
+Jun 07 08:09:01 SYSTEM[3340]: Trying to Connect SMTP_HOST:25...
+Jun 07 08:09:03 SYSTEM[3340]: Error: connenct errorphp_network_getaddresses: getaddrinfo failed: 不知道这样的主机。  (0)
+Jun 07 08:09:03 SYSTEM[3340]: Error: Cannot send email to 1315752027@qq.com
+Jun 07 08:09:03 SYSTEM[3340]: Trying to Connect SMTP_HOST:25...
+Jun 07 08:09:05 SYSTEM[3340]: Error: connenct errorphp_network_getaddresses: getaddrinfo failed: 不知道这样的主机。  (0)
+Jun 07 08:09:05 SYSTEM[3340]: Error: Cannot send email to eqeqwe
+Jun 07 08:09:05 SYSTEM[3340]: Trying to Connect SMTP_HOST:25...
+Jun 07 08:09:07 SYSTEM[3340]: Error: connenct errorphp_network_getaddresses: getaddrinfo failed: 不知道这样的主机。  (0)
+Jun 07 08:09:07 SYSTEM[3340]: Error: Cannot send email to wewe
+Jun 07 08:09:07 SYSTEM[3340]: 1315752027@qq.com send over;

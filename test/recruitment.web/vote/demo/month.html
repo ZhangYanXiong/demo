@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>月份坐标轴</title>
+	<meta type="Content-type" content="text/css;charset=utf-8"/>
+</head>
+<body>
+	<canvas id="drawing" width="800" height="200"></canvas>
+	<script src="vote.js"></script>
+	<script type="text/javascript">
+		
+		var _data=[],dataData=["环境","待遇","地域","前景"],colors=["#D9544F","#5BB85D","#418BCA","#EFAD4D"];
+		var dataDataRet=Object.assign([],dataData).reverse();
+		for(let i=0;i<dataData.length;i++){
+			_data.push(dataData[i]);
+		}
+		var data=_data;
+		var draw=document.getElementById("drawing");
+		if(draw.getContext){
+			var context=draw.getContext("2d");
+			context.beginPath();
+			context.moveTo(0,200);
+			context.lineTo(200,200);
+			context.moveTo(0,200);
+			context.lineTo(0,50);
+			context.font="14px,Arial";
+			context.textAlign="center";
+			context.textBaseline="bottom";
+			context.stroke();
+			for(let i=0;i<data.length;i++){
+				context.fillText(data[i],40*(i+1),220);
+				context.fillStyle=colors[i];
+				context.fillRect(40*(i+1)-10,150,20,50);
+			}
+		}
+
+		
+	</script>
+</body>
+</html>
