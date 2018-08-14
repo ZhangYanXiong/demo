@@ -1,0 +1,20 @@
+
+.body-box{
+  width:330px;
+  margin-left:282px;
+}
+.bor{
+  border: none;
+  outline: none;
+}
+.body-right{
+  width:300px;
+}
+.body-r-m{
+  margin: 30px 0 30px 0;
+}
+.textar{
+  width: 300px;
+  height:200px;
+}
+

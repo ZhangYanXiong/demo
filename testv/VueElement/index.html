@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="renderer" content="webkit">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" type="text/css" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/dome.css">
+    <script src="bootstrap-3.3.7-dist/jquery-1.9.1/jquery.js"></script>
+    <script src="bootstrap-3.3.7-dist/jquery-1.9.1/jquery.min.js"></script>
+    <script src="bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+		<title>vue-element-admin</title>
+    <style>
+
+    </style>>
+	</head>
+
+	<body>
+		<div id="app" class="container">
+      <h3>角色管理</h3>
+    <div class="panel panel-default">
+         <div class="panel-body">
+           <div class="row">
+             <div class="col-lg-4">
+           <ul id="tab-main" class="list-group tab-main ">
+             <li class="list-group-item bor">
+                <div class="input-group">
+                           <input type="text" class="form-control bor" placeholder="输入角色名进行查询">
+                </div>
+              </li>
+             <li class="list-group-item bor active "><a href="#mr" data-toggle="tab">默认管理员</a></li>
+             <li class="list-group-item bor"><a href="#fs"  data-toggle="tab">富士康将罚款</a></li>
+             <li class="list-group-item bor"><a href="">代理商角色</a></li>
+             <li class="list-group-item bor"><a href="#">业务员角色</a></li>
+             <li class="list-group-item bor"><a href="#">默认管理员</a></li>
+             <li class="list-group-item bor"><a href="#">富士康将罚款</a></li>
+             <li class="list-group-item bor"><a href="">代理商角色</a></li>
+             <li class="list-group-item bor"><a href="#">业务员角色</a></li>
+             <li class="list-group-item bor"><a href="#">默认管理员</a></li>
+             <li class="list-group-item bor"><a href="#">富士康将罚款</a></li>
+             <li class="list-group-item bor"><a href="">代理商角色</a></li>
+             <li class="list-group-item bor"><a href="#">业务员角色</a></li>
+           </ul>
+             </div>
+             <div id="tab" class="tab-content">
+             <div class="col-lg-7 tab-pane fade in active tabm" id="mr">
+               <h3>默认管理</h3>
+               <div class="body-r-m">
+                 <button class="btn btn-default btn-lg" data-toggle="modal"
+                            data-target="#myModal">添加角色</button>
+
+                 <button class="btn btn-default btn-lg" data-toggle="modal"
+                         data-target="#myModal">添加角色</button>
+                 <button type="button" class="btn btn-default btn-lg">编辑角色</button>
+                 <button type="button" class="btn btn-default btn-lg">删除角色</button>
+               </div>
+
+               <div class="" >
+               <ul id="myTab" class="nav nav-tabs">
+                 <li class="active"><a href="#home" data-toggle="tab">
+                   菜单权限</a>
+                 </li>
+                 <li><a href="#ios" data-toggle="tab">数据权限</a></li>
+               </ul>
+                 <!--内容部分-->
+               <div id="myTabContent" class="tab-content">
+                 <div class="tab-pane fade in active" id="home">
+                   <button class="panel panel-default">
+                     <div class="panel-heading">
+                       <h4 class="panel-title">
+                         <a data-toggle="collapse" data-parent="#accordion"
+                            href="#collapseOne">
+                           <span class="caret"><span>
+                         </a>
+                       </h4>
+                     </div>
+                   </button>
+                   <input type="checkbox">首页
+                     <div id="collapseOne" class="panel-collapse collapse in">
+                       <div class="panel-body">
+                           <input type="checkbox">首页
+                         <input type="checkbox">首页
+                       </div>
+                     </div>
+
+
+                 </div>
+                 <div class="tab-pane fade" id="ios">
+                   <p>iOS 是一个由苹果公司开发和发布的手机操作系统。最初是于 2007 年首次发布 iPhone、iPod Touch 和 Apple
+                     TV。iOS 派生自 OS X，它们共享 Darwin 基础。OS X 操作系统是用在苹果电脑上，iOS 是苹果的移动版本。</p>
+                 </div>
+               </div>
+               </div>
+               <!--模态框-->
+               <div class="modal fade" id="myModal" tabindex="-1" role="dialog"
+                    aria-labelledby="myModalLabel" aria-hidden="true">
+                 <div class="modal-dialog">
+                   <div class="modal-content">
+                     <div class="modal-header">
+                       <button type="button" class="close"
+                               data-dismiss="modal" aria-hidden="true">
+                         &times;
+                       </button>
+                       <h4 class="modal-title" id="myModalLabel">
+                         添加角色
+                       </h4>
+                     </div>
+                     <div class="modal-body">
+                       <form class="form-horizontal" role="form">
+                            <div class="form-group">
+                               <label for="firstname" class="col-sm-2 control-label">角色名称</label>
+                               <div class="col-sm-10">
+                         .         <input type="text" class="form-control" id="firstname"
+                                                       placeholder="">
+                               </div>
+                            </div>
+                            <div class="form-group">
+                               <label for="lastname" class="col-sm-2 control-label">显示顺序</label>
+                               <div class="col-sm-10">
+                                  <input type="text" class="form-control" id="lastname"
+                                                       placeholder="">
+                               </div>
+                            </div>
+                         <div class="form-group">
+                           <label for="lastname" class="col-sm-2 control-label">描述</label>
+                           <div class="col-sm-10">
+                             <textarea class="textar"></textarea>
+                           </div>
+                         </div>
+                         </form>
+
+                     </div>
+                     <div class="modal-footer">
+                       <button type="button" class="btn btn-default"
+                                              data-dismiss="modal">&times; 取消
+                       </button>
+                       <button type="button" class="btn btn-primary">
+                         &radic;确定
+                       </button>
+                     </div>
+                   </div>
+                 </div>
+             </div>
+    </div>
+             <div  id="fs" class="col-lg-7 tab-pane fade tabm">
+               <h3>富士康将罚款</h3>
+               <div class="body-r-m">
+                 <button class="btn btn-default btn-lg" data-toggle="modal"
+                         data-target="#myModal">添加角色</button>
+
+                 <button class="btn btn-default btn-lg" data-toggle="modal"
+                         data-target="#myModal">添加角色</button>
+                 <button type="button" class="btn btn-default btn-lg">编辑角色</button>
+                 <button type="button" class="btn btn-default btn-lg">删除角色</button>
+               </div>
+
+               <div class="" >
+                 <ul id="myTab" class="nav nav-tabs">
+                   <li class="active"><a href="#home" data-toggle="tab">
+                     菜单权限</a>
+                   </li>
+                   <li><a href="#ios" data-toggle="tab">数据权限</a></li>
+                 </ul>
+                 <!--内容部分-->
+                 <div id="myTabContent" class="tab-content">
+                   <div class="tab-pane fade in active" id="home">
+                     <button class="panel panel-default">
+                       <div class="panel-heading">
+                         <h4 class="panel-title">
+                           <a data-toggle="collapse" data-parent="#accordion"
+                              href="#collapseTwo">
+                           <span class="caret"><n>
+                           </a>
+                         </h4>
+                       </div>
+                     </button>
+                     <input type="checkbox">首页
+                     <div id="collapseTow" class="panel-collapse collapse in">
+                       <div class="panel-body">
+                         <input type="checkbox">首页
+                         <input type="checkbox">首页
+                       </div>
+                     </div>
+
+
+                   </div>
+
+                   </div>
+                   <div class="tab-pane fade" id="ios">
+                     <p>iOS 是一个由苹果公司开发和发布的手机操作系统。最初是于 2007 年首次发布 iPhone、iPod Touch 和 Apple
+                       TV。iOS 派生自 OS X，它们共享 Darwin 基础。OS X 操作系统是用在苹果电脑上，iOS 是苹果的移动版本。</p>
+                   </div>
+                 </div>
+               </div>
+               <!--模态框-->
+               <div class="modal fade" id="myModal" tabindex="-1" role="dialog"
+                    aria-labelledby="myModalLabel" aria-hidden="true">
+                 <div class="modal-dialog">
+                   <div class="modal-content">
+                     <div class="modal-header">
+                       <button type="button" class="close"
+                               data-dismiss="modal" aria-hidden="true">
+                         &times;
+                       </button>
+                       <h4 class="modal-title" id="myModalLabel">
+                         添加角色
+                       </h4>
+                     </div>
+                     <div class="modal-body">
+                       <form class="form-horizontal" role="form">
+                         <div class="form-group">
+                           <label for="firstname" class="col-sm-2 control-label">角色名称</label>
+                           <div class="col-sm-10">
+                             .         <input type="text" class="form-control" id="firstname"
+                                              placeholder="">
+                           </div>
+                         </div>
+                         <div class="form-group">
+                           <label for="lastname" class="col-sm-2 control-label">显示顺序</label>
+                           <div class="col-sm-10">
+                             <input type="text" class="form-control" id="lastname"
+                                    placeholder="">
+                           </div>
+                         </div>
+                         <div class="form-group">
+                           <label for="lastname" class="col-sm-2 control-label">描述</label>
+                           <div class="col-sm-10">
+                             <textarea class="textar"></textarea>
+                           </div>
+                         </div>
+                       </form>
+
+                     </div>
+                     <div class="modal-footer">
+                       <button type="button" class="btn btn-default"
+                               data-dismiss="modal">&times; 取消
+                       </button>
+                       <button type="button" class="btn btn-primary">
+                         &radic;确定
+                       </button>
+                     </div>
+                   </div>
+                 </div>
+               </div>
+             </div>
+           </div>
+           </div>
+    </div>
+    <!-- built files will be auto injected -->
+    <script>
+      $(function () {
+        $('#myTab li:eq(0) a').tab('show');
+      });
+      $(function () { $('#collapseFour').collapse({
+              toggle: false
+           })});
+       $(function () { $('#collapseTwo').collapse('show')});
+         $(function () { $('#collapseThree').collapse('toggle')});
+         $(function () { $('#collapseOne').collapse('hide')});
+
+    </script>
+      <script type="text/javascript">
+
+      </script>
+	</body>
+</html>

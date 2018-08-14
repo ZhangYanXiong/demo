@@ -1,0 +1,2436 @@
+{
+  "Model": {
+    "xmlns:a": "attribute",
+    "xmlns:c": "collection",
+    "xmlns:o": "object",
+    "o:RootObject": {
+      "Id": "o1",
+      "c:Children": {
+        "o:Model": {
+          "Id": "o2",
+          "a:ObjectID": "5EB44E22-B00F-4F7E-A509-FD7DB5DC7D17",
+          "a:Name": "HM_ORGANIZATION",
+          "a:Code": "HM_ORGANIZATION",
+          "a:CreationDate": "1498990661",
+          "a:Creator": "hm20160509",
+          "a:ModificationDate": "1498998218",
+          "a:Modifier": "xjq",
+          "a:PackageOptionsText": "[FolderOptions]\n\n[FolderOptions\\Physical Objects]\nGenerationCheckModel=Yes\nGenerationPath=\nGenerationOptions=\nGenerationTasks=\nGenerationTargets=\nGenerationSelections=\nRevPkey=Yes\nRevFkey=Yes\nRevAkey=Yes\nRevCheck=Yes\nRevIndx=Yes\nRevOpts=Yes\nRevViewAsTabl=No\nRevViewOpts=Yes\nRevSystAsTabl=Yes\nRevTablPerm=No\nRevViewPerm=No\nRevProcPerm=No\nRevDbpkPerm=No\nRevSqncPerm=No\nRevAdtPerm=No\nRevUserPriv=No\nRevUserOpts=No\nRevGrpePriv=No\nRevRolePriv=No\nRevDtbsOpts=Yes\nRevDtbsPerm=No\nRevViewIndx=Yes\nRevJidxOpts=Yes\nRevStats=No\nRevTspcPerm=No\nRevCaseSensitive=No\nGenTrgrStdMsg=Yes\nGenTrgrMsgTab=\nGenTrgrMsgNo=\nGenTrgrMsgTxt=\nTrgrPreserve=No\nTrgrIns=Yes\nTrgrUpd=Yes\nTrgrDel=Yes\nTrgrC2Ins=Yes\nTrgrC2Upd=Yes\nTrgrC3=Yes\nTrgrC4=Yes\nTrgrC5=Yes\nTrgrC6=Yes\nTrgrC7=Yes\nTrgrC8=Yes\nTrgrC9=Yes\nTrgrC10=Yes\nTrgrC11=Yes\nTrgrC1=Yes\nTrgrC12Ins=Yes\nTrgrC12Upd=Yes\nTrgrC13=Yes\nUpdateTableStatistics=Yes\nUpdateColumnStatistics=Yes\n\n[FolderOptions\\Physical Objects\\Database Generation]\nGenScriptName=SeekTruth.sql\nGenScriptName0=SeekTruth.sql\nGenScriptName1=crebas.sql\nGenScriptName2=\nGenScriptName3=\nGenScriptName4=\nGenScriptName5=\nGenScriptName6=\nGenScriptName7=\nGenScriptName8=\nGenScriptName9=\nGenPathName=\\\\Mac\\Home\\Desktop\\pt\\1-working\\20160929证件防伪\\5.workspaces\\design\\\nGenSingleFile=Yes\nGenODBC=No\nGenCheckModel=Yes\nGenScriptPrev=Yes\nGenArchiveModel=No\nGenUseSync=No\nGenSyncChoice=0\nGenSyncArch=\nGenSyncRmg=0\n\n[FolderOptions\\Physical Objects\\Database Generation\\Format]\nGenScriptTitle=Yes\nGenScriptNamLabl=Yes\nGenScriptQDtbs=No\nGenScriptQOwnr=Yes\nGenScriptCase=2\nGenScriptEncoding=UTF8\nGenScriptNAcct=No\nIdentifierDelimiter=`\n\n[FolderOptions\\Physical Objects\\Database Generation\\Database]\nCreate=Yes\nOpen=Yes\nClose=Yes\nDrop=Yes\nPermission=No\n\n[FolderOptions\\Physical Objects\\Database Generation\\Database\\Create]\nPhysical Options=Yes\nHeader=Yes\nFooter=Yes\n\n[FolderOptions\\Physical Objects\\Database Generation\\Tablespace]\nCreate=Yes\nDrop=Yes\nComment=Yes\nPermission=No\n\n[FolderOptions\\Physical Objects\\Database Generation\\Tablespace\\Create]\nHeader=Yes\nFooter=Yes\n\n[FolderOptions\\Physical Objects\\Database Generation\\Storage]\nCreate=Yes\nDrop=Yes\nComment=Yes\n\n[FolderOptions\\Physical Objects\\Database Generation\\User]\nCreate=Yes\nDrop=Yes\nComment=Yes\nPrivilege=No\n\n[FolderOptions\\Physical Objects\\Database Generation\\User\\Create]\nPhysical Options=No\n\n[FolderOptions\\Physical Objects\\Database Generation\\Group]\nCreate=Yes\nDrop=Yes\nComment=Yes\nPrivilege=No\n\n[FolderOptions\\Physical Objects\\Database Generation\\Role]\nCreate=Yes\nDrop=Yes\nPrivilege=No\n\n[FolderOptions\\Physical Objects\\Database Generation\\UserDefinedDataType]\nCreate=Yes\nComment=Yes\nDrop=Yes\n\n[FolderOptions\\Physical Objects\\Database Generation\\UserDefinedDataType\\Create]\nDefault value=Yes\nCheck=Yes\n\n[FolderOptions\\Physical Objects\\Database Generation\\AbstractDataType]\nCreate=Yes\nHeader=Yes\nFooter=Yes\nDrop=Yes\nComment=Yes\nInstall JAVA class=Yes\nRemove JAVA class=Yes\nPermission=No\n\n[FolderOptions\\Physical Objects\\Database Generation\\Rule]\nCreate=Yes\nDrop=Yes\nComment=Yes\n\n[FolderOptions\\Physical Objects\\Database Generation\\Default]\nCreate=Yes\nComment=Yes\nDrop=Yes\n\n[FolderOptions\\Physical Objects\\Database Generation\\Sequence]\nCreate=Yes\nDrop=Yes\nComment=Yes\nPermission=No\n\n[FolderOptions\\Physical Objects\\Database Generation\\Table&&Column]\n\n[FolderOptions\\Physical Objects\\Database Generation\\Table&&Column\\Table]\nCreate=Yes\nDrop=Yes\nComment=Yes\nPermission=No\n\n[FolderOptions\\Physical Objects\\Database Generation\\Table&&Column\\Table\\Create]\nCheck=Yes\nPhysical Options=Yes\nHeader=Yes\nFooter=Yes\n\n[FolderOptions\\Physical Objects\\Database Generation\\Table&&Column\\Table\\Create\\Check]\nConstraint declaration=No\n\n[FolderOptions\\Physical Objects\\Database Generation\\Table&&Column\\Column]\nUser datatype=Yes\nDefault value=Yes\nCheck=Yes\nPhysical Options=Yes\nComment=Yes\n\n[FolderOptions\\Physical Objects\\Database Generation\\Table&&Column\\Column\\Check]\nConstraint declaration=No\n\n[FolderOptions\\Physical Objects\\Database Generation\\Table&&Column\\Key]\n\n[FolderOptions\\Physical Objects\\Database Generation\\Table&&Column\\Key\\Primary key]\nCreate=Yes\nDrop=Yes\nComment=Yes\n\n[FolderOptions\\Physical Objects\\Database Generation\\Table&&Column\\Key\\Primary key\\Create]\nConstraint declaration=No\nPhysical Options=Yes\n\n[FolderOptions\\Physical Objects\\Database Generation\\Table&&Column\\Key\\Alternate key]\nCreate=Yes\nDrop=Yes\nComment=Yes\n\n[FolderOptions\\Physical Objects\\Database Generation\\Table&&Column\\Key\\Alternate key\\Create]\nConstraint declaration=No\nPhysical Options=Yes\n\n[FolderOptions\\Physical Objects\\Database Generation\\Table&&Column\\Foreign key]\nCreate=Yes\nDrop=Yes\nComment=Yes\n\n[FolderOptions\\Physical Objects\\Database Generation\\Table&&Column\\Foreign key\\Create]\nConstraint declaration=Yes\n\n[FolderOptions\\Physical Objects\\Database Generation\\Table&&Column\\Index]\nCreate=Yes\nDrop=Yes\nComment=Yes\n\n[FolderOptions\\Physical Objects\\Database Generation\\Table&&Column\\Index\\Create]\nConstraint declaration=Yes\nPhysical Options=Yes\n\n[FolderOptions\\Physical Objects\\Database Generation\\Table&&Column\\Index\\Filter]\nPrimary key=Yes\nForeign key=Yes\nAlternate key=Yes\nCluster=Yes\nOther=Yes\n\n[FolderOptions\\Physical Objects\\Database Generation\\Table&&Column\\Trigger]\nCreate=Yes\nDrop=Yes\nComment=Yes\n\n[FolderOptions\\Physical Objects\\Database Generation\\Table&&Column\\Trigger\\Filter]\nFor insert=Yes\nFor update=Yes\nFor delete=Yes\nFor other=Yes\n\n[FolderOptions\\Physical Objects\\Database Generation\\View]\nCreate=Yes\nDrop=Yes\nComment=Yes\nPermission=No\n\n[FolderOptions\\Physical Objects\\Database Generation\\View\\Create]\nForce Column list=No\nPhysical Options=Yes\nHeader=Yes\nFooter=Yes\n\n[FolderOptions\\Physical Objects\\Database Generation\\View\\ViewColumn]\nComment=Yes\n\n[FolderOptions\\Physical Objects\\Database Generation\\View\\ViewIndex]\nCreate=Yes\nDrop=Yes\nComment=Yes\n\n[FolderOptions\\Physical Objects\\Database Generation\\View\\ViewIndex\\Create]\nPhysical Options=Yes\n\n[FolderOptions\\Physical Objects\\Database Generation\\View\\ViewIndex\\Filter]\nCluster=Yes\nOther=Yes\n\n[FolderOptions\\Physical Objects\\Database Generation\\View\\Trigger]\nCreate=Yes\nDrop=Yes\nComment=Yes\n\n[FolderOptions\\Physical Objects\\Database Generation\\View\\Trigger\\Filter]\nFor insert=Yes\nFor update=Yes\nFor delete=Yes\nFor other=Yes\n\n[FolderOptions\\Physical Objects\\Database Generation\\DBMSTrigger]\nCreate=Yes\nDrop=Yes\nComment=Yes\n\n[FolderOptions\\Physical Objects\\Database Generation\\Synonym]\nCreate=Yes\nDrop=Yes\n\n[FolderOptions\\Physical Objects\\Database Generation\\Synonym\\Filter]\nTable=Yes\nView=Yes\nProc=Yes\nSynonym=Yes\nDatabase Package=Yes\nSequence=Yes\n\n[FolderOptions\\Physical Objects\\Database Generation\\JoinIndex]\nCreate=Yes\nDrop=Yes\nComment=Yes\n\n[FolderOptions\\Physical Objects\\Database Generation\\JoinIndex\\Create]\nPhysical Options=Yes\nHeader=Yes\nFooter=Yes\n\n[FolderOptions\\Physical Objects\\Database Generation\\Procedure]\nCreate=Yes\nDrop=Yes\nComment=Yes\nPermission=No\n\n[FolderOptions\\Physical Objects\\Database Generation\\Procedure\\Create]\nHeader=Yes\nFooter=Yes\n\n[FolderOptions\\Physical Objects\\Database Generation\\DatabasePackage]\nCreate=Yes\nDrop=Yes\nPermission=No\n\n[FolderOptions\\Physical Objects\\Database Generation\\WebService]\nCreate=Yes\nDrop=Yes\nComment=Yes\n\n[FolderOptions\\Physical Objects\\Database Generation\\Dimension]\nCreate=Yes\nDrop=Yes\n\n[FolderOptions\\Physical Objects\\Database Generation\\Synchronization]\nGenBackupTabl=1\nGenKeepBackTabl=1\nGenTmpTablDrop=No\nGenKeepTablOpts=No\n\n[FolderOptions\\Physical Objects\\Test Data]\nGenDataPathName=\\\\Mac\\Home\\Desktop\\pt\\1-working\\20160929证件防伪\\5.workspaces\\design\\\nGenDataSinglefile=Yes\nGenDataScriptName=testdata.sql\nGenDataScriptName0=testdata.sql\nGenDataScriptName1=testdata\nGenDataScriptName2=\nGenDataScriptName3=\nGenDataScriptName4=\nGenDataScriptName5=\nGenDataScriptName6=\nGenDataScriptName7=\nGenDataScriptName8=\nGenDataScriptName9=\nGenDataOdbc=0\nGenDataDelOld=Yes\nGenDataTitle=No\nGenDataDefNumRows=20\nGenDataCommit=0\nGenDataPacket=0\nGenDataOwner=No\nGenDataProfNumb=\nGenDataProfChar=\nGenDataProfDate=\nGenDataCSVSeparator=,\nGenDataFileFormat=CSV\nGenDataUseWizard=No\n\n[FolderOptions\\Pdm]\nIndxIQName=%COLUMN%_%INDEXTYPE%\nIndxPK=Yes\nIndxFK=Yes\nIndxAK=Yes\nIndxPKName=%TABLE%_PK\nIndxFKName=%REFR%_FK\nIndxAKName=%AKEY%_AK\nIndxPreserve=No\nIndxThreshold=0\nIndxStats=No\nRefrPreserve=No\nJidxPreserve=No\nRbldMultiFact=Yes\nRbldMultiDim=Yes\nRbldMultiJidx=Yes\nCubePreserve=No\nTablStProcPreserve=No\nProcDepPreserve=Yes\nTrgrDepPreserve=Yes\nCubeScriptPath=\nCubeScriptCase=0\nCubeScriptEncoding=ANSI\nCubeScriptNacct=No\nCubeScriptHeader=No\nCubeScriptExt=csv\nCubeScriptExt0=txt\nCubeScriptExt1=\nCubeScriptExt2=\nCubeScriptSep=,\nCubeScriptDeli=\"\nEstimationYears=0\nDfltDomnName=D_%.U:VALUE%\nDfltColnName=D_%.U:VALUE%\nDfltReuse=Yes\nDfltDrop=Yes",
+          "a:ModelOptionsText": "[ModelOptions]\n\n[ModelOptions\\Physical Objects]\nCaseSensitive=No\nDisplayName=Yes\nEnableTrans=No\nUseTerm=No\nEnableRequirements=No\nEnableFullShortcut=Yes\nDefaultDttp=\nIgnoreOwner=No\nRebuildTrigger=Yes\nRefrUnique=No\nRefrAutoMigrate=Yes\nRefrMigrateReuse=Yes\nRefrMigrateDomain=Yes\nRefrMigrateCheck=Yes\nRefrMigrateRule=Yes\nRefrMigrateExtd=No\nRefrMigrDefaultLink=No\nRefrDfltImpl=D\nRefrPrgtColn=No\nRefrMigrateToEnd=No\nRebuildTriggerDep=No\nColnFKName=%.3:PARENT%_%COLUMN%\nColnFKNameUse=No\nDomnCopyDttp=Yes\nDomnCopyChck=No\nDomnCopyRule=No\nDomnCopyMand=No\nDomnCopyExtd=No\nDomnCopyProf=No\nNotation=0\nDomnDefaultMandatory=No\nColnDefaultMandatory=No\nTablDefaultOwner=\nViewDefaultOwner=\nTrgrDefaultOwnerTabl=\nTrgrDefaultOwnerView=\nIdxDefaultOwnerTabl=\nIdxDefaultOwnerView=\nJdxDefaultOwner=\nDBPackDefaultOwner=\nSeqDefaultOwner=\nProcDefaultOwner=\nDBMSTrgrDefaultOwner=\nCurrency=USD\nRefrDeleteConstraint=1\nRefrUpdateConstraint=1\nRefrParentMandatory=No\nRefrParentChangeAllow=Yes\nRefrCheckOnCommit=No\n\n[ModelOptions\\Physical Objects\\NamingOptionsTemplates]\n\n[ModelOptions\\Physical Objects\\ClssNamingOptions]\n\n[ModelOptions\\Physical Objects\\ClssNamingOptions\\PDMPCKG]\n\n[ModelOptions\\Physical Objects\\ClssNamingOptions\\PDMPCKG\\Name]\nTemplate=\nMaxLen=254\nCase=M\nValidChar=\nInvldChar=\nAllValid=Yes\nNoAccent=No\nDefaultChar=\nScript=\nConvTable=\nConvTablePath=%_HOME%\\Resource Files\\Conversion Tables\n\n[ModelOptions\\Physical Objects\\ClssNamingOptions\\PDMPCKG\\Code]\nTemplate=\nMaxLen=254\nCase=M\nValidChar=\nInvldChar=\nAllValid=Yes\nNoAccent=No\nDefaultChar=\nScript=\nConvTable=\nConvTablePath=%_HOME%\\Resource Files\\Conversion Tables\n\n[ModelOptions\\Physical Objects\\ClssNamingOptions\\PDMDOMN]\n\n[ModelOptions\\Physical Objects\\ClssNamingOptions\\PDMDOMN\\Name]\nTemplate=\nMaxLen=254\nCase=M\nValidChar=\nInvldChar=\nAllValid=Yes\nNoAccent=No\nDefaultChar=\nScript=\nConvTable=\nConvTablePath=%_HOME%\\Resource Files\\Conversion Tables\n\n[ModelOptions\\Physical Objects\\ClssNamingOptions\\PDMDOMN\\Code]\nTemplate=\nMaxLen=254\nCase=M\nValidChar=\nInvldChar=\nAllValid=Yes\nNoAccent=No\nDefaultChar=\nScript=\nConvTable=\nConvTablePath=%_HOME%\\Resource Files\\Conversion Tables\n\n[ModelOptions\\Physical Objects\\ClssNamingOptions\\TABL]\n\n[ModelOptions\\Physical Objects\\ClssNamingOptions\\TABL\\Name]\nTemplate=\nMaxLen=254\nCase=M\nValidChar=\nInvldChar=\nAllValid=Yes\nNoAccent=No\nDefaultChar=\nScript=\nConvTable=\nConvTablePath=%_HOME%\\Resource Files\\Conversion Tables\n\n[ModelOptions\\Physical Objects\\ClssNamingOptions\\TABL\\Code]\nTemplate=\nMaxLen=30\nCase=M\nValidChar=\nInvldChar=\nAllValid=Yes\nNoAccent=No\nDefaultChar=\nScript=\nConvTable=\nConvTablePath=%_HOME%\\Resource Files\\Conversion Tables\n\n[ModelOptions\\Physical Objects\\ClssNamingOptions\\COLN]\n\n[ModelOptions\\Physical Objects\\ClssNamingOptions\\COLN\\Name]\nTemplate=\nMaxLen=254\nCase=M\nValidChar=\nInvldChar=\nAllValid=Yes\nNoAccent=No\nDefaultChar=\nScript=\nConvTable=\nConvTablePath=%_HOME%\\Resource Files\\Conversion Tables\n\n[ModelOptions\\Physical Objects\\ClssNamingOptions\\COLN\\Code]\nTemplate=\nMaxLen=30\nCase=M\nValidChar=\nInvldChar=\nAllValid=Yes\nNoAccent=No\nDefaultChar=\nScript=\nConvTable=\nConvTablePath=%_HOME%\\Resource Files\\Conversion Tables\n\n[ModelOptions\\Physical Objects\\ClssNamingOptions\\INDX]\n\n[ModelOptions\\Physical Objects\\ClssNamingOptions\\INDX\\Name]\nTemplate=\nMaxLen=254\nCase=M\nValidChar=\nInvldChar=\nAllValid=Yes\nNoAccent=No\nDefaultChar=\nScript=\nConvTable=\nConvTablePath=%_HOME%\\Resource Files\\Conversion Tables\n\n[ModelOptions\\Physical Objects\\ClssNamingOptions\\INDX\\Code]\nTemplate=\nMaxLen=254\nCase=M\nValidChar=\nInvldChar=\nAllValid=Yes\nNoAccent=No\nDefaultChar=\nScript=\nConvTable=\nConvTablePath=%_HOME%\\Resource Files\\Conversion Tables\n\n[ModelOptions\\Physical Objects\\ClssNamingOptions\\REFR]\n\n[ModelOptions\\Physical Objects\\ClssNamingOptions\\REFR\\Name]\nTemplate=\nMaxLen=254\nCase=M\nValidChar=\nInvldChar=\nAllValid=Yes\nNoAccent=No\nDefaultChar=\nScript=\nConvTable=\nConvTablePath=%_HOME%\\Resource Files\\Conversion Tables\n\n[ModelOptions\\Physical Objects\\ClssNamingOptions\\REFR\\Code]\nTemplate=\nMaxLen=254\nCase=M\nValidChar=\nInvldChar=\nAllValid=Yes\nNoAccent=No\nDefaultChar=\nScript=\nConvTable=\nConvTablePath=%_HOME%\\Resource Files\\Conversion Tables\n\n[ModelOptions\\Physical Objects\\ClssNamingOptions\\VREF]\n\n[ModelOptions\\Physical Objects\\ClssNamingOptions\\VREF\\Name]\nTemplate=\nMaxLen=254\nCase=M\nValidChar=\nInvldChar=\nAllValid=Yes\nNoAccent=No\nDefaultChar=\nScript=\nConvTable=\nConvTablePath=%_HOME%\\Resource Files\\Conversion Tables\n\n[ModelOptions\\Physical Objects\\ClssNamingOptions\\VREF\\Code]\nTemplate=\nMaxLen=254\nCase=M\nValidChar=\nInvldChar=\nAllValid=Yes\nNoAccent=No\nDefaultChar=\nScript=\nConvTable=\nConvTablePath=%_HOME%\\Resource Files\\Conversion Tables\n\n[ModelOptions\\Physical Objects\\ClssNamingOptions\\VIEW]\n\n[ModelOptions\\Physical Objects\\ClssNamingOptions\\VIEW\\Name]\nTemplate=\nMaxLen=254\nCase=M\nValidChar=\nInvldChar=\nAllValid=Yes\nNoAccent=No\nDefaultChar=\nScript=\nConvTable=\nConvTablePath=%_HOME%\\Resource Files\\Conversion Tables\n\n[ModelOptions\\Physical Objects\\ClssNamingOptions\\VIEW\\Code]\nTemplate=\nMaxLen=30\nCase=M\nValidChar=\nInvldChar=\nAllValid=Yes\nNoAccent=No\nDefaultChar=\nScript=\nConvTable=\nConvTablePath=%_HOME%\\Resource Files\\Conversion Tables\n\n[ModelOptions\\Physical Objects\\ClssNamingOptions\\VIEWC]\n\n[ModelOptions\\Physical Objects\\ClssNamingOptions\\VIEWC\\Name]\nTemplate=\nMaxLen=254\nCase=M\nValidChar=\nInvldChar=\nAllValid=Yes\nNoAccent=No\nDefaultChar=\nScript=\nConvTable=\nConvTablePath=%_HOME%\\Resource Files\\Conversion Tables\n\n[ModelOptions\\Physical Objects\\ClssNamingOptions\\VIEWC\\Code]\nTemplate=\nMaxLen=254\nCase=M\nValidChar=\nInvldChar=\nAllValid=Yes\nNoAccent=No\nDefaultChar=\nScript=\nConvTable=\nConvTablePath=%_HOME%\\Resource Files\\Conversion Tables\n\n[ModelOptions\\Physical Objects\\ClssNamingOptions\\WEBSERV]\n\n[ModelOptions\\Physical Objects\\ClssNamingOptions\\WEBSERV\\Name]\nTemplate=\nMaxLen=254\nCase=M\nValidChar=\nInvldChar=\nAllValid=Yes\nNoAccent=No\nDefaultChar=\nScript=\nConvTable=\nConvTablePath=%_HOME%\\Resource Files\\Conversion Tables\n\n[ModelOptions\\Physical Objects\\ClssNamingOptions\\WEBSERV\\Code]\nTemplate=\nMaxLen=254\nCase=M\nValidChar='a'-'z','A'-'Z','0'-'9',\"/-_.!~*'()\"\nInvldChar=\nAllValid=Yes\nNoAccent=No\nDefaultChar=\nScript=\nConvTable=\nConvTablePath=%_HOME%\\Resource Files\\Conversion Tables\n\n[ModelOptions\\Physical Objects\\ClssNamingOptions\\WEBOP]\n\n[ModelOptions\\Physical Objects\\ClssNamingOptions\\WEBOP\\Name]\nTemplate=\nMaxLen=254\nCase=M\nValidChar=\nInvldChar=\nAllValid=Yes\nNoAccent=No\nDefaultChar=\nScript=\nConvTable=\nConvTablePath=%_HOME%\\Resource Files\\Conversion Tables\n\n[ModelOptions\\Physical Objects\\ClssNamingOptions\\WEBOP\\Code]\nTemplate=\nMaxLen=254\nCase=M\nValidChar='a'-'z','A'-'Z','0'-'9',\"/-_.!~*'()\"\nInvldChar=\nAllValid=Yes\nNoAccent=No\nDefaultChar=\nScript=\nConvTable=\nConvTablePath=%_HOME%\\Resource Files\\Conversion Tables\n\n[ModelOptions\\Physical Objects\\ClssNamingOptions\\WPARAM]\n\n[ModelOptions\\Physical Objects\\ClssNamingOptions\\WPARAM\\Name]\nTemplate=\nMaxLen=254\nCase=M\nValidChar=\nInvldChar=\nAllValid=Yes\nNoAccent=No\nDefaultChar=\nScript=\nConvTable=\nConvTablePath=%_HOME%\\Resource Files\\Conversion Tables\n\n[ModelOptions\\Physical Objects\\ClssNamingOptions\\WPARAM\\Code]\nTemplate=\nMaxLen=254\nCase=M\nValidChar=\nInvldChar=\nAllValid=Yes\nNoAccent=No\nDefaultChar=\nScript=\nConvTable=\nConvTablePath=%_HOME%\\Resource Files\\Conversion Tables\n\n[ModelOptions\\Physical Objects\\ClssNamingOptions\\FACT]\n\n[ModelOptions\\Physical Objects\\ClssNamingOptions\\FACT\\Name]\nTemplate=\nMaxLen=254\nCase=M\nValidChar=\nInvldChar=\nAllValid=Yes\nNoAccent=No\nDefaultChar=\nScript=\nConvTable=\nConvTablePath=%_HOME%\\Resource Files\\Conversion Tables\n\n[ModelOptions\\Physical Objects\\ClssNamingOptions\\FACT\\Code]\nTemplate=\nMaxLen=254\nCase=M\nValidChar=\nInvldChar=\nAllValid=Yes\nNoAccent=No\nDefaultChar=\nScript=\nConvTable=\nConvTablePath=%_HOME%\\Resource Files\\Conversion Tables\n\n[ModelOptions\\Physical Objects\\ClssNamingOptions\\DIMN]\n\n[ModelOptions\\Physical Objects\\ClssNamingOptions\\DIMN\\Name]\nTemplate=\nMaxLen=254\nCase=M\nValidChar=\nInvldChar=\nAllValid=Yes\nNoAccent=No\nDefaultChar=\nScript=\nConvTable=\nConvTablePath=%_HOME%\\Resource Files\\Conversion Tables\n\n[ModelOptions\\Physical Objects\\ClssNamingOptions\\DIMN\\Code]\nTemplate=\nMaxLen=254\nCase=M\nValidChar=\nInvldChar=\nAllValid=Yes\nNoAccent=No\nDefaultChar=\nScript=\nConvTable=\nConvTablePath=%_HOME%\\Resource Files\\Conversion Tables\n\n[ModelOptions\\Physical Objects\\ClssNamingOptions\\MEAS]\n\n[ModelOptions\\Physical Objects\\ClssNamingOptions\\MEAS\\Name]\nTemplate=\nMaxLen=254\nCase=M\nValidChar=\nInvldChar=\nAllValid=Yes\nNoAccent=No\nDefaultChar=\nScript=\nConvTable=\nConvTablePath=%_HOME%\\Resource Files\\Conversion Tables\n\n[ModelOptions\\Physical Objects\\ClssNamingOptions\\MEAS\\Code]\nTemplate=\nMaxLen=254\nCase=M\nValidChar=\nInvldChar=\nAllValid=Yes\nNoAccent=No\nDefaultChar=\nScript=\nConvTable=\nConvTablePath=%_HOME%\\Resource Files\\Conversion Tables\n\n[ModelOptions\\Physical Objects\\ClssNamingOptions\\DATTR]\n\n[ModelOptions\\Physical Objects\\ClssNamingOptions\\DATTR\\Name]\nTemplate=\nMaxLen=254\nCase=M\nValidChar=\nInvldChar=\nAllValid=Yes\nNoAccent=No\nDefaultChar=\nScript=\nConvTable=\nConvTablePath=%_HOME%\\Resource Files\\Conversion Tables\n\n[ModelOptions\\Physical Objects\\ClssNamingOptions\\DATTR\\Code]\nTemplate=\nMaxLen=254\nCase=M\nValidChar=\nInvldChar=\nAllValid=Yes\nNoAccent=No\nDefaultChar=\nScript=\nConvTable=\nConvTablePath=%_HOME%\\Resource Files\\Conversion Tables\n\n[ModelOptions\\Physical Objects\\ClssNamingOptions\\FILO]\n\n[ModelOptions\\Physical Objects\\ClssNamingOptions\\FILO\\Name]\nTemplate=\nMaxLen=254\nCase=M\nValidChar=\nInvldChar=\nAllValid=Yes\nNoAccent=No\nDefaultChar=\nScript=\nConvTable=\nConvTablePath=%_HOME%\\Resource Files\\Conversion Tables\n\n[ModelOptions\\Physical Objects\\ClssNamingOptions\\FILO\\Code]\nTemplate=\nMaxLen=254\nCase=M\nValidChar=\nInvldChar=\nAllValid=Yes\nNoAccent=No\nDefaultChar=\nScript=\nConvTable=\nConvTablePath=%_HOME%\\Resource Files\\Conversion Tables\n\n[ModelOptions\\Physical Objects\\ClssNamingOptions\\FRMEOBJ]\n\n[ModelOptions\\Physical Objects\\ClssNamingOptions\\FRMEOBJ\\Name]\nTemplate=\nMaxLen=254\nCase=M\nValidChar=\nInvldChar=\nAllValid=Yes\nNoAccent=No\nDefaultChar=\nScript=\nConvTable=\nConvTablePath=%_HOME%\\Resource Files\\Conversion Tables\n\n[ModelOptions\\Physical Objects\\ClssNamingOptions\\FRMEOBJ\\Code]\nTemplate=\nMaxLen=254\nCase=M\nValidChar=\nInvldChar=\nAllValid=Yes\nNoAccent=No\nDefaultChar=\nScript=\nConvTable=\nConvTablePath=%_HOME%\\Resource Files\\Conversion Tables\n\n[ModelOptions\\Physical Objects\\ClssNamingOptions\\FRMELNK]\n\n[ModelOptions\\Physical Objects\\ClssNamingOptions\\FRMELNK\\Name]\nTemplate=\nMaxLen=254\nCase=M\nValidChar=\nInvldChar=\nAllValid=Yes\nNoAccent=No\nDefaultChar=\nScript=\nConvTable=\nConvTablePath=%_HOME%\\Resource Files\\Conversion Tables\n\n[ModelOptions\\Physical Objects\\ClssNamingOptions\\FRMELNK\\Code]\nTemplate=\nMaxLen=254\nCase=M\nValidChar=\nInvldChar=\nAllValid=Yes\nNoAccent=No\nDefaultChar=\nScript=\nConvTable=\nConvTablePath=%_HOME%\\Resource Files\\Conversion Tables\n\n[ModelOptions\\Physical Objects\\ClssNamingOptions\\DefaultClass]\n\n[ModelOptions\\Physical Objects\\ClssNamingOptions\\DefaultClass\\Name]\nTemplate=\nMaxLen=254\nCase=M\nValidChar=\nInvldChar=\nAllValid=Yes\nNoAccent=No\nDefaultChar=\nScript=\nConvTable=\nConvTablePath=%_HOME%\\Resource Files\\Conversion Tables\n\n[ModelOptions\\Physical Objects\\ClssNamingOptions\\DefaultClass\\Code]\nTemplate=\nMaxLen=254\nCase=M\nValidChar=\nInvldChar=\nAllValid=Yes\nNoAccent=No\nDefaultChar=\nScript=\nConvTable=\nConvTablePath=%_HOME%\\Resource Files\\Conversion Tables\n\n[ModelOptions\\Connection]\n\n[ModelOptions\\Pdm]\n\n[ModelOptions\\Generate]\n\n[ModelOptions\\Generate\\Xsm]\nGenRootElement=Yes\nGenComplexType=No\nGenAttribute=Yes\nCheckModel=Yes\nSaveLinks=Yes\nORMapping=No\nNameToCode=No\n\n[ModelOptions\\Generate\\Pdm]\nRRMapping=No\n\n[ModelOptions\\Generate\\Cdm]\nCheckModel=Yes\nSaveLinks=Yes\nNameToCode=No\nNotation=2\n\n[ModelOptions\\Generate\\Oom]\nCheckModel=Yes\nSaveLinks=Yes\nORMapping=No\nNameToCode=Yes\nClassPrefix=\n\n[ModelOptions\\Generate\\Ldm]\nCheckModel=Yes\nSaveLinks=Yes\nNameToCode=No\n\n[ModelOptions\\Default Opts]\n\n[ModelOptions\\Default Opts\\TABL]\nPhysOpts=\n\n[ModelOptions\\Default Opts\\COLN]\nPhysOpts=\n\n[ModelOptions\\Default Opts\\INDX]\nPhysOpts=\n\n[ModelOptions\\Default Opts\\AKEY]\nPhysOpts=\n\n[ModelOptions\\Default Opts\\PKEY]\nPhysOpts=\n\n[ModelOptions\\Default Opts\\STOR]\nPhysOpts=\n\n[ModelOptions\\Default Opts\\TSPC]\nPhysOpts=\n\n[ModelOptions\\Default Opts\\SQNC]\nPhysOpts=\n\n[ModelOptions\\Default Opts\\DTBS]\nPhysOpts=\n\n[ModelOptions\\Default Opts\\USER]\nPhysOpts=\n\n[ModelOptions\\Default Opts\\JIDX]\nPhysOpts=\n\n[ModelOptions\\Default Opts\\FRMEOBJ<<Cluster>>]\nPhysOpts=\n\n[ModelOptions\\Default Opts\\FRMEOBJ<<MaterializedViewLog>>]\nPhysOpts=\n\n[ModelOptions\\Default Opts\\FRMESOB<<Cluster>>]\nPhysOpts=\n\n[ModelOptions\\Default Opts\\FRMESOB<<MaterializedViewLog>>]\nPhysOpts=\n\n[ModelOptions\\Default Opts\\FRMESOB<<ClusterIndex>>]\nPhysOpts=",
+          "a:ExtendedAttributesText": "{BAE632F3-AC04-4059-9893-259ABA89351C},ORA11GR1,147={EFD6ACEF-B17B-4809-8139-2A448365E86C},AutoFixMaterializedViewDone,4=true\n{0DF03778-2F9C-42B9-9746-AFD816115F7F},AutoFixTempAttributeDone,4=true",
+          "c:DBMS": {
+            "o:Shortcut": {
+              "Id": "o3",
+              "a:ObjectID": "8782F2F1-B2B3-416F-964D-92F7AAC1E636",
+              "a:Name": "ORACLE Version 11g",
+              "a:Code": "ORA11GR1",
+              "a:CreationDate": "1498990661",
+              "a:Creator": "hm20160509",
+              "a:ModificationDate": "1498990661",
+              "a:Modifier": "hm20160509",
+              "a:TargetStereotype": {},
+              "a:TargetID": "BAE632F3-AC04-4059-9893-259ABA89351C",
+              "a:TargetClassID": "4BA9F647-DAB1-11D1-9944-006097355D9B"
+            }
+          },
+          "c:PhysicalDiagrams": {
+            "o:PhysicalDiagram": {
+              "Id": "o4",
+              "a:ObjectID": "1935616C-E8B2-4F00-8085-FFD3CB785304",
+              "a:Name": "用户权限管理",
+              "a:Code": "用户权限管理",
+              "a:CreationDate": "1498990638",
+              "a:Creator": "hm20160509",
+              "a:ModificationDate": "1498998218",
+              "a:Modifier": "xjq",
+              "a:DisplayPreferences": "[DisplayPreferences]\n\n[DisplayPreferences\\PDM]\n\n[DisplayPreferences\\General]\nAdjust to text=Yes\nSnap Grid=No\nConstrain Labels=Yes\nDisplay Grid=No\nShow Page Delimiter=Yes\nShow Links intersections=No\nActivate automatic link routing=No\nGrid size=800\nGraphic unit=2\nWindow color=255 255 255\nBackground image=\nBackground mode=8\nWatermark image=\nWatermark mode=8\nShow watermark on screen=No\nGradient mode=0\nGradient end color=255 255 255\nShow Swimlane=No\nSwimlaneVert=Yes\nTreeVert=No\nCompDark=0\n\n[DisplayPreferences\\Object]\nShow Icon=No\nMode=2\nTrunc Length=40\nWord Length=40\nWord Text=!\"#$%&')*+,-./:;=>?@\\]^_`|}~\nShortcut IntIcon=Yes\nShortcut IntLoct=Yes\nShortcut IntFullPath=No\nShortcut IntLastPackage=Yes\nShortcut ExtIcon=Yes\nShortcut ExtLoct=No\nShortcut ExtFullPath=No\nShortcut ExtLastPackage=Yes\nShortcut ExtIncludeModl=Yes\nEObjShowStrn=Yes\nExtendedObject.Comment=No\nExtendedObject.IconPicture=No\nExtendedObject.TextStyle=No\nExtendedObject_SymbolLayout=<Form>[CRLF] <StandardAttribute Name=\"Stereotype\" Attribute=\"Stereotype\" Prefix=\"<<\" Suffix=\">>\" Alignment=\"CNTR\" Caption=\"\" Mandatory=\"No\" />[CRLF] <StandardAttribute Name=\"Object Name\" Attribute=\"DisplayName\" Prefix=\"\" Suffix=\"\" Alignment=\"CNTR\" Caption=\"\" Mandatory=\"Yes\" />[CRLF] <Separator Name=\"Separator\" />[CRLF] <StandardAttribute Name=\"Comment\" Attribute=\"Comment\" Prefix=\"\" Suffix=\"\" Alignment=\"LEFT\" Caption=\"\" Mandatory=\"No\" />[CRLF] <StandardAttribute Name=\"Icon\" Attribute=\"IconPicture\" Prefix=\"\" Suffix=\"\" Alignment=\"CNTR\" Caption=\"\" Mandatory=\"Yes\" />[CRLF] <StandardAttribute Name=\"Force top align\" Attribute=\"TextStyle\" Prefix=\"\" Suffix=\"\" Alignment=\"CNTR\" Caption=\"\" Mandatory=\"Yes\" />[CRLF]</Form>\nELnkShowStrn=Yes\nELnkShowName=Yes\nExtendedLink_SymbolLayout=<Form>[CRLF] <Form Name=\"Center\" >[CRLF]  <StandardAttribute Name=\"Stereotype\" Attribute=\"Stereotype\" Prefix=\"<<\" Suffix=\">>\" Caption=\"\" Mandatory=\"No\" />[CRLF]  <StandardAttribute Name=\"Name\" Attribute=\"DisplayName\" Prefix=\"\" Suffix=\"\" Caption=\"\" Mandatory=\"No\" />[CRLF] </Form>[CRLF] <Form Name=\"Source\" >[CRLF] </Form>[CRLF] <Form Name=\"Destination\" >[CRLF] </Form>[CRLF]</Form>\nFileObject.Stereotype=No\nFileObject.DisplayName=Yes\nFileObject.LocationOrName=No\nFileObject.IconPicture=No\nFileObject.TextStyle=No\nFileObject.IconMode=Yes\nFileObject_SymbolLayout=<Form>[CRLF] <StandardAttribute Name=\"Stereotype\" Attribute=\"Stereotype\" Prefix=\"<<\" Suffix=\">>\" Alignment=\"CNTR\" Caption=\"\" Mandatory=\"No\" />[CRLF] <ExclusiveChoice Name=\"Exclusive Choice\" Mandatory=\"Yes\" Display=\"HorizontalRadios\" >[CRLF]  <StandardAttribute Name=\"Name\" Attribute=\"DisplayName\" Prefix=\"\" Suffix=\"\" Alignment=\"CNTR\" Caption=\"\" Mandatory=\"No\" />[CRLF]  <StandardAttribute Name=\"Location\" Attribute=\"LocationOrName\" Prefix=\"\" Suffix=\"\" Alignment=\"CNTR\" Caption=\"\" Mandatory=\"No\" />[CRLF] </ExclusiveChoice>[CRLF] <StandardAttribute Name=\"Icon\" Attribute=\"IconPicture\" Prefix=\"\" Suffix=\"\" Alignment=\"CNTR\" Caption=\"\" Mandatory=\"Yes\" />[CRLF] <StandardAttribute Name=\"Force top align\" Attribute=\"TextStyle\" Prefix=\"\" Suffix=\"\" Alignment=\"CNTR\" Caption=\"\" Mandatory=\"Yes\" />[CRLF]</Form>\nPackage.Stereotype=Yes\nPackage.Comment=No\nPackage.IconPicture=No\nPackage.TextStyle=No\nPackage_SymbolLayout=<Form>[CRLF] <StandardAttribute Name=\"Stereotype\" Attribute=\"Stereotype\" Prefix=\"<<\" Suffix=\">>\" Alignment=\"CNTR\" Caption=\"\" Mandatory=\"No\" />[CRLF] <StandardAttribute Name=\"Name\" Attribute=\"DisplayName\" Prefix=\"\" Suffix=\"\" Alignment=\"CNTR\" Caption=\"\" Mandatory=\"Yes\" />[CRLF] <Separator Name=\"Separator\" />[CRLF] <StandardAttribute Name=\"Comment\" Attribute=\"Comment\" Prefix=\"\" Suffix=\"\" Alignment=\"LEFT\" Caption=\"\" Mandatory=\"No\" />[CRLF] <StandardAttribute Name=\"Icon\" Attribute=\"IconPicture\" Prefix=\"\" Suffix=\"\" Alignment=\"CNTR\" Caption=\"\" Mandatory=\"Yes\" />[CRLF] <StandardAttribute Name=\"Force top align\" Attribute=\"TextStyle\" Prefix=\"\" Suffix=\"\" Alignment=\"CNTR\" Caption=\"\" Mandatory=\"Yes\" />[CRLF]</Form>\nDisplay Model Version=Yes\nTable.Stereotype=Yes\nTable.DisplayName=Yes\nTable.OwnerDisplayName=No\nTable.Columns=Yes\nTable.Columns._Filter=\"All Columns\" PDMCOLNALL\nTable.Columns._Columns=Stereotype DataType KeyIndicator\nTable.Columns._Limit=-5\nTable.Keys=No\nTable.Keys._Columns=Stereotype Indicator\nTable.Indexes=No\nTable.Indexes._Columns=Stereotype\nTable.Triggers=No\nTable.Triggers._Columns=Stereotype\nTable.Comment=No\nTable.IconPicture=No\nTable.TextStyle=No\nTable_SymbolLayout=<Form>[CRLF] <StandardAttribute Name=\"Stereotype\" Attribute=\"Stereotype\" Prefix=\"<<\" Suffix=\">>\" Alignment=\"CNTR\" Caption=\"\" Mandatory=\"No\" />[CRLF] <ExclusiveChoice Name=\"Exclusive Choice\" Mandatory=\"Yes\" Display=\"HorizontalRadios\" >[CRLF]  <StandardAttribute Name=\"Name\" Attribute=\"DisplayName\" Prefix=\"\" Suffix=\"\" Alignment=\"CNTR\" Caption=\"\" Mandatory=\"No\" />[CRLF]  <StandardAttribute Name=\"Owner and Name\" Attribute=\"OwnerDisplayName\" Prefix=\"\" Suffix=\"\" Alignment=\"CNTR\" Caption=\"\" Mandatory=\"No\" />[CRLF] </ExclusiveChoice>[CRLF] <Separator Name=\"Separator\" />[CRLF] <StandardCollection Name=\"Columns\" Collection=\"Columns\" Columns=\"Stereotype No\\r\\nCode Yes\\r\\nDisplayName Yes\\r\\nDataType No\\r\\nSymbolDataType No \"Domain or Data type\"\\r\\nDomain No\\r\\nKeyIndicator No\\r\\nIndexIndicator No\\r\\nNullStatus No\" Filters=\"\"All Columns\"  PDMCOLNALL \"\"\\r\\n\"PK Columns\"  PDMCOLNPK \"\\\"PRIM \\\"TRUE\\\" TRUE\\\"\"\\r\\n\"Key Columns\"  PDMCOLNKEY \"\\\"KEYS \\\"TRUE\\\" TRUE\\\"\"\" HasLimit=\"Yes\" HideEmpty=\"No\" Caption=\"\" Mandatory=\"No\" />[CRLF] <StandardCollection Name=\"Keys\" Collection=\"Keys\" Columns=\"Stereotype No\\r\\nDisplayName Yes\\r\\nIndicator No\" HasLimit=\"No\" HideEmpty=\"No\" Caption=\"\" Mandatory=\"No\" />[CRLF] <StandardCollection Name=\"Indexes\" Collection=\"Indexes\" Columns=\"Stereotype No\\r\\nDisplayName Yes\\r\\nIndicator No\" HasLimit=\"No\" HideEmpty=\"No\" Caption=\"\" Mandatory=\"No\" />[CRLF] <StandardCollection Name=\"Triggers\" Collection=\"Triggers\" Columns=\"Stereotype No\\r\\nDisplayName Yes\" HasLimit=\"No\" HideEmpty=\"No\" Caption=\"\" Mandatory=\"No\" />[CRLF] <StandardAttribute Name=\"Comment\" Attribute=\"Comment\" Prefix=\"\" Suffix=\"\" Alignment=\"LEFT\" Caption=\"\" Mandatory=\"No\" />[CRLF] <StandardAttribute Name=\"Icon\" Attribute=\"IconPicture\" Prefix=\"\" Suffix=\"\" Alignment=\"CNTR\" Caption=\"\" Mandatory=\"Yes\" />[CRLF] <StandardAttribute Name=\"Force top align\" Attribute=\"TextStyle\" Prefix=\"\" Suffix=\"\" Alignment=\"CNTR\" Caption=\"\" Mandatory=\"Yes\" />[CRLF]</Form>\nView.Stereotype=Yes\nView.DisplayName=Yes\nView.OwnerDisplayName=No\nView.Columns=Yes\nView.Columns._Columns=DisplayName\nView.Columns._Limit=-5\nView.TemporaryVTables=Yes\nView.Indexes=No\nView.Comment=No\nView.IconPicture=No\nView.TextStyle=No\nView_SymbolLayout=<Form>[CRLF] <StandardAttribute Name=\"Stereotype\" Attribute=\"Stereotype\" Prefix=\"<<\" Suffix=\">>\" Alignment=\"CNTR\" Caption=\"\" Mandatory=\"No\" />[CRLF] <ExclusiveChoice Name=\"Exclusive Choice\" Mandatory=\"Yes\" Display=\"HorizontalRadios\" >[CRLF]  <StandardAttribute Name=\"Name\" Attribute=\"DisplayName\" Prefix=\"\" Suffix=\"\" Alignment=\"CNTR\" Caption=\"\" Mandatory=\"No\" />[CRLF]  <StandardAttribute Name=\"Owner and Name\" Attribute=\"OwnerDisplayName\" Prefix=\"\" Suffix=\"\" Alignment=\"CNTR\" Caption=\"\" Mandatory=\"No\" />[CRLF] </ExclusiveChoice>[CRLF] <Separator Name=\"Separator\" />[CRLF] <StandardCollection Name=\"Columns\" Collection=\"Columns\" Columns=\"DisplayName No\\r\\nExpression No\\r\\nDataType No\\r\\nSymbolDataType No \"Domain or Data type\"\\r\\nIndexIndicator No\\r\\nName Yes\\r\\nCode Yes\" HasLimit=\"Yes\" HideEmpty=\"No\" Caption=\"\" Mandatory=\"No\" />[CRLF] <StandardCollection Name=\"Tables\" Collection=\"TemporaryVTables\" Columns=\"Name Yes\" HasLimit=\"No\" HideEmpty=\"No\" Caption=\"\" Mandatory=\"No\" />[CRLF] <StandardCollection Name=\"Indexes\" Collection=\"Indexes\" Columns=\"DisplayName Yes\" HasLimit=\"No\" HideEmpty=\"No\" Caption=\"\" Mandatory=\"No\" />[CRLF] <StandardAttribute Name=\"Comment\" Attribute=\"Comment\" Prefix=\"\" Suffix=\"\" Alignment=\"LEFT\" Caption=\"\" Mandatory=\"No\" />[CRLF] <StandardAttribute Name=\"Icon\" Attribute=\"IconPicture\" Prefix=\"\" Suffix=\"\" Alignment=\"CNTR\" Caption=\"\" Mandatory=\"Yes\" />[CRLF] <StandardAttribute Name=\"Force top align\" Attribute=\"TextStyle\" Prefix=\"\" Suffix=\"\" Alignment=\"CNTR\" Caption=\"\" Mandatory=\"Yes\" />[CRLF]</Form>\nProcedure.Stereotype=No\nProcedure.DisplayName=Yes\nProcedure.OwnerDisplayName=No\nProcedure.Comment=No\nProcedure.IconPicture=No\nProcedure.TextStyle=No\nProcedure_SymbolLayout=<Form>[CRLF] <StandardAttribute Name=\"Stereotype\" Attribute=\"Stereotype\" Prefix=\"<<\" Suffix=\">>\" Alignment=\"CNTR\" Caption=\"\" Mandatory=\"No\" />[CRLF] <ExclusiveChoice Name=\"Exclusive Choice\" Mandatory=\"Yes\" Display=\"HorizontalRadios\" >[CRLF]  <StandardAttribute Name=\"Name\" Attribute=\"DisplayName\" Prefix=\"\" Suffix=\"\" Alignment=\"CNTR\" Caption=\"\" Mandatory=\"No\" />[CRLF]  <StandardAttribute Name=\"Owner and Name\" Attribute=\"OwnerDisplayName\" Prefix=\"\" Suffix=\"\" Alignment=\"CNTR\" Caption=\"\" Mandatory=\"No\" />[CRLF] </ExclusiveChoice>[CRLF] <Separator Name=\"Separator\" />[CRLF] <StandardAttribute Name=\"Comment\" Attribute=\"Comment\" Prefix=\"\" Suffix=\"\" Alignment=\"LEFT\" Caption=\"\" Mandatory=\"No\" />[CRLF] <StandardAttribute Name=\"Icon\" Attribute=\"IconPicture\" Prefix=\"\" Suffix=\"\" Alignment=\"CNTR\" Caption=\"\" Mandatory=\"Yes\" />[CRLF] <StandardAttribute Name=\"Force top align\" Attribute=\"TextStyle\" Prefix=\"\" Suffix=\"\" Alignment=\"CNTR\" Caption=\"\" Mandatory=\"Yes\" />[CRLF]</Form>\nReference.Cardinality=No\nReference.ImplementationType=No\nReference.ChildRole=Yes\nReference.Stereotype=Yes\nReference.DisplayName=No\nReference.ForeignKeyConstraintName=No\nReference.JoinExpression=No\nReference.Integrity=No\nReference.ParentRole=Yes\nReference_SymbolLayout=<Form>[CRLF] <Form Name=\"Source\" >[CRLF]  <StandardAttribute Name=\"Cardinality\" Attribute=\"Cardinality\" Prefix=\"\" Suffix=\"\" Caption=\"\" Mandatory=\"No\" />[CRLF]  <StandardAttribute Name=\"Implementation\" Attribute=\"ImplementationType\" Prefix=\"\" Suffix=\"\" Caption=\"\" Mandatory=\"No\" />[CRLF]  <StandardAttribute Name=\"Child Role\" Attribute=\"ChildRole\" Prefix=\"\" Suffix=\"\" Caption=\"\" Mandatory=\"No\" />[CRLF] </Form>[CRLF] <Form Name=\"Center\" >[CRLF]  <StandardAttribute Name=\"Stereotype\" Attribute=\"Stereotype\" Prefix=\"<<\" Suffix=\">>\" Caption=\"\" Mandatory=\"No\" />[CRLF]  <ExclusiveChoice Name=\"Exclusive Choice\" Mandatory=\"No\" Display=\"HorizontalRadios\" >[CRLF]   <StandardAttribute Name=\"Name\" Attribute=\"DisplayName\" Prefix=\"\" Suffix=\"\" Caption=\"\" Mandatory=\"No\" />[CRLF]   <StandardAttribute Name=\"Cons&traint Name\" Attribute=\"ForeignKeyConstraintName\" Prefix=\"\" Suffix=\"\" Caption=\"Cons&traint Name\" Mandatory=\"No\" />[CRLF]   <StandardAttribute Name=\"Join\" Attribute=\"JoinExpression\" Prefix=\"\" Suffix=\"\" Caption=\"Join\" Mandatory=\"No\" />[CRLF]  </ExclusiveChoice>[CRLF]  <StandardAttribute Name=\"Referential integrity\" Attribute=\"Integrity\" Prefix=\"\" Suffix=\"\" Caption=\"Referential integrity\" Mandatory=\"No\" />[CRLF] </Form>[CRLF] <Form Name=\"Destination\" >[CRLF]  <StandardAttribute Name=\"Parent Role\" Attribute=\"ParentRole\" Prefix=\"\" Suffix=\"\" Caption=\"\" Mandatory=\"No\" />[CRLF] </Form>[CRLF]</Form>\nViewReference.ChildRole=Yes\nViewReference.Stereotype=Yes\nViewReference.DisplayName=No\nViewReference.JoinExpression=No\nViewReference.ParentRole=Yes\nViewReference_SymbolLayout=<Form>[CRLF] <Form Name=\"Source\" >[CRLF]  <StandardAttribute Name=\"Child Role\" Attribute=\"ChildRole\" Prefix=\"\" Suffix=\"\" Caption=\"\" Mandatory=\"No\" />[CRLF] </Form>[CRLF] <Form Name=\"Center\" >[CRLF]  <StandardAttribute Name=\"Stereotype\" Attribute=\"Stereotype\" Prefix=\"<<\" Suffix=\">>\" Caption=\"\" Mandatory=\"No\" />[CRLF]  <ExclusiveChoice Name=\"Exclusive Choice\" Mandatory=\"No\" Display=\"HorizontalRadios\" >[CRLF]   <StandardAttribute Name=\"Name\" Attribute=\"DisplayName\" Prefix=\"\" Suffix=\"\" Caption=\"\" Mandatory=\"No\" />[CRLF]   <StandardAttribute Name=\"Join Expression\" Attribute=\"JoinExpression\" Prefix=\"\" Suffix=\"\" Caption=\"\" Mandatory=\"No\" />[CRLF]  </ExclusiveChoice>[CRLF] </Form>[CRLF] <Form Name=\"Destination\" >[CRLF]  <StandardAttribute Name=\"Parent Role\" Attribute=\"ParentRole\" Prefix=\"\" Suffix=\"\" Caption=\"\" Mandatory=\"No\" />[CRLF] </Form>[CRLF]</Form>\n\n[DisplayPreferences\\Symbol]\n\n[DisplayPreferences\\Symbol\\FRMEOBJ]\nSTRNFont=新宋体,8,N\nSTRNFont color=0 0 0\nDISPNAMEFont=新宋体,8,N\nDISPNAMEFont color=0 0 0\nLABLFont=新宋体,8,N\nLABLFont color=0 0 0\nAutoAdjustToText=Yes\nKeep aspect=No\nKeep center=No\nKeep size=No\nWidth=6000\nHeight=2000\nBrush color=255 255 255\nFill Color=Yes\nBrush style=6\nBrush bitmap mode=12\nBrush gradient mode=64\nBrush gradient color=192 192 192\nBrush background image=\nCustom shape=\nCustom text mode=0\nPen=1 0 255 128 128\nShadow color=192 192 192\nShadow=0\n\n[DisplayPreferences\\Symbol\\FRMELNK]\nCENTERFont=新宋体,8,N\nCENTERFont color=0 0 0\nLine style=1\nAutoAdjustToText=Yes\nKeep aspect=No\nKeep center=No\nKeep size=No\nBrush color=255 255 255\nFill Color=Yes\nBrush style=1\nBrush bitmap mode=12\nBrush gradient mode=0\nBrush gradient color=118 118 118\nBrush background image=\nCustom shape=\nCustom text mode=0\nPen=1 0 128 128 255\nShadow color=192 192 192\nShadow=0\n\n[DisplayPreferences\\Symbol\\FILO]\nOBJSTRNFont=新宋体,8,N\nOBJSTRNFont color=0 0 0\nDISPNAMEFont=新宋体,8,N\nDISPNAMEFont color=0 0 0\nLCNMFont=新宋体,8,N\nLCNMFont color=0 0 0\nAutoAdjustToText=Yes\nKeep aspect=No\nKeep center=No\nKeep size=No\nWidth=4800\nHeight=3600\nBrush color=255 255 255\nFill Color=Yes\nBrush style=1\nBrush bitmap mode=12\nBrush gradient mode=0\nBrush gradient color=118 118 118\nBrush background image=\nCustom shape=\nCustom text mode=0\nPen=1 0 0 0 255\nShadow color=192 192 192\nShadow=0\n\n[DisplayPreferences\\Symbol\\PDMPCKG]\nSTRNFont=新宋体,8,N\nSTRNFont color=0 0 0\nDISPNAMEFont=新宋体,8,N\nDISPNAMEFont color=0 0 0\nLABLFont=新宋体,8,N\nLABLFont color=0 0 0\nAutoAdjustToText=Yes\nKeep aspect=No\nKeep center=No\nKeep size=No\nWidth=4800\nHeight=4000\nBrush color=255 255 192\nFill Color=Yes\nBrush style=6\nBrush bitmap mode=12\nBrush gradient mode=65\nBrush gradient color=255 255 255\nBrush background image=\nCustom shape=\nCustom text mode=0\nPen=1 0 178 178 178\nShadow color=192 192 192\nShadow=0\n\n[DisplayPreferences\\Symbol\\TABL]\nSTRNFont=新宋体,8,N\nSTRNFont color=0 0 0\nDISPNAMEFont=新宋体,8,N\nDISPNAMEFont color=0 0 0\nOWNRDISPNAMEFont=新宋体,8,N\nOWNRDISPNAMEFont color=0 0 0\nColumnsFont=新宋体,8,N\nColumnsFont color=0 0 0\nTablePkColumnsFont=新宋体,8,U\nTablePkColumnsFont color=0 0 0\nTableFkColumnsFont=新宋体,8,N\nTableFkColumnsFont color=0 0 0\nKeysFont=新宋体,8,N\nKeysFont color=0 0 0\nIndexesFont=新宋体,8,N\nIndexesFont color=0 0 0\nTriggersFont=新宋体,8,N\nTriggersFont color=0 0 0\nLABLFont=新宋体,8,N\nLABLFont color=0 0 0\nAutoAdjustToText=Yes\nKeep aspect=No\nKeep center=No\nKeep size=No\nWidth=4800\nHeight=4000\nBrush color=178 214 252\nFill Color=Yes\nBrush style=6\nBrush bitmap mode=12\nBrush gradient mode=65\nBrush gradient color=255 255 255\nBrush background image=\nCustom shape=\nCustom text mode=0\nPen=1 0 0 128 192\nShadow color=192 192 192\nShadow=0\n\n[DisplayPreferences\\Symbol\\VIEW]\nSTRNFont=新宋体,8,N\nSTRNFont color=0 0 0\nDISPNAMEFont=新宋体,8,N\nDISPNAMEFont color=0 0 0\nOWNRDISPNAMEFont=新宋体,8,N\nOWNRDISPNAMEFont color=0 0 0\nColumnsFont=新宋体,8,N\nColumnsFont color=0 0 0\nTablePkColumnsFont=新宋体,8,U\nTablePkColumnsFont color=0 0 0\nTableFkColumnsFont=新宋体,8,N\nTableFkColumnsFont color=0 0 0\nTemporaryVTablesFont=新宋体,8,N\nTemporaryVTablesFont color=0 0 0\nIndexesFont=新宋体,8,N\nIndexesFont color=0 0 0\nLABLFont=新宋体,8,N\nLABLFont color=0 0 0\nAutoAdjustToText=Yes\nKeep aspect=No\nKeep center=No\nKeep size=No\nWidth=4800\nHeight=4000\nBrush color=208 208 255\nFill Color=Yes\nBrush style=6\nBrush bitmap mode=12\nBrush gradient mode=65\nBrush gradient color=255 255 255\nBrush background image=\nCustom shape=\nCustom text mode=0\nPen=1 0 128 128 192\nShadow color=192 192 192\nShadow=0\n\n[DisplayPreferences\\Symbol\\PROC]\nSTRNFont=新宋体,8,N\nSTRNFont color=0 0 0\nDISPNAMEFont=新宋体,8,N\nDISPNAMEFont color=0 0 0\nOWNRDISPNAMEFont=新宋体,8,N\nOWNRDISPNAMEFont color=0 0 0\nLABLFont=新宋体,8,N\nLABLFont color=0 0 0\nAutoAdjustToText=Yes\nKeep aspect=No\nKeep center=No\nKeep size=No\nWidth=4000\nHeight=1000\nBrush color=255 255 192\nFill Color=Yes\nBrush style=6\nBrush bitmap mode=12\nBrush gradient mode=65\nBrush gradient color=255 255 255\nBrush background image=\nCustom shape=\nCustom text mode=0\nPen=1 0 128 108 0\nShadow color=192 192 192\nShadow=0\n\n[DisplayPreferences\\Symbol\\REFR]\nSOURCEFont=新宋体,8,N\nSOURCEFont color=0 0 0\nCENTERFont=新宋体,8,N\nCENTERFont color=0 0 0\nDESTINATIONFont=新宋体,8,N\nDESTINATIONFont color=0 0 0\nLine style=1\nAutoAdjustToText=Yes\nKeep aspect=No\nKeep center=No\nKeep size=No\nBrush color=255 255 255\nFill Color=Yes\nBrush style=1\nBrush bitmap mode=12\nBrush gradient mode=0\nBrush gradient color=118 118 118\nBrush background image=\nCustom shape=\nCustom text mode=0\nPen=1 0 0 128 192\nShadow color=192 192 192\nShadow=0\n\n[DisplayPreferences\\Symbol\\VREF]\nSOURCEFont=新宋体,8,N\nSOURCEFont color=0 0 0\nCENTERFont=新宋体,8,N\nCENTERFont color=0 0 0\nDESTINATIONFont=新宋体,8,N\nDESTINATIONFont color=0 0 0\nLine style=1\nAutoAdjustToText=Yes\nKeep aspect=No\nKeep center=No\nKeep size=No\nBrush color=255 255 255\nFill Color=Yes\nBrush style=1\nBrush bitmap mode=12\nBrush gradient mode=0\nBrush gradient color=118 118 118\nBrush background image=\nCustom shape=\nCustom text mode=0\nPen=1 0 128 128 192\nShadow color=192 192 192\nShadow=0\n\n[DisplayPreferences\\Symbol\\USRDEPD]\nOBJXSTRFont=新宋体,8,N\nOBJXSTRFont color=0 0 0\nLine style=1\nAutoAdjustToText=Yes\nKeep aspect=No\nKeep center=No\nKeep size=No\nBrush color=255 255 255\nFill Color=Yes\nBrush style=1\nBrush bitmap mode=12\nBrush gradient mode=0\nBrush gradient color=118 118 118\nBrush background image=\nCustom shape=\nCustom text mode=0\nPen=2 0 128 128 255\nShadow color=192 192 192\nShadow=0\n\n[DisplayPreferences\\Symbol\\Free Symbol]\nFree TextFont=新宋体,8,N\nFree TextFont color=0 0 0\nLine style=0\nAutoAdjustToText=Yes\nKeep aspect=No\nKeep center=No\nKeep size=No\nBrush color=255 255 255\nFill Color=Yes\nBrush style=1\nBrush bitmap mode=12\nBrush gradient mode=0\nBrush gradient color=118 118 118\nBrush background image=\nCustom shape=\nCustom text mode=0\nPen=1 0 0 0 255\nShadow color=192 192 192\nShadow=0",
+              "a:PaperSize": "(8268, 11693)",
+              "a:PageMargins": "((315,354), (433,354))",
+              "a:PageOrientation": "1",
+              "a:PaperSource": "7",
+              "c:Symbols": {
+                "o:ReferenceSymbol": [
+                  {
+                    "Id": "o5",
+                    "a:CreationDate": "1498997686",
+                    "a:ModificationDate": "1499427744",
+                    "a:Rect": "((-18395,-10532), (-1569,15432))",
+                    "a:ListOfPoints": "((-1569,15432),(-18170,15432),(-18170,-10532))",
+                    "a:CornerStyle": "1",
+                    "a:ArrowStyle": "1",
+                    "a:LineColor": "12615680",
+                    "a:ShadowColor": "12632256",
+                    "a:FontList": "CENTER 0 新宋体,8,N\nSOURCE 0 新宋体,8,N\nDESTINATION 0 新宋体,8,N",
+                    "c:SourceSymbol": {
+                      "o:TableSymbol": {
+                        "Ref": "o6"
+                      }
+                    },
+                    "c:DestinationSymbol": {
+                      "o:TableSymbol": {
+                        "Ref": "o7"
+                      }
+                    },
+                    "c:Object": {
+                      "o:Reference": {
+                        "Ref": "o8"
+                      }
+                    }
+                  },
+                  {
+                    "Id": "o9",
+                    "a:CreationDate": "1498997773",
+                    "a:ModificationDate": "1499427744",
+                    "a:Rect": "((-38905,-10254), (-25555,4308))",
+                    "a:ListOfPoints": "((-38905,4308),(-38905,-2985),(-25780,-2985),(-25780,-10254))",
+                    "a:CornerStyle": "1",
+                    "a:ArrowStyle": "1",
+                    "a:LineColor": "12615680",
+                    "a:ShadowColor": "12632256",
+                    "a:FontList": "CENTER 0 新宋体,8,N\nSOURCE 0 新宋体,8,N\nDESTINATION 0 新宋体,8,N",
+                    "c:SourceSymbol": {
+                      "o:TableSymbol": {
+                        "Ref": "o10"
+                      }
+                    },
+                    "c:DestinationSymbol": {
+                      "o:TableSymbol": {
+                        "Ref": "o7"
+                      }
+                    },
+                    "c:Object": {
+                      "o:Reference": {
+                        "Ref": "o11"
+                      }
+                    }
+                  },
+                  {
+                    "Id": "o12",
+                    "a:CreationDate": "1498998096",
+                    "a:ModificationDate": "1499427744",
+                    "a:Rect": "((-18395,-23154), (-4330,-9838))",
+                    "a:ListOfPoints": "((-4330,-23154),(-4330,-17559),(-18170,-17559),(-18170,-9838))",
+                    "a:CornerStyle": "1",
+                    "a:ArrowStyle": "1",
+                    "a:LineColor": "12615680",
+                    "a:ShadowColor": "12632256",
+                    "a:FontList": "CENTER 0 新宋体,8,N\nSOURCE 0 新宋体,8,N\nDESTINATION 0 新宋体,8,N",
+                    "c:SourceSymbol": {
+                      "o:TableSymbol": {
+                        "Ref": "o13"
+                      }
+                    },
+                    "c:DestinationSymbol": {
+                      "o:TableSymbol": {
+                        "Ref": "o7"
+                      }
+                    },
+                    "c:Object": {
+                      "o:Reference": {
+                        "Ref": "o14"
+                      }
+                    }
+                  },
+                  {
+                    "Id": "o15",
+                    "a:CreationDate": "1498998101",
+                    "a:ModificationDate": "1499427753",
+                    "a:Rect": "((-21289,-15844), (11032,-9659))",
+                    "a:ListOfPoints": "((11032,-15844),(11032,-9884),(-21289,-9884))",
+                    "a:CornerStyle": "1",
+                    "a:ArrowStyle": "1",
+                    "a:LineColor": "12615680",
+                    "a:ShadowColor": "12632256",
+                    "a:FontList": "CENTER 0 新宋体,8,N\nSOURCE 0 新宋体,8,N\nDESTINATION 0 新宋体,8,N",
+                    "c:SourceSymbol": {
+                      "o:TableSymbol": {
+                        "Ref": "o16"
+                      }
+                    },
+                    "c:DestinationSymbol": {
+                      "o:TableSymbol": {
+                        "Ref": "o7"
+                      }
+                    },
+                    "c:Object": {
+                      "o:Reference": {
+                        "Ref": "o17"
+                      }
+                    }
+                  },
+                  {
+                    "Id": "o18",
+                    "a:CreationDate": "1498998111",
+                    "a:ModificationDate": "1499427753",
+                    "a:Rect": "((-12467,-16375), (11226,25458))",
+                    "a:ListOfPoints": "((11226,-16375),(11226,25233),(-12467,25233))",
+                    "a:CornerStyle": "1",
+                    "a:ArrowStyle": "1",
+                    "a:LineColor": "12615680",
+                    "a:ShadowColor": "12632256",
+                    "a:FontList": "CENTER 0 新宋体,8,N\nSOURCE 0 新宋体,8,N\nDESTINATION 0 新宋体,8,N",
+                    "c:SourceSymbol": {
+                      "o:TableSymbol": {
+                        "Ref": "o16"
+                      }
+                    },
+                    "c:DestinationSymbol": {
+                      "o:TableSymbol": {
+                        "Ref": "o19"
+                      }
+                    },
+                    "c:Object": {
+                      "o:Reference": {
+                        "Ref": "o20"
+                      }
+                    }
+                  },
+                  {
+                    "Id": "o21",
+                    "a:CreationDate": "1498998191",
+                    "a:ModificationDate": "1499427742",
+                    "a:Rect": "((-12952,-29641), (-2017,683))",
+                    "a:ListOfPoints": "((-12952,-29641),(-12952,-3630),(-2242,-3630),(-2242,683))",
+                    "a:CornerStyle": "1",
+                    "a:ArrowStyle": "1",
+                    "a:LineColor": "12615680",
+                    "a:ShadowColor": "12632256",
+                    "a:FontList": "CENTER 0 新宋体,8,N\nSOURCE 0 新宋体,8,N\nDESTINATION 0 新宋体,8,N",
+                    "c:SourceSymbol": {
+                      "o:TableSymbol": {
+                        "Ref": "o22"
+                      }
+                    },
+                    "c:DestinationSymbol": {
+                      "o:TableSymbol": {
+                        "Ref": "o23"
+                      }
+                    },
+                    "c:Object": {
+                      "o:Reference": {
+                        "Ref": "o24"
+                      }
+                    }
+                  },
+                  {
+                    "Id": "o25",
+                    "a:CreationDate": "1498998201",
+                    "a:ModificationDate": "1499427744",
+                    "a:Rect": "((-28438,-29581), (-15913,-10902))",
+                    "a:ListOfPoints": "((-15913,-29581),(-15913,-19294),(-28213,-19294),(-28213,-10902))",
+                    "a:CornerStyle": "1",
+                    "a:ArrowStyle": "1",
+                    "a:LineColor": "12615680",
+                    "a:ShadowColor": "12632256",
+                    "a:FontList": "CENTER 0 新宋体,8,N\nSOURCE 0 新宋体,8,N\nDESTINATION 0 新宋体,8,N",
+                    "c:SourceSymbol": {
+                      "o:TableSymbol": {
+                        "Ref": "o22"
+                      }
+                    },
+                    "c:DestinationSymbol": {
+                      "o:TableSymbol": {
+                        "Ref": "o7"
+                      }
+                    },
+                    "c:Object": {
+                      "o:Reference": {
+                        "Ref": "o26"
+                      }
+                    }
+                  },
+                  {
+                    "Id": "o27",
+                    "a:CreationDate": "1498998212",
+                    "a:ModificationDate": "1499427750",
+                    "a:Rect": "((-46296,-24634), (-30173,-10399))",
+                    "a:ListOfPoints": "((-46296,-24634),(-46296,-10624),(-30173,-10624))",
+                    "a:CornerStyle": "1",
+                    "a:ArrowStyle": "1",
+                    "a:LineColor": "12615680",
+                    "a:ShadowColor": "12632256",
+                    "a:FontList": "CENTER 0 新宋体,8,N\nSOURCE 0 新宋体,8,N\nDESTINATION 0 新宋体,8,N",
+                    "c:SourceSymbol": {
+                      "o:TableSymbol": {
+                        "Ref": "o28"
+                      }
+                    },
+                    "c:DestinationSymbol": {
+                      "o:TableSymbol": {
+                        "Ref": "o7"
+                      }
+                    },
+                    "c:Object": {
+                      "o:Reference": {
+                        "Ref": "o29"
+                      }
+                    }
+                  },
+                  {
+                    "Id": "o30",
+                    "a:CreationDate": "1498998218",
+                    "a:ModificationDate": "1499427720",
+                    "a:Rect": "((-2619,429), (24866,3670))",
+                    "a:ListOfPoints": "((24866,429),(12936,429),(12936,3445),(-2619,3445))",
+                    "a:CornerStyle": "1",
+                    "a:ArrowStyle": "1",
+                    "a:LineColor": "12615680",
+                    "a:ShadowColor": "12632256",
+                    "a:FontList": "CENTER 0 新宋体,8,N\nSOURCE 0 新宋体,8,N\nDESTINATION 0 新宋体,8,N",
+                    "c:SourceSymbol": {
+                      "o:TableSymbol": {
+                        "Ref": "o31"
+                      }
+                    },
+                    "c:DestinationSymbol": {
+                      "o:TableSymbol": {
+                        "Ref": "o23"
+                      }
+                    },
+                    "c:Object": {
+                      "o:Reference": {
+                        "Ref": "o32"
+                      }
+                    }
+                  }
+                ],
+                "o:TableSymbol": [
+                  {
+                    "Id": "o23",
+                    "a:ModificationDate": "1499427718",
+                    "a:IconMode": "-1",
+                    "a:Rect": "((-16244,-1980), (5334,9344))",
+                    "a:LineColor": "12615680",
+                    "a:FillColor": "16570034",
+                    "a:ShadowColor": "12632256",
+                    "a:FontList": "STRN 0 新宋体,8,N\nDISPNAME 0 新宋体,8,N\nOWNRDISPNAME 0 新宋体,8,N\nColumns 0 新宋体,8,N\nTablePkColumns 0 新宋体,8,U\nTableFkColumns 0 新宋体,8,N\nKeys 0 新宋体,8,N\nIndexes 0 新宋体,8,N\nTriggers 0 新宋体,8,N\nLABL 0 新宋体,8,N",
+                    "a:BrushStyle": "6",
+                    "a:GradientFillMode": "65",
+                    "a:GradientEndColor": "16777215",
+                    "c:Object": {
+                      "o:Table": {
+                        "Ref": "o33"
+                      }
+                    }
+                  },
+                  {
+                    "Id": "o31",
+                    "a:ModificationDate": "1499427720",
+                    "a:IconMode": "-1",
+                    "a:Rect": "((20538,-1373), (39026,4175))",
+                    "a:LineColor": "12615680",
+                    "a:FillColor": "16570034",
+                    "a:ShadowColor": "12632256",
+                    "a:FontList": "STRN 0 新宋体,8,N\nDISPNAME 0 新宋体,8,N\nOWNRDISPNAME 0 新宋体,8,N\nColumns 0 新宋体,8,N\nTablePkColumns 0 新宋体,8,U\nTableFkColumns 0 新宋体,8,N\nKeys 0 新宋体,8,N\nIndexes 0 新宋体,8,N\nTriggers 0 新宋体,8,N\nLABL 0 新宋体,8,N",
+                    "a:BrushStyle": "6",
+                    "a:GradientFillMode": "65",
+                    "a:GradientEndColor": "16777215",
+                    "c:Object": {
+                      "o:Table": {
+                        "Ref": "o34"
+                      }
+                    }
+                  },
+                  {
+                    "Id": "o6",
+                    "a:ModificationDate": "1499427714",
+                    "a:IconMode": "-1",
+                    "a:Rect": "((-5044,12949), (21554,19323))",
+                    "a:LineColor": "12615680",
+                    "a:FillColor": "16570034",
+                    "a:ShadowColor": "12632256",
+                    "a:FontList": "STRN 0 新宋体,8,N\nDISPNAME 0 新宋体,8,N\nOWNRDISPNAME 0 新宋体,8,N\nColumns 0 新宋体,8,N\nTablePkColumns 0 新宋体,8,U\nTableFkColumns 0 新宋体,8,N\nKeys 0 新宋体,8,N\nIndexes 0 新宋体,8,N\nTriggers 0 新宋体,8,N\nLABL 0 新宋体,8,N",
+                    "a:BrushStyle": "6",
+                    "a:GradientFillMode": "65",
+                    "a:GradientEndColor": "16777215",
+                    "c:Object": {
+                      "o:Table": {
+                        "Ref": "o35"
+                      }
+                    }
+                  },
+                  {
+                    "Id": "o36",
+                    "a:ModificationDate": "1499427734",
+                    "a:IconMode": "-1",
+                    "a:Rect": "((27909,-10096), (46782,-5372))",
+                    "a:LineColor": "12615680",
+                    "a:FillColor": "16570034",
+                    "a:ShadowColor": "12632256",
+                    "a:FontList": "STRN 0 新宋体,8,N\nDISPNAME 0 新宋体,8,N\nOWNRDISPNAME 0 新宋体,8,N\nColumns 0 新宋体,8,N\nTablePkColumns 0 新宋体,8,U\nTableFkColumns 0 新宋体,8,N\nKeys 0 新宋体,8,N\nIndexes 0 新宋体,8,N\nTriggers 0 新宋体,8,N\nLABL 0 新宋体,8,N",
+                    "a:BrushStyle": "6",
+                    "a:GradientFillMode": "65",
+                    "a:GradientEndColor": "16777215",
+                    "c:Object": {
+                      "o:Table": {
+                        "Ref": "o37"
+                      }
+                    }
+                  },
+                  {
+                    "Id": "o38",
+                    "a:ModificationDate": "1499427635",
+                    "a:IconMode": "-1",
+                    "a:Rect": "((27828,17295), (50564,27793))",
+                    "a:LineColor": "12615680",
+                    "a:FillColor": "16570034",
+                    "a:ShadowColor": "12632256",
+                    "a:FontList": "STRN 0 新宋体,8,N\nDISPNAME 0 新宋体,8,N\nOWNRDISPNAME 0 新宋体,8,N\nColumns 0 新宋体,8,N\nTablePkColumns 0 新宋体,8,U\nTableFkColumns 0 新宋体,8,N\nKeys 0 新宋体,8,N\nIndexes 0 新宋体,8,N\nTriggers 0 新宋体,8,N\nLABL 0 新宋体,8,N",
+                    "a:BrushStyle": "6",
+                    "a:GradientFillMode": "65",
+                    "a:GradientEndColor": "16777215",
+                    "c:Object": {
+                      "o:Table": {
+                        "Ref": "o39"
+                      }
+                    }
+                  },
+                  {
+                    "Id": "o28",
+                    "a:ModificationDate": "1499427750",
+                    "a:IconMode": "-1",
+                    "a:Rect": "((-51632,-25544), (-33145,-20820))",
+                    "a:LineColor": "12615680",
+                    "a:FillColor": "16570034",
+                    "a:ShadowColor": "12632256",
+                    "a:FontList": "STRN 0 新宋体,8,N\nDISPNAME 0 新宋体,8,N\nOWNRDISPNAME 0 新宋体,8,N\nColumns 0 新宋体,8,N\nTablePkColumns 0 新宋体,8,U\nTableFkColumns 0 新宋体,8,N\nKeys 0 新宋体,8,N\nIndexes 0 新宋体,8,N\nTriggers 0 新宋体,8,N\nLABL 0 新宋体,8,N",
+                    "a:BrushStyle": "6",
+                    "a:GradientFillMode": "65",
+                    "a:GradientEndColor": "16777215",
+                    "c:Object": {
+                      "o:Table": {
+                        "Ref": "o40"
+                      }
+                    }
+                  },
+                  {
+                    "Id": "o10",
+                    "a:ModificationDate": "1499427719",
+                    "a:IconMode": "-1",
+                    "a:Rect": "((-49985,3727), (-22227,9275))",
+                    "a:LineColor": "12615680",
+                    "a:FillColor": "16570034",
+                    "a:ShadowColor": "12632256",
+                    "a:FontList": "STRN 0 新宋体,8,N\nDISPNAME 0 新宋体,8,N\nOWNRDISPNAME 0 新宋体,8,N\nColumns 0 新宋体,8,N\nTablePkColumns 0 新宋体,8,U\nTableFkColumns 0 新宋体,8,N\nKeys 0 新宋体,8,N\nIndexes 0 新宋体,8,N\nTriggers 0 新宋体,8,N\nLABL 0 新宋体,8,N",
+                    "a:BrushStyle": "6",
+                    "a:GradientFillMode": "65",
+                    "a:GradientEndColor": "16777215",
+                    "c:Object": {
+                      "o:Table": {
+                        "Ref": "o41"
+                      }
+                    }
+                  },
+                  {
+                    "Id": "o19",
+                    "a:ModificationDate": "1499427633",
+                    "a:IconMode": "-1",
+                    "a:Rect": "((-29282,21226), (-8864,31724))",
+                    "a:LineColor": "12615680",
+                    "a:FillColor": "16570034",
+                    "a:ShadowColor": "12632256",
+                    "a:FontList": "STRN 0 新宋体,8,N\nDISPNAME 0 新宋体,8,N\nOWNRDISPNAME 0 新宋体,8,N\nColumns 0 新宋体,8,N\nTablePkColumns 0 新宋体,8,U\nTableFkColumns 0 新宋体,8,N\nKeys 0 新宋体,8,N\nIndexes 0 新宋体,8,N\nTriggers 0 新宋体,8,N\nLABL 0 新宋体,8,N",
+                    "a:BrushStyle": "6",
+                    "a:GradientFillMode": "65",
+                    "a:GradientEndColor": "16777215",
+                    "c:Object": {
+                      "o:Table": {
+                        "Ref": "o42"
+                      }
+                    }
+                  },
+                  {
+                    "Id": "o16",
+                    "a:ModificationDate": "1499427753",
+                    "a:IconMode": "-1",
+                    "a:Rect": "((7204,-17741), (22988,-13741))",
+                    "a:LineColor": "12615680",
+                    "a:FillColor": "16570034",
+                    "a:ShadowColor": "12632256",
+                    "a:FontList": "STRN 0 新宋体,8,N\nDISPNAME 0 新宋体,8,N\nOWNRDISPNAME 0 新宋体,8,N\nColumns 0 新宋体,8,N\nTablePkColumns 0 新宋体,8,U\nTableFkColumns 0 新宋体,8,N\nKeys 0 新宋体,8,N\nIndexes 0 新宋体,8,N\nTriggers 0 新宋体,8,N\nLABL 0 新宋体,8,N",
+                    "a:BrushStyle": "6",
+                    "a:GradientFillMode": "65",
+                    "a:GradientEndColor": "16777215",
+                    "c:Object": {
+                      "o:Table": {
+                        "Ref": "o43"
+                      }
+                    }
+                  },
+                  {
+                    "Id": "o7",
+                    "a:ModificationDate": "1499427744",
+                    "a:IconMode": "-1",
+                    "a:Rect": "((-35121,-12771), (-17406,-7223))",
+                    "a:LineColor": "12615680",
+                    "a:FillColor": "16570034",
+                    "a:ShadowColor": "12632256",
+                    "a:FontList": "STRN 0 新宋体,8,N\nDISPNAME 0 新宋体,8,N\nOWNRDISPNAME 0 新宋体,8,N\nColumns 0 新宋体,8,N\nTablePkColumns 0 新宋体,8,U\nTableFkColumns 0 新宋体,8,N\nKeys 0 新宋体,8,N\nIndexes 0 新宋体,8,N\nTriggers 0 新宋体,8,N\nLABL 0 新宋体,8,N",
+                    "a:BrushStyle": "6",
+                    "a:GradientFillMode": "65",
+                    "a:GradientEndColor": "16777215",
+                    "c:Object": {
+                      "o:Table": {
+                        "Ref": "o44"
+                      }
+                    }
+                  },
+                  {
+                    "Id": "o22",
+                    "a:ModificationDate": "1499427742",
+                    "a:IconMode": "-1",
+                    "a:Rect": "((-23503,-30792), (-7719,-26792))",
+                    "a:LineColor": "12615680",
+                    "a:FillColor": "16570034",
+                    "a:ShadowColor": "12632256",
+                    "a:FontList": "STRN 0 新宋体,8,N\nDISPNAME 0 新宋体,8,N\nOWNRDISPNAME 0 新宋体,8,N\nColumns 0 新宋体,8,N\nTablePkColumns 0 新宋体,8,U\nTableFkColumns 0 新宋体,8,N\nKeys 0 新宋体,8,N\nIndexes 0 新宋体,8,N\nTriggers 0 新宋体,8,N\nLABL 0 新宋体,8,N",
+                    "a:BrushStyle": "6",
+                    "a:GradientFillMode": "65",
+                    "a:GradientEndColor": "16777215",
+                    "c:Object": {
+                      "o:Table": {
+                        "Ref": "o45"
+                      }
+                    }
+                  },
+                  {
+                    "Id": "o46",
+                    "a:ModificationDate": "1499427757",
+                    "a:IconMode": "-1",
+                    "a:Rect": "((28059,-19217), (43071,-15218))",
+                    "a:LineColor": "12615680",
+                    "a:FillColor": "16570034",
+                    "a:ShadowColor": "12632256",
+                    "a:FontList": "STRN 0 新宋体,8,N\nDISPNAME 0 新宋体,8,N\nOWNRDISPNAME 0 新宋体,8,N\nColumns 0 新宋体,8,N\nTablePkColumns 0 新宋体,8,U\nTableFkColumns 0 新宋体,8,N\nKeys 0 新宋体,8,N\nIndexes 0 新宋体,8,N\nTriggers 0 新宋体,8,N\nLABL 0 新宋体,8,N",
+                    "a:BrushStyle": "6",
+                    "a:GradientFillMode": "65",
+                    "a:GradientEndColor": "16777215",
+                    "c:Object": {
+                      "o:Table": {
+                        "Ref": "o47"
+                      }
+                    }
+                  },
+                  {
+                    "Id": "o13",
+                    "a:ModificationDate": "1499427736",
+                    "a:IconMode": "-1",
+                    "a:Rect": "((-6525,-25571), (15439,-20847))",
+                    "a:LineColor": "12615680",
+                    "a:FillColor": "16570034",
+                    "a:ShadowColor": "12632256",
+                    "a:FontList": "STRN 0 新宋体,8,N\nDISPNAME 0 新宋体,8,N\nOWNRDISPNAME 0 新宋体,8,N\nColumns 0 新宋体,8,N\nTablePkColumns 0 新宋体,8,U\nTableFkColumns 0 新宋体,8,N\nKeys 0 新宋体,8,N\nIndexes 0 新宋体,8,N\nTriggers 0 新宋体,8,N\nLABL 0 新宋体,8,N",
+                    "a:BrushStyle": "6",
+                    "a:GradientFillMode": "65",
+                    "a:GradientEndColor": "16777215",
+                    "c:Object": {
+                      "o:Table": {
+                        "Ref": "o48"
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "c:DefaultDiagram": {
+            "o:PhysicalDiagram": {
+              "Ref": "o4"
+            }
+          },
+          "c:Tables": {
+            "o:Table": [
+              {
+                "Id": "o33",
+                "a:ObjectID": "2D392E2D-0CC7-4D81-A291-92E8B5290962",
+                "a:Name": "用户",
+                "a:Code": "HM_USER",
+                "a:CreationDate": "1498990741",
+                "a:Creator": "hm20160509",
+                "a:ModificationDate": "1498998759",
+                "a:Modifier": "xjq",
+                "a:ServerCheckExpression": "\"ID\" IS NOT NULL",
+                "a:CheckConstraintName": "SYS_C009059",
+                "a:TotalSavingCurrency": {},
+                "c:ExtendedCollections": {
+                  "o:ExtendedCollection": {
+                    "Id": "o49",
+                    "a:ObjectID": "26849FD0-5DC4-418A-8674-DCAB9D922452",
+                    "a:Name": "Related Columns",
+                    "a:ExtendedBaseCollection.CollectionName": "Related Columns",
+                    "a:CreationDate": "1498995494",
+                    "a:Creator": "xjq",
+                    "a:ModificationDate": "1498995494",
+                    "a:Modifier": "xjq"
+                  }
+                },
+                "c:Columns": {
+                  "o:Column": [
+                    {
+                      "Id": "o50",
+                      "a:ObjectID": "F1D9F79E-6AE9-47E8-BB8F-9D2E28534146",
+                      "a:Name": "用户ID",
+                      "a:Code": "ID",
+                      "a:CreationDate": "1498990741",
+                      "a:Creator": "hm20160509",
+                      "a:ModificationDate": "1498990893",
+                      "a:Modifier": "hm20160509",
+                      "a:DataType": "VARCHAR2(128CHAR)",
+                      "a:Length": "128",
+                      "a:Column.Mandatory": "1"
+                    },
+                    {
+                      "Id": "o51",
+                      "a:ObjectID": "170A4473-36CC-47E1-96C3-F238F8132AA4",
+                      "a:Name": "用户名字",
+                      "a:Code": "USERBANE",
+                      "a:CreationDate": "1498990741",
+                      "a:Creator": "hm20160509",
+                      "a:ModificationDate": "1498995491",
+                      "a:Modifier": "xjq",
+                      "a:DataType": "VARCHAR2(256CHAR)",
+                      "a:Length": "256"
+                    },
+                    {
+                      "Id": "o52",
+                      "a:ObjectID": "70EC38C6-4AE4-4E79-BA72-29DA2FE50782",
+                      "a:Name": "登录ID",
+                      "a:Code": "LOGINID",
+                      "a:CreationDate": "1498990741",
+                      "a:Creator": "hm20160509",
+                      "a:ModificationDate": "1498995491",
+                      "a:Modifier": "xjq",
+                      "a:DataType": "VARCHAR2(256CHAR)",
+                      "a:Length": "256",
+                      "a:Column.Mandatory": "1"
+                    },
+                    {
+                      "Id": "o53",
+                      "a:ObjectID": "4FCE7185-D489-4DED-AA5F-093A4DBC1112",
+                      "a:Name": "密码",
+                      "a:Code": "PASSWORD",
+                      "a:CreationDate": "1498990741",
+                      "a:Creator": "hm20160509",
+                      "a:ModificationDate": "1498995491",
+                      "a:Modifier": "xjq",
+                      "a:DataType": "VARCHAR2(256CHAR)",
+                      "a:Length": "256"
+                    },
+                    {
+                      "Id": "o54",
+                      "a:ObjectID": "3A897125-CB02-40F5-9BB1-62A9B06553E0",
+                      "a:Name": "联系电话",
+                      "a:Code": "MOBILE",
+                      "a:CreationDate": "1498990741",
+                      "a:Creator": "hm20160509",
+                      "a:ModificationDate": "1498995491",
+                      "a:Modifier": "xjq",
+                      "a:DataType": "VARCHAR2(16CHAR)",
+                      "a:Length": "16"
+                    },
+                    {
+                      "Id": "o55",
+                      "a:ObjectID": "48B9C079-3CCA-4886-9543-3AE764998E9A",
+                      "a:Name": "邮箱",
+                      "a:Code": "EMAIL",
+                      "a:CreationDate": "1498990741",
+                      "a:Creator": "hm20160509",
+                      "a:ModificationDate": "1498995491",
+                      "a:Modifier": "xjq",
+                      "a:DataType": "VARCHAR2(256CHAR)",
+                      "a:Length": "256"
+                    },
+                    {
+                      "Id": "o56",
+                      "a:ObjectID": "533AB6E8-A3D0-473D-9DE6-0D0CABA6731C",
+                      "a:Name": "头像",
+                      "a:Code": "AVATAR",
+                      "a:CreationDate": "1498990741",
+                      "a:Creator": "hm20160509",
+                      "a:ModificationDate": "1498995491",
+                      "a:Modifier": "xjq",
+                      "a:DataType": "VARCHAR2(1024CHAR)",
+                      "a:Length": "1024"
+                    },
+                    {
+                      "Id": "o57",
+                      "a:ObjectID": "EF44AF1F-F6B9-412F-9FF7-AAECD6B5521A",
+                      "a:Name": "创建时间",
+                      "a:Code": "CREATE_TIME",
+                      "a:CreationDate": "1498990741",
+                      "a:Creator": "hm20160509",
+                      "a:ModificationDate": "1498995491",
+                      "a:Modifier": "xjq",
+                      "a:DataType": "DATE"
+                    },
+                    {
+                      "Id": "o58",
+                      "a:ObjectID": "CD1BC772-356B-4D14-A40E-28F115F95EEC",
+                      "a:Name": "更新时间",
+                      "a:Code": "LAST_UPDATE_TIME",
+                      "a:CreationDate": "1498990741",
+                      "a:Creator": "hm20160509",
+                      "a:ModificationDate": "1498995491",
+                      "a:Modifier": "xjq",
+                      "a:DataType": "DATE"
+                    },
+                    {
+                      "Id": "o59",
+                      "a:ObjectID": "297D03AE-459D-4991-A459-3449FE893EEB",
+                      "a:Name": "最后登录时间",
+                      "a:Code": "LAST_LOGIN_TIME",
+                      "a:CreationDate": "1498990741",
+                      "a:Creator": "hm20160509",
+                      "a:ModificationDate": "1498995491",
+                      "a:Modifier": "xjq",
+                      "a:DataType": "DATE"
+                    },
+                    {
+                      "Id": "o60",
+                      "a:ObjectID": "6767F0FE-6C49-46F3-919E-D854C21FCA52",
+                      "a:Name": "安全级别",
+                      "a:Code": "SECURITY_LEVEL",
+                      "a:CreationDate": "1498990741",
+                      "a:Creator": "hm20160509",
+                      "a:ModificationDate": "1498995491",
+                      "a:Modifier": "xjq",
+                      "a:DataType": "NUMBER(11,0)",
+                      "a:Length": "11"
+                    },
+                    {
+                      "Id": "o61",
+                      "a:ObjectID": "C4BF570D-C8FC-4B72-919C-78DB3D790171",
+                      "a:Name": "类型",
+                      "a:Code": "TYPE",
+                      "a:CreationDate": "1498990741",
+                      "a:Creator": "hm20160509",
+                      "a:ModificationDate": "1498995491",
+                      "a:Modifier": "xjq",
+                      "a:Comment": "1:企业，2：代理商",
+                      "a:DataType": "NUMBER(11,0)",
+                      "a:Length": "11"
+                    }
+                  ]
+                },
+                "c:Keys": {
+                  "o:Key": {
+                    "Id": "o62",
+                    "a:ObjectID": "801A3588-19AD-42E3-B9F7-EFBF82260AC0",
+                    "a:Name": "SYS_C009077",
+                    "a:Code": "SYS_C009077",
+                    "a:CreationDate": "1498990741",
+                    "a:Creator": "hm20160509",
+                    "a:ModificationDate": "1498990741",
+                    "a:Modifier": "hm20160509",
+                    "a:ConstraintName": "SYS_C009077",
+                    "c:Key.Columns": {
+                      "o:Column": {
+                        "Ref": "o50"
+                      }
+                    }
+                  }
+                },
+                "c:PrimaryKey": {
+                  "o:Key": {
+                    "Ref": "o62"
+                  }
+                }
+              },
+              {
+                "Id": "o34",
+                "a:ObjectID": "CBBC4802-CE2B-4D17-8839-70F7C98B878F",
+                "a:Name": "身份令牌",
+                "a:Code": "AUTH_TOKEN",
+                "a:CreationDate": "1498990741",
+                "a:Creator": "hm20160509",
+                "a:ModificationDate": "1498998622",
+                "a:Modifier": "xjq",
+                "a:ServerCheckExpression": "\"ID\" IS NOT NULL",
+                "a:CheckConstraintName": "SYS_C009068",
+                "a:TotalSavingCurrency": {},
+                "c:ExtendedCollections": {
+                  "o:ExtendedCollection": {
+                    "Id": "o63",
+                    "a:ObjectID": "51EE284B-46DB-4303-BA8A-67EAF428993F",
+                    "a:Name": "Related Columns",
+                    "a:ExtendedBaseCollection.CollectionName": "Related Columns",
+                    "a:CreationDate": "1499427397",
+                    "a:Creator": "hm20160509",
+                    "a:ModificationDate": "1499427397",
+                    "a:Modifier": "hm20160509"
+                  }
+                },
+                "c:Columns": {
+                  "o:Column": [
+                    {
+                      "Id": "o64",
+                      "a:ObjectID": "5E905D42-761C-4C55-A8A6-FF1F76799F36",
+                      "a:Name": "身份令牌ID",
+                      "a:Code": "ID",
+                      "a:CreationDate": "1498990741",
+                      "a:Creator": "hm20160509",
+                      "a:ModificationDate": "1498998622",
+                      "a:Modifier": "xjq",
+                      "a:DataType": "VARCHAR2(128CHAR)",
+                      "a:Length": "128",
+                      "a:Column.Mandatory": "1"
+                    },
+                    {
+                      "Id": "o65",
+                      "a:ObjectID": "D199FEE0-F7B9-438D-BF2B-6D098DFCBE36",
+                      "a:Name": "用户ID",
+                      "a:Code": "USER_ID",
+                      "a:CreationDate": "1498990741",
+                      "a:Creator": "hm20160509",
+                      "a:ModificationDate": "1498998622",
+                      "a:Modifier": "xjq",
+                      "a:DataType": "VARCHAR2(128CHAR)",
+                      "a:Length": "128"
+                    },
+                    {
+                      "Id": "o66",
+                      "a:ObjectID": "3643827C-19B0-42F1-A8A6-D492166CFF0B",
+                      "a:Name": "令牌",
+                      "a:Code": "TOKEN",
+                      "a:CreationDate": "1498990741",
+                      "a:Creator": "hm20160509",
+                      "a:ModificationDate": "1498996918",
+                      "a:Modifier": "xjq",
+                      "a:DataType": "VARCHAR2(32CHAR)",
+                      "a:Length": "32"
+                    },
+                    {
+                      "Id": "o67",
+                      "a:ObjectID": "BD3D63C8-3964-44F3-8DFD-0D8CA0723078",
+                      "a:Name": "创建时间",
+                      "a:Code": "CREATE_TIME",
+                      "a:CreationDate": "1498990741",
+                      "a:Creator": "hm20160509",
+                      "a:ModificationDate": "1498996918",
+                      "a:Modifier": "xjq",
+                      "a:DataType": "DATE"
+                    },
+                    {
+                      "Id": "o68",
+                      "a:ObjectID": "8618AF1F-B14F-4D7F-9730-15863F5312FB",
+                      "a:Name": "有效时间",
+                      "a:Code": "VALID_TIME",
+                      "a:CreationDate": "1498990741",
+                      "a:Creator": "hm20160509",
+                      "a:ModificationDate": "1498996918",
+                      "a:Modifier": "xjq",
+                      "a:DataType": "DATE"
+                    }
+                  ]
+                },
+                "c:Keys": {
+                  "o:Key": {
+                    "Id": "o69",
+                    "a:ObjectID": "D5DB9BF4-7AE5-42FB-AE63-E291DE9A5726",
+                    "a:Name": "SYS_C009069",
+                    "a:Code": "SYS_C009069",
+                    "a:CreationDate": "1498990741",
+                    "a:Creator": "hm20160509",
+                    "a:ModificationDate": "1498990741",
+                    "a:Modifier": "hm20160509",
+                    "a:ConstraintName": "SYS_C009069",
+                    "c:Key.Columns": {
+                      "o:Column": {
+                        "Ref": "o64"
+                      }
+                    }
+                  }
+                },
+                "c:PrimaryKey": {
+                  "o:Key": {
+                    "Ref": "o69"
+                  }
+                }
+              },
+              {
+                "Id": "o35",
+                "a:ObjectID": "0CB2A695-FE69-43C6-B841-DD08FB91F12F",
+                "a:Name": "数据权限",
+                "a:Code": "DATA_AUTHORITY",
+                "a:CreationDate": "1498990741",
+                "a:Creator": "hm20160509",
+                "a:ModificationDate": "1499427619",
+                "a:Modifier": "hm20160509",
+                "a:ServerCheckExpression": "\"ID\" IS NOT NULL",
+                "a:CheckConstraintName": "SYS_C009070",
+                "a:TotalSavingCurrency": {},
+                "c:Columns": {
+                  "o:Column": [
+                    {
+                      "Id": "o70",
+                      "a:ObjectID": "7F8DA82B-7FBA-4D70-9807-1D427511329C",
+                      "a:Name": "数据权限ID",
+                      "a:Code": "ID",
+                      "a:CreationDate": "1498990741",
+                      "a:Creator": "hm20160509",
+                      "a:ModificationDate": "1499427619",
+                      "a:Modifier": "hm20160509",
+                      "a:DataType": "VARCHAR2(128BYTE)",
+                      "a:Length": "128",
+                      "a:Column.Mandatory": "1"
+                    },
+                    {
+                      "Id": "o71",
+                      "a:ObjectID": "FCC70779-9B7A-4916-A1B7-0F504FFCF0D5",
+                      "a:Name": "角色ID",
+                      "a:Code": "ROLE_ID",
+                      "a:CreationDate": "1498990741",
+                      "a:Creator": "hm20160509",
+                      "a:ModificationDate": "1498998676",
+                      "a:Modifier": "xjq",
+                      "a:DataType": "VARCHAR2(128BYTE)",
+                      "a:Length": "128"
+                    },
+                    {
+                      "Id": "o72",
+                      "a:ObjectID": "9609F993-E5EB-4360-B61F-5C532FCB94B9",
+                      "a:Name": "部门范围",
+                      "a:Code": "DEPARTMENT_RANGE",
+                      "a:CreationDate": "1498990741",
+                      "a:Creator": "hm20160509",
+                      "a:ModificationDate": "1498996596",
+                      "a:Modifier": "xjq",
+                      "a:DataType": "NUMBER"
+                    },
+                    {
+                      "Id": "o73",
+                      "a:ObjectID": "340A2AC1-E88B-4F35-A486-A724ABA91450",
+                      "a:Name": "业务场景定义ID",
+                      "a:Code": "BUSINESS_SCENE_DEFINITION_ID",
+                      "a:CreationDate": "1498990741",
+                      "a:Creator": "hm20160509",
+                      "a:ModificationDate": "1498996596",
+                      "a:Modifier": "xjq",
+                      "a:DataType": "VARCHAR2(32BYTE)",
+                      "a:Length": "32"
+                    },
+                    {
+                      "Id": "o74",
+                      "a:ObjectID": "DDB3D979-F6D6-497D-BC87-8FB31523DB97",
+                      "a:Name": "操作",
+                      "a:Code": "OPERATION",
+                      "a:CreationDate": "1498990741",
+                      "a:Creator": "hm20160509",
+                      "a:ModificationDate": "1498996596",
+                      "a:Modifier": "xjq",
+                      "a:DataType": "VARCHAR2(8BYTE)",
+                      "a:Length": "8"
+                    },
+                    {
+                      "Id": "o75",
+                      "a:ObjectID": "416078B1-0911-40BC-BF7C-4D2E04508D66",
+                      "a:Name": "创建时间",
+                      "a:Code": "CREATE_TIME",
+                      "a:CreationDate": "1498990741",
+                      "a:Creator": "hm20160509",
+                      "a:ModificationDate": "1498996596",
+                      "a:Modifier": "xjq",
+                      "a:DataType": "DATE"
+                    }
+                  ]
+                },
+                "c:Keys": {
+                  "o:Key": {
+                    "Id": "o76",
+                    "a:ObjectID": "69122A9D-A165-4232-AEC5-88F9B5B794FD",
+                    "a:Name": "SYS_C009071",
+                    "a:Code": "SYS_C009071",
+                    "a:CreationDate": "1498990741",
+                    "a:Creator": "hm20160509",
+                    "a:ModificationDate": "1498990741",
+                    "a:Modifier": "hm20160509",
+                    "a:ConstraintName": "SYS_C009071",
+                    "c:Key.Columns": {
+                      "o:Column": {
+                        "Ref": "o70"
+                      }
+                    }
+                  }
+                },
+                "c:PrimaryKey": {
+                  "o:Key": {
+                    "Ref": "o76"
+                  }
+                }
+              },
+              {
+                "Id": "o37",
+                "a:ObjectID": "6062C0BC-90B5-4920-B978-FD89AA70BBE2",
+                "a:Name": "部门类型",
+                "a:Code": "DEPARTMENT_TYPE",
+                "a:CreationDate": "1498990741",
+                "a:Creator": "hm20160509",
+                "a:ModificationDate": "1498997187",
+                "a:Modifier": "xjq",
+                "a:ServerCheckExpression": "\"ID\" IS NOT NULL",
+                "a:CheckConstraintName": "SYS_C009061",
+                "a:TotalSavingCurrency": {},
+                "c:Columns": {
+                  "o:Column": [
+                    {
+                      "Id": "o77",
+                      "a:ObjectID": "F19D7A54-48A2-4246-AC88-4FD7D1B7F256",
+                      "a:Name": "部门类型ID",
+                      "a:Code": "ID",
+                      "a:CreationDate": "1498990741",
+                      "a:Creator": "hm20160509",
+                      "a:ModificationDate": "1498997187",
+                      "a:Modifier": "xjq",
+                      "a:DataType": "VARCHAR2(128CHAR)",
+                      "a:Length": "128",
+                      "a:Column.Mandatory": "1"
+                    },
+                    {
+                      "Id": "o78",
+                      "a:ObjectID": "41CEC811-EF38-4896-879B-DD7158D7895E",
+                      "a:Name": "姓名",
+                      "a:Code": "NAME",
+                      "a:CreationDate": "1498990741",
+                      "a:Creator": "hm20160509",
+                      "a:ModificationDate": "1498997187",
+                      "a:Modifier": "xjq",
+                      "a:DataType": "VARCHAR2(32CHAR)",
+                      "a:Length": "32"
+                    },
+                    {
+                      "Id": "o79",
+                      "a:ObjectID": "0AA415F1-EAF4-4510-A934-1DC6AE681FE1",
+                      "a:Name": "创建时间",
+                      "a:Code": "CREATE_TIME",
+                      "a:CreationDate": "1498990741",
+                      "a:Creator": "hm20160509",
+                      "a:ModificationDate": "1498997187",
+                      "a:Modifier": "xjq",
+                      "a:DataType": "DATE"
+                    },
+                    {
+                      "Id": "o80",
+                      "a:ObjectID": "03E5C45E-1E68-4954-AF54-59D88BF26868",
+                      "a:Name": "描述",
+                      "a:Code": "DESCRIPTION",
+                      "a:CreationDate": "1498990741",
+                      "a:Creator": "hm20160509",
+                      "a:ModificationDate": "1498997187",
+                      "a:Modifier": "xjq",
+                      "a:DataType": "VARCHAR2(1024CHAR)",
+                      "a:Length": "1024"
+                    }
+                  ]
+                },
+                "c:Keys": {
+                  "o:Key": {
+                    "Id": "o81",
+                    "a:ObjectID": "222E617B-11F3-45AF-8BC5-03B524CD7947",
+                    "a:Name": "SYS_C009073",
+                    "a:Code": "SYS_C009073",
+                    "a:CreationDate": "1498990741",
+                    "a:Creator": "hm20160509",
+                    "a:ModificationDate": "1498990741",
+                    "a:Modifier": "hm20160509",
+                    "a:ConstraintName": "SYS_C009073",
+                    "c:Key.Columns": {
+                      "o:Column": {
+                        "Ref": "o77"
+                      }
+                    }
+                  }
+                },
+                "c:PrimaryKey": {
+                  "o:Key": {
+                    "Ref": "o81"
+                  }
+                }
+              },
+              {
+                "Id": "o39",
+                "a:ObjectID": "5724BC2C-C188-42D7-8055-3FD64E43E169",
+                "a:Name": "部门",
+                "a:Code": "DEPARTMENT",
+                "a:CreationDate": "1498990741",
+                "a:Creator": "hm20160509",
+                "a:ModificationDate": "1498995908",
+                "a:Modifier": "xjq",
+                "a:ServerCheckExpression": "\"ID\" IS NOT NULL",
+                "a:CheckConstraintName": "SYS_C009062",
+                "a:TotalSavingCurrency": {},
+                "c:ExtendedCollections": {
+                  "o:ExtendedCollection": {
+                    "Id": "o82",
+                    "a:ObjectID": "CF56BBB2-C224-4E3A-B579-F8839A3EF600",
+                    "a:Name": "Related Columns",
+                    "a:ExtendedBaseCollection.CollectionName": "Related Columns",
+                    "a:CreationDate": "1498995921",
+                    "a:Creator": "xjq",
+                    "a:ModificationDate": "1498995921",
+                    "a:Modifier": "xjq"
+                  }
+                },
+                "c:Columns": {
+                  "o:Column": [
+                    {
+                      "Id": "o83",
+                      "a:ObjectID": "6E455FB5-3B1F-4704-97BE-2C15043C9202",
+                      "a:Name": "部门ID",
+                      "a:Code": "ID",
+                      "a:CreationDate": "1498990741",
+                      "a:Creator": "hm20160509",
+                      "a:ModificationDate": "1498995908",
+                      "a:Modifier": "xjq",
+                      "a:DataType": "VARCHAR2(128CHAR)",
+                      "a:Length": "128",
+                      "a:Column.Mandatory": "1"
+                    },
+                    {
+                      "Id": "o84",
+                      "a:ObjectID": "C6C2B2B5-0C34-42D0-A3B4-CCFCD50A51A7",
+                      "a:Name": "父部门ID",
+                      "a:Code": "PARENT_DEPARTMENT_ID",
+                      "a:CreationDate": "1498990741",
+                      "a:Creator": "hm20160509",
+                      "a:ModificationDate": "1498995908",
+                      "a:Modifier": "xjq",
+                      "a:DataType": "VARCHAR2(128CHAR)",
+                      "a:Length": "128"
+                    },
+                    {
+                      "Id": "o85",
+                      "a:ObjectID": "C4D0454A-7630-4B1F-99F5-3E04438C57F7",
+                      "a:Name": "编码",
+                      "a:Code": "CODE",
+                      "a:CreationDate": "1498990741",
+                      "a:Creator": "hm20160509",
+                      "a:ModificationDate": "1498995908",
+                      "a:Modifier": "xjq",
+                      "a:DataType": "VARCHAR2(128CHAR)",
+                      "a:Length": "128"
+                    },
+                    {
+                      "Id": "o86",
+                      "a:ObjectID": "B94E2986-8E2F-4ECB-9674-AB4A7398F0AA",
+                      "a:Name": "名字",
+                      "a:Code": "NAME",
+                      "a:CreationDate": "1498990741",
+                      "a:Creator": "hm20160509",
+                      "a:ModificationDate": "1498995908",
+                      "a:Modifier": "xjq",
+                      "a:DataType": "VARCHAR2(128CHAR)",
+                      "a:Length": "128"
+                    },
+                    {
+                      "Id": "o87",
+                      "a:ObjectID": "AE5B2A0F-32FC-441F-8583-767097C693BC",
+                      "a:Name": "描述",
+                      "a:Code": "DESCRIPTION",
+                      "a:CreationDate": "1498990741",
+                      "a:Creator": "hm20160509",
+                      "a:ModificationDate": "1498995908",
+                      "a:Modifier": "xjq",
+                      "a:DataType": "VARCHAR2(128CHAR)",
+                      "a:Length": "128"
+                    },
+                    {
+                      "Id": "o88",
+                      "a:ObjectID": "1FBB3116-4DF4-4B1A-B280-391CF2A55716",
+                      "a:Name": "可看订单",
+                      "a:Code": "VIEW_ORDER",
+                      "a:CreationDate": "1498990741",
+                      "a:Creator": "hm20160509",
+                      "a:ModificationDate": "1498995908",
+                      "a:Modifier": "xjq",
+                      "a:DataType": "NUMBER(11,0)",
+                      "a:Length": "11"
+                    },
+                    {
+                      "Id": "o89",
+                      "a:ObjectID": "7EEC0FFD-B81A-478D-B86A-57DB2E89E3E7",
+                      "a:Name": "部门类型ID",
+                      "a:Code": "DEPARTMENT_TYPE_ID",
+                      "a:CreationDate": "1498990741",
+                      "a:Creator": "hm20160509",
+                      "a:ModificationDate": "1498995908",
+                      "a:Modifier": "xjq",
+                      "a:DataType": "VARCHAR2(128CHAR)",
+                      "a:Length": "128"
+                    },
+                    {
+                      "Id": "o90",
+                      "a:ObjectID": "8D40CFC6-4A51-45D8-AF8F-6D6950509AEB",
+                      "a:Name": "创建时间",
+                      "a:Code": "CREATE_TIME",
+                      "a:CreationDate": "1498990741",
+                      "a:Creator": "hm20160509",
+                      "a:ModificationDate": "1498995908",
+                      "a:Modifier": "xjq",
+                      "a:DataType": "DATE"
+                    },
+                    {
+                      "Id": "o91",
+                      "a:ObjectID": "358DA528-B5CE-41DA-9DAF-894C05CBE361",
+                      "a:Name": "最后更新时间",
+                      "a:Code": "LAST_UPDATE_TIME",
+                      "a:CreationDate": "1498990741",
+                      "a:Creator": "hm20160509",
+                      "a:ModificationDate": "1498995908",
+                      "a:Modifier": "xjq",
+                      "a:DataType": "DATE"
+                    },
+                    {
+                      "Id": "o92",
+                      "a:ObjectID": "52ACC6E1-AAE1-48E9-A16C-C654271A223D",
+                      "a:Name": "安全等级",
+                      "a:Code": "SECURITY_LEVEL",
+                      "a:CreationDate": "1498990741",
+                      "a:Creator": "hm20160509",
+                      "a:ModificationDate": "1498995908",
+                      "a:Modifier": "xjq",
+                      "a:DataType": "NUMBER(11,0)",
+                      "a:Length": "11"
+                    },
+                    {
+                      "Id": "o93",
+                      "a:ObjectID": "002BEE34-6D30-4916-A3F1-C59C93E1C09A",
+                      "a:Name": "简称",
+                      "a:Code": "SIMPLE_NAME",
+                      "a:CreationDate": "1498990741",
+                      "a:Creator": "hm20160509",
+                      "a:ModificationDate": "1498995908",
+                      "a:Modifier": "xjq",
+                      "a:DataType": "VARCHAR2(128CHAR)",
+                      "a:Length": "128"
+                    }
+                  ]
+                },
+                "c:Keys": {
+                  "o:Key": {
+                    "Id": "o94",
+                    "a:ObjectID": "F77610FE-9D62-44DA-9E15-090FE6640941",
+                    "a:Name": "SYS_C009072",
+                    "a:Code": "SYS_C009072",
+                    "a:CreationDate": "1498990741",
+                    "a:Creator": "hm20160509",
+                    "a:ModificationDate": "1498990741",
+                    "a:Modifier": "hm20160509",
+                    "a:ConstraintName": "SYS_C009072",
+                    "c:Key.Columns": {
+                      "o:Column": {
+                        "Ref": "o83"
+                      }
+                    }
+                  }
+                },
+                "c:PrimaryKey": {
+                  "o:Key": {
+                    "Ref": "o94"
+                  }
+                }
+              },
+              {
+                "Id": "o40",
+                "a:ObjectID": "57F212E4-8956-48B0-9D54-504E16249324",
+                "a:Name": "文件权限",
+                "a:Code": "FILE_AUTHORITY",
+                "a:CreationDate": "1498990741",
+                "a:Creator": "hm20160509",
+                "a:ModificationDate": "1499427533",
+                "a:Modifier": "hm20160509",
+                "a:ServerCheckExpression": "\"ID\" IS NOT NULL",
+                "a:CheckConstraintName": "SYS_C009063",
+                "a:TotalSavingCurrency": {},
+                "c:Columns": {
+                  "o:Column": [
+                    {
+                      "Id": "o95",
+                      "a:ObjectID": "9A06613E-2188-4180-99A3-46851E4F184B",
+                      "a:Name": "文件权限ID",
+                      "a:Code": "ID",
+                      "a:CreationDate": "1498990741",
+                      "a:Creator": "hm20160509",
+                      "a:ModificationDate": "1499427533",
+                      "a:Modifier": "hm20160509",
+                      "a:DataType": "VARCHAR2(128BYTE)",
+                      "a:Length": "128",
+                      "a:Column.Mandatory": "1"
+                    },
+                    {
+                      "Id": "o96",
+                      "a:ObjectID": "8C310FDB-6CF6-4ABA-9550-B1090E6AC4D2",
+                      "a:Name": "角色ID",
+                      "a:Code": "ROLE_ID",
+                      "a:CreationDate": "1498990741",
+                      "a:Creator": "hm20160509",
+                      "a:ModificationDate": "1498998494",
+                      "a:Modifier": "xjq",
+                      "a:DataType": "VARCHAR2(128BYTE)",
+                      "a:Length": "128"
+                    },
+                    {
+                      "Id": "o97",
+                      "a:ObjectID": "C8E550B4-F0AC-4CE5-A5B1-87DFF751F70F",
+                      "a:Name": "操作",
+                      "a:Code": "OPERATION",
+                      "a:CreationDate": "1498990741",
+                      "a:Creator": "hm20160509",
+                      "a:ModificationDate": "1498997274",
+                      "a:Modifier": "xjq",
+                      "a:DataType": "VARCHAR2(32BYTE)",
+                      "a:Length": "32"
+                    },
+                    {
+                      "Id": "o98",
+                      "a:ObjectID": "17F9082B-8544-4543-8F2C-3FE827849B0A",
+                      "a:Name": "创建时间",
+                      "a:Code": "CREATE_TIME",
+                      "a:CreationDate": "1498990741",
+                      "a:Creator": "hm20160509",
+                      "a:ModificationDate": "1498997274",
+                      "a:Modifier": "xjq",
+                      "a:DataType": "DATE"
+                    }
+                  ]
+                },
+                "c:Keys": {
+                  "o:Key": {
+                    "Id": "o99",
+                    "a:ObjectID": "BAF18369-08F8-4435-BCDC-019690FDED17",
+                    "a:Name": "SYS_C009074",
+                    "a:Code": "SYS_C009074",
+                    "a:CreationDate": "1498990741",
+                    "a:Creator": "hm20160509",
+                    "a:ModificationDate": "1498990741",
+                    "a:Modifier": "hm20160509",
+                    "a:ConstraintName": "SYS_C009074",
+                    "c:Key.Columns": {
+                      "o:Column": {
+                        "Ref": "o95"
+                      }
+                    }
+                  }
+                },
+                "c:PrimaryKey": {
+                  "o:Key": {
+                    "Ref": "o99"
+                  }
+                }
+              },
+              {
+                "Id": "o41",
+                "a:ObjectID": "78023B65-F2E1-49F6-BA26-8E1412D4F2AC",
+                "a:Name": "功能权限",
+                "a:Code": "FUNC_AUTHORITY",
+                "a:CreationDate": "1498990741",
+                "a:Creator": "hm20160509",
+                "a:ModificationDate": "1499427567",
+                "a:Modifier": "hm20160509",
+                "a:ServerCheckExpression": "\"ID\" IS NOT NULL",
+                "a:CheckConstraintName": "SYS_C009075",
+                "a:TotalSavingCurrency": {},
+                "c:Columns": {
+                  "o:Column": [
+                    {
+                      "Id": "o100",
+                      "a:ObjectID": "ED5E05D3-29DE-4CC2-9137-5BA4279AA8B3",
+                      "a:Name": "功能权限ID",
+                      "a:Code": "ID",
+                      "a:CreationDate": "1498990741",
+                      "a:Creator": "hm20160509",
+                      "a:ModificationDate": "1499427567",
+                      "a:Modifier": "hm20160509",
+                      "a:DataType": "VARCHAR2(128CHAR)",
+                      "a:Length": "128",
+                      "a:Column.Mandatory": "1"
+                    },
+                    {
+                      "Id": "o101",
+                      "a:ObjectID": "4D473E6F-2974-4023-93C0-66D08C5F07BC",
+                      "a:Name": "角色ID",
+                      "a:Code": "ROLE_ID",
+                      "a:CreationDate": "1498990741",
+                      "a:Creator": "hm20160509",
+                      "a:ModificationDate": "1498996772",
+                      "a:Modifier": "xjq",
+                      "a:DataType": "VARCHAR2(128CHAR)",
+                      "a:Length": "128"
+                    },
+                    {
+                      "Id": "o102",
+                      "a:ObjectID": "36EB578C-A723-49DB-B8B9-A0ACB4FCDEB6",
+                      "a:Name": "业务场景定义ID",
+                      "a:Code": "BUSINESS_SCENE_DEFINITION_ID",
+                      "a:CreationDate": "1498990741",
+                      "a:Creator": "hm20160509",
+                      "a:ModificationDate": "1498996772",
+                      "a:Modifier": "xjq",
+                      "a:DataType": "VARCHAR2(128CHAR)",
+                      "a:Length": "128"
+                    },
+                    {
+                      "Id": "o103",
+                      "a:ObjectID": "832E27BC-F450-4E1E-9CC9-53F148D55F04",
+                      "a:Name": "操作",
+                      "a:Code": "OPERATION",
+                      "a:CreationDate": "1498990741",
+                      "a:Creator": "hm20160509",
+                      "a:ModificationDate": "1498996772",
+                      "a:Modifier": "xjq",
+                      "a:DataType": "VARCHAR2(8CHAR)",
+                      "a:Length": "8"
+                    },
+                    {
+                      "Id": "o104",
+                      "a:ObjectID": "97BA43A1-D054-433F-A10E-6B4EF8D6A27E",
+                      "a:Name": "创建时间",
+                      "a:Code": "CREATE_TIME",
+                      "a:CreationDate": "1498990741",
+                      "a:Creator": "hm20160509",
+                      "a:ModificationDate": "1498996772",
+                      "a:Modifier": "xjq",
+                      "a:DataType": "DATE"
+                    }
+                  ]
+                },
+                "c:Keys": {
+                  "o:Key": {
+                    "Id": "o105",
+                    "a:ObjectID": "C58B9A2C-978E-4AB6-98FA-95F08EF52068",
+                    "a:Name": "SYS_C009076",
+                    "a:Code": "SYS_C009076",
+                    "a:CreationDate": "1498990741",
+                    "a:Creator": "hm20160509",
+                    "a:ModificationDate": "1498990741",
+                    "a:Modifier": "hm20160509",
+                    "a:ConstraintName": "SYS_C009076",
+                    "c:Key.Columns": {
+                      "o:Column": {
+                        "Ref": "o100"
+                      }
+                    }
+                  }
+                },
+                "c:PrimaryKey": {
+                  "o:Key": {
+                    "Ref": "o105"
+                  }
+                }
+              },
+              {
+                "Id": "o42",
+                "a:ObjectID": "3C2923ED-D2F3-4CDC-B730-AD38BD54E10E",
+                "a:Name": "菜单",
+                "a:Code": "菜单",
+                "a:CreationDate": "1498990741",
+                "a:Creator": "hm20160509",
+                "a:ModificationDate": "1498998594",
+                "a:Modifier": "xjq",
+                "a:ServerCheckExpression": "\"ID\" IS NOT NULL",
+                "a:CheckConstraintName": "SYS_C009064",
+                "a:TotalSavingCurrency": {},
+                "c:Columns": {
+                  "o:Column": [
+                    {
+                      "Id": "o106",
+                      "a:ObjectID": "2A5946FA-8107-4F63-8111-3B1BBE887524",
+                      "a:Name": "菜单ID",
+                      "a:Code": "ID",
+                      "a:CreationDate": "1498990741",
+                      "a:Creator": "hm20160509",
+                      "a:ModificationDate": "1498996270",
+                      "a:Modifier": "xjq",
+                      "a:DataType": "VARCHAR2(128CHAR)",
+                      "a:Length": "128",
+                      "a:Column.Mandatory": "1"
+                    },
+                    {
+                      "Id": "o107",
+                      "a:ObjectID": "89FFCF79-C3B4-4E92-B9DA-12FD253E30DC",
+                      "a:Name": "名字",
+                      "a:Code": "NAME",
+                      "a:CreationDate": "1498990741",
+                      "a:Creator": "hm20160509",
+                      "a:ModificationDate": "1498996270",
+                      "a:Modifier": "xjq",
+                      "a:DataType": "VARCHAR2(16CHAR)",
+                      "a:Length": "16"
+                    },
+                    {
+                      "Id": "o108",
+                      "a:ObjectID": "97D1AC79-772A-4BA8-A7F0-F9FE28E3EFCF",
+                      "a:Name": "菜单图标",
+                      "a:Code": "MENU_LOGO",
+                      "a:CreationDate": "1498990741",
+                      "a:Creator": "hm20160509",
+                      "a:ModificationDate": "1498996270",
+                      "a:Modifier": "xjq",
+                      "a:DataType": "VARCHAR2(64CHAR)",
+                      "a:Length": "64"
+                    },
+                    {
+                      "Id": "o109",
+                      "a:ObjectID": "CFE7E98D-0924-481C-A240-41543E00AE71",
+                      "a:Name": "上级菜单ID",
+                      "a:Code": "SUPERIOR_MENU_ID",
+                      "a:CreationDate": "1498990741",
+                      "a:Creator": "hm20160509",
+                      "a:ModificationDate": "1498996270",
+                      "a:Modifier": "xjq",
+                      "a:DataType": "VARCHAR2(128CHAR)",
+                      "a:Length": "128"
+                    },
+                    {
+                      "Id": "o110",
+                      "a:ObjectID": "693766A6-08EE-4E62-9409-A50A37A9CA36",
+                      "a:Name": "等级",
+                      "a:Code": "RANK",
+                      "a:CreationDate": "1498990741",
+                      "a:Creator": "hm20160509",
+                      "a:ModificationDate": "1498996270",
+                      "a:Modifier": "xjq",
+                      "a:DataType": "NUMBER(11,0)",
+                      "a:Length": "11"
+                    },
+                    {
+                      "Id": "o111",
+                      "a:ObjectID": "C9634430-1566-44AE-A6CD-EB7B7F23AF59",
+                      "a:Name": "创建时间",
+                      "a:Code": "CREATE_TIME",
+                      "a:CreationDate": "1498990741",
+                      "a:Creator": "hm20160509",
+                      "a:ModificationDate": "1498996270",
+                      "a:Modifier": "xjq",
+                      "a:DataType": "DATE"
+                    },
+                    {
+                      "Id": "o112",
+                      "a:ObjectID": "DDF6CF13-AF8F-47D7-A500-80CADA6CC38E",
+                      "a:Name": "展示位置",
+                      "a:Code": "DISPLAY_POSITION",
+                      "a:CreationDate": "1498990741",
+                      "a:Creator": "hm20160509",
+                      "a:ModificationDate": "1498996270",
+                      "a:Modifier": "xjq",
+                      "a:DataType": "NUMBER(11,0)",
+                      "a:Length": "11"
+                    },
+                    {
+                      "Id": "o113",
+                      "a:ObjectID": "0DBEC3D2-6328-4E57-95E8-59A296F67F0D",
+                      "a:Name": "链接",
+                      "a:Code": "LINK",
+                      "a:CreationDate": "1498990741",
+                      "a:Creator": "hm20160509",
+                      "a:ModificationDate": "1498996270",
+                      "a:Modifier": "xjq",
+                      "a:DataType": "VARCHAR2(255BYTE)",
+                      "a:Length": "255"
+                    },
+                    {
+                      "Id": "o114",
+                      "a:ObjectID": "FB047FD9-385E-4BEC-B77B-A7B7727CD076",
+                      "a:Name": "类型",
+                      "a:Code": "TYPE",
+                      "a:CreationDate": "1498990741",
+                      "a:Creator": "hm20160509",
+                      "a:ModificationDate": "1498996270",
+                      "a:Modifier": "xjq",
+                      "a:DataType": "NUMBER(11,0)",
+                      "a:Length": "11"
+                    },
+                    {
+                      "Id": "o115",
+                      "a:ObjectID": "469DE55A-0EA7-4DEA-93BE-A17C092D6286",
+                      "a:Name": "目标ID",
+                      "a:Code": "TARGET_ID",
+                      "a:CreationDate": "1498990741",
+                      "a:Creator": "hm20160509",
+                      "a:ModificationDate": "1498997755",
+                      "a:Modifier": "xjq",
+                      "a:DataType": "VARCHAR2(255BYTE)",
+                      "a:Length": "255"
+                    },
+                    {
+                      "Id": "o116",
+                      "a:ObjectID": "B4DD2873-4B44-41C0-AC19-DBCF9D516BC4",
+                      "a:Name": "APP_URL",
+                      "a:Code": "APP_URL",
+                      "a:CreationDate": "1498990741",
+                      "a:Creator": "hm20160509",
+                      "a:ModificationDate": "1498990741",
+                      "a:Modifier": "hm20160509",
+                      "a:DataType": "VARCHAR2(255BYTE)",
+                      "a:Length": "255"
+                    }
+                  ]
+                },
+                "c:Keys": {
+                  "o:Key": {
+                    "Id": "o117",
+                    "a:ObjectID": "3A70C126-3D36-4C68-A70B-175921A9D9B7",
+                    "a:Name": "SYS_C009078",
+                    "a:Code": "SYS_C009078",
+                    "a:CreationDate": "1498990741",
+                    "a:Creator": "hm20160509",
+                    "a:ModificationDate": "1498990741",
+                    "a:Modifier": "hm20160509",
+                    "a:ConstraintName": "SYS_C009078",
+                    "c:Key.Columns": {
+                      "o:Column": {
+                        "Ref": "o106"
+                      }
+                    }
+                  }
+                },
+                "c:PrimaryKey": {
+                  "o:Key": {
+                    "Ref": "o117"
+                  }
+                }
+              },
+              {
+                "Id": "o43",
+                "a:ObjectID": "A7541B94-1A65-4AB5-868C-D1839A092845",
+                "a:Name": "角色菜单",
+                "a:Code": "ROLE_MENU",
+                "a:CreationDate": "1498990741",
+                "a:Creator": "hm20160509",
+                "a:ModificationDate": "1498998594",
+                "a:Modifier": "xjq",
+                "a:TotalSavingCurrency": {},
+                "c:ExtendedCollections": {
+                  "o:ExtendedCollection": {
+                    "Id": "o118",
+                    "a:ObjectID": "518F6277-B003-4068-83E7-E8EC3EFDEC9D",
+                    "a:Name": "Related Columns",
+                    "a:ExtendedBaseCollection.CollectionName": "Related Columns",
+                    "a:CreationDate": "1498998131",
+                    "a:Creator": "xjq",
+                    "a:ModificationDate": "1498998131",
+                    "a:Modifier": "xjq"
+                  }
+                },
+                "c:Columns": {
+                  "o:Column": [
+                    {
+                      "Id": "o119",
+                      "a:ObjectID": "4884CB5B-6822-48A2-BBCD-C82BBE471E3E",
+                      "a:Name": "角色ID",
+                      "a:Code": "ROLE_ID",
+                      "a:CreationDate": "1498990741",
+                      "a:Creator": "hm20160509",
+                      "a:ModificationDate": "1498998570",
+                      "a:Modifier": "xjq",
+                      "a:DataType": "VARCHAR2(120CHAR)",
+                      "a:Length": "120"
+                    },
+                    {
+                      "Id": "o120",
+                      "a:ObjectID": "CF06209D-971F-4C92-A8EC-404739931940",
+                      "a:Name": "菜单ID",
+                      "a:Code": "MENU_ID",
+                      "a:CreationDate": "1498990741",
+                      "a:Creator": "hm20160509",
+                      "a:ModificationDate": "1498998594",
+                      "a:Modifier": "xjq",
+                      "a:DataType": "VARCHAR2(120CHAR)",
+                      "a:Length": "120"
+                    }
+                  ]
+                }
+              },
+              {
+                "Id": "o44",
+                "a:ObjectID": "9B1AD227-703D-4FBA-9A00-0D02B46DA531",
+                "a:Name": "角色",
+                "a:Code": "ROLE",
+                "a:CreationDate": "1498990741",
+                "a:Creator": "hm20160509",
+                "a:ModificationDate": "1498998676",
+                "a:Modifier": "xjq",
+                "a:ServerCheckExpression": "\"ID\" IS NOT NULL",
+                "a:CheckConstraintName": "SYS_C009065",
+                "a:TotalSavingCurrency": {},
+                "c:Columns": {
+                  "o:Column": [
+                    {
+                      "Id": "o121",
+                      "a:ObjectID": "CA07FD87-6034-4C83-B2E0-9304A1D14E31",
+                      "a:Name": "角色ID",
+                      "a:Code": "ID",
+                      "a:CreationDate": "1498990741",
+                      "a:Creator": "hm20160509",
+                      "a:ModificationDate": "1498997012",
+                      "a:Modifier": "xjq",
+                      "a:DataType": "VARCHAR2(128CHAR)",
+                      "a:Length": "128",
+                      "a:Column.Mandatory": "1"
+                    },
+                    {
+                      "Id": "o122",
+                      "a:ObjectID": "E9AC3A9C-D43B-4384-A7EE-05E60BF711A7",
+                      "a:Name": "姓名",
+                      "a:Code": "NAME",
+                      "a:CreationDate": "1498990741",
+                      "a:Creator": "hm20160509",
+                      "a:ModificationDate": "1498997012",
+                      "a:Modifier": "xjq",
+                      "a:DataType": "VARCHAR2(128CHAR)",
+                      "a:Length": "128"
+                    },
+                    {
+                      "Id": "o123",
+                      "a:ObjectID": "A99D5EAB-FE49-4D56-94EE-0CAB2FEC3788",
+                      "a:Name": "描述",
+                      "a:Code": "DESCRIPTION",
+                      "a:CreationDate": "1498990741",
+                      "a:Creator": "hm20160509",
+                      "a:ModificationDate": "1498997012",
+                      "a:Modifier": "xjq",
+                      "a:DataType": "CLOB"
+                    },
+                    {
+                      "Id": "o124",
+                      "a:ObjectID": "4B3D418C-C2C3-4785-A68A-C54918DE9160",
+                      "a:Name": "创建时间",
+                      "a:Code": "CREATE_TIME",
+                      "a:CreationDate": "1498990741",
+                      "a:Creator": "hm20160509",
+                      "a:ModificationDate": "1498997012",
+                      "a:Modifier": "xjq",
+                      "a:DataType": "DATE"
+                    },
+                    {
+                      "Id": "o125",
+                      "a:ObjectID": "06523D0E-DAF6-4172-AF06-B3B6240EB8CB",
+                      "a:Name": "等级",
+                      "a:Code": "RANK",
+                      "a:CreationDate": "1498990741",
+                      "a:Creator": "hm20160509",
+                      "a:ModificationDate": "1498997012",
+                      "a:Modifier": "xjq",
+                      "a:DataType": "NUMBER"
+                    }
+                  ]
+                },
+                "c:Keys": {
+                  "o:Key": {
+                    "Id": "o126",
+                    "a:ObjectID": "1620EAEE-A6EB-4044-B2E9-C87DE5E4FA5D",
+                    "a:Name": "SYS_C009079",
+                    "a:Code": "SYS_C009079",
+                    "a:CreationDate": "1498990741",
+                    "a:Creator": "hm20160509",
+                    "a:ModificationDate": "1498990741",
+                    "a:Modifier": "hm20160509",
+                    "a:ConstraintName": "SYS_C009079",
+                    "c:Key.Columns": {
+                      "o:Column": {
+                        "Ref": "o121"
+                      }
+                    }
+                  }
+                },
+                "c:PrimaryKey": {
+                  "o:Key": {
+                    "Ref": "o126"
+                  }
+                }
+              },
+              {
+                "Id": "o45",
+                "a:ObjectID": "C52EC715-0121-40CA-A8B6-6A04C6B15BB6",
+                "a:Name": "用户角色",
+                "a:Code": "USER_ROLE",
+                "a:CreationDate": "1498990741",
+                "a:Creator": "hm20160509",
+                "a:ModificationDate": "1498998759",
+                "a:Modifier": "xjq",
+                "a:ServerCheckExpression": "\"ROLE_ID\" IS NOT NULL",
+                "a:CheckConstraintName": "SYS_C009066",
+                "a:TotalSavingCurrency": {},
+                "c:ExtendedCollections": {
+                  "o:ExtendedCollection": {
+                    "Id": "o127",
+                    "a:ObjectID": "EADABBB2-A5AD-40FD-9AC9-E6123629727A",
+                    "a:Name": "Related Columns",
+                    "a:ExtendedBaseCollection.CollectionName": "Related Columns",
+                    "a:CreationDate": "1498998315",
+                    "a:Creator": "xjq",
+                    "a:ModificationDate": "1498998315",
+                    "a:Modifier": "xjq"
+                  }
+                },
+                "c:Columns": {
+                  "o:Column": [
+                    {
+                      "Id": "o128",
+                      "a:ObjectID": "41CDBCDD-8B5A-4718-BAF3-D1D4C06E08A3",
+                      "a:Name": "角色ID",
+                      "a:Code": "ROLE_ID",
+                      "a:CreationDate": "1498990741",
+                      "a:Creator": "hm20160509",
+                      "a:ModificationDate": "1498998450",
+                      "a:Modifier": "xjq",
+                      "a:DataType": "VARCHAR2(128CHAR)",
+                      "a:Length": "128",
+                      "a:Column.Mandatory": "1"
+                    },
+                    {
+                      "Id": "o129",
+                      "a:ObjectID": "FC441BA0-581A-4BE7-AB70-B5E27F21070E",
+                      "a:Name": "用户ID",
+                      "a:Code": "USER_ID",
+                      "a:CreationDate": "1498990741",
+                      "a:Creator": "hm20160509",
+                      "a:ModificationDate": "1498998759",
+                      "a:Modifier": "xjq",
+                      "a:DataType": "VARCHAR2(128CHAR)",
+                      "a:Length": "128",
+                      "a:Column.Mandatory": "1"
+                    },
+                    {
+                      "Id": "o130",
+                      "a:ObjectID": "1AFC311D-F23B-43BE-846D-6E651F734FF2",
+                      "a:Name": "等级",
+                      "a:Code": "RANK",
+                      "a:CreationDate": "1498990741",
+                      "a:Creator": "hm20160509",
+                      "a:ModificationDate": "1498997425",
+                      "a:Modifier": "xjq",
+                      "a:DataType": "NUMBER(11,0)",
+                      "a:Length": "11"
+                    }
+                  ]
+                }
+              },
+              {
+                "Id": "o47",
+                "a:ObjectID": "8DE4BFE9-C240-4DC1-B1CC-69CE0F6C9DC0",
+                "a:Name": "公司",
+                "a:Code": "COMPANY",
+                "a:CreationDate": "1498990741",
+                "a:Creator": "hm20160509",
+                "a:ModificationDate": "1498997305",
+                "a:Modifier": "xjq",
+                "a:ServerCheckExpression": "\"ID\" IS NOT NULL",
+                "a:CheckConstraintName": "SYS_C009082",
+                "a:TotalSavingCurrency": {},
+                "c:Columns": {
+                  "o:Column": [
+                    {
+                      "Id": "o131",
+                      "a:ObjectID": "4F307C7B-FC43-40DD-B602-4D3A046E8A72",
+                      "a:Name": "公司ID",
+                      "a:Code": "ID",
+                      "a:CreationDate": "1498990741",
+                      "a:Creator": "hm20160509",
+                      "a:ModificationDate": "1498997305",
+                      "a:Modifier": "xjq",
+                      "a:DataType": "VARCHAR2(128CHAR)",
+                      "a:Length": "128",
+                      "a:Column.Mandatory": "1"
+                    },
+                    {
+                      "Id": "o132",
+                      "a:ObjectID": "38CEACFE-14A7-4E3F-A1FE-30FB4318B0AB",
+                      "a:Name": "公司名称",
+                      "a:Code": "NAME",
+                      "a:CreationDate": "1498990741",
+                      "a:Creator": "hm20160509",
+                      "a:ModificationDate": "1498997305",
+                      "a:Modifier": "xjq",
+                      "a:DataType": "VARCHAR2(128CHAR)",
+                      "a:Length": "128"
+                    }
+                  ]
+                },
+                "c:Keys": {
+                  "o:Key": {
+                    "Id": "o133",
+                    "a:ObjectID": "E0A0B681-A386-40C6-A4A5-A2FD754997CE",
+                    "a:Name": "SYS_C009083",
+                    "a:Code": "SYS_C009083",
+                    "a:CreationDate": "1498990741",
+                    "a:Creator": "hm20160509",
+                    "a:ModificationDate": "1498990741",
+                    "a:Modifier": "hm20160509",
+                    "a:ConstraintName": "SYS_C009083",
+                    "c:Key.Columns": {
+                      "o:Column": {
+                        "Ref": "o131"
+                      }
+                    }
+                  }
+                },
+                "c:PrimaryKey": {
+                  "o:Key": {
+                    "Ref": "o133"
+                  }
+                }
+              },
+              {
+                "Id": "o48",
+                "a:ObjectID": "FB1C1731-290C-4FAB-BAD3-8AB5BF11BBBC",
+                "a:Name": "简单数据权限",
+                "a:Code": "SIMPLE_DATA_AUTHORITY",
+                "a:CreationDate": "1498990741",
+                "a:Creator": "hm20160509",
+                "a:ModificationDate": "1499427666",
+                "a:Modifier": "hm20160509",
+                "a:ServerCheckExpression": "\"ID\" IS NOT NULL",
+                "a:CheckConstraintName": "SYS_C009080",
+                "a:TotalSavingCurrency": {},
+                "c:Columns": {
+                  "o:Column": [
+                    {
+                      "Id": "o134",
+                      "a:ObjectID": "4952FF2E-EE26-45F8-A551-00963BA48BAE",
+                      "a:Name": "简单数据权限ID",
+                      "a:Code": "ID",
+                      "a:CreationDate": "1498990741",
+                      "a:Creator": "hm20160509",
+                      "a:ModificationDate": "1499427666",
+                      "a:Modifier": "hm20160509",
+                      "a:DataType": "VARCHAR2(128BYTE)",
+                      "a:Length": "128",
+                      "a:Column.Mandatory": "1"
+                    },
+                    {
+                      "Id": "o135",
+                      "a:ObjectID": "EB4FF879-EFE8-4A1E-BA52-0D242638D20A",
+                      "a:Name": "角色ID",
+                      "a:Code": "ROLE_ID",
+                      "a:CreationDate": "1498990741",
+                      "a:Creator": "hm20160509",
+                      "a:ModificationDate": "1498998529",
+                      "a:Modifier": "xjq",
+                      "a:DataType": "VARCHAR2(128BYTE)",
+                      "a:Length": "128"
+                    },
+                    {
+                      "Id": "o136",
+                      "a:ObjectID": "6AE6100C-E4B7-4E65-BC44-F8CBFC9F66A4",
+                      "a:Name": "部门范围",
+                      "a:Code": "DEPARTMENT_RANGE",
+                      "a:CreationDate": "1498990741",
+                      "a:Creator": "hm20160509",
+                      "a:ModificationDate": "1498997115",
+                      "a:Modifier": "xjq",
+                      "a:DataType": "NUMBER(11,0)",
+                      "a:Length": "11"
+                    },
+                    {
+                      "Id": "o137",
+                      "a:ObjectID": "5B5B9235-DF70-48ED-A19E-9A93CC195FF8",
+                      "a:Name": "创建时间",
+                      "a:Code": "CREATE_TIME",
+                      "a:CreationDate": "1498990741",
+                      "a:Creator": "hm20160509",
+                      "a:ModificationDate": "1498997115",
+                      "a:Modifier": "xjq",
+                      "a:DataType": "DATE"
+                    }
+                  ]
+                },
+                "c:Keys": {
+                  "o:Key": {
+                    "Id": "o138",
+                    "a:ObjectID": "9543AB8F-E1AA-4D44-8EEF-B1E969670D4D",
+                    "a:Name": "SYS_C009081",
+                    "a:Code": "SYS_C009081",
+                    "a:CreationDate": "1498990741",
+                    "a:Creator": "hm20160509",
+                    "a:ModificationDate": "1498990741",
+                    "a:Modifier": "hm20160509",
+                    "a:ConstraintName": "SYS_C009081",
+                    "c:Key.Columns": {
+                      "o:Column": {
+                        "Ref": "o134"
+                      }
+                    }
+                  }
+                },
+                "c:PrimaryKey": {
+                  "o:Key": {
+                    "Ref": "o138"
+                  }
+                }
+              }
+            ]
+          },
+          "c:References": {
+            "o:Reference": [
+              {
+                "Id": "o8",
+                "a:ObjectID": "6B850C76-D272-4124-AF58-FCE4D5292A0A",
+                "a:Name": "Reference_1",
+                "a:Code": "Reference_1",
+                "a:CreationDate": "1498997686",
+                "a:Creator": "xjq",
+                "a:ModificationDate": "1498998676",
+                "a:Modifier": "xjq",
+                "a:Cardinality": "0..*",
+                "a:UpdateConstraint": "1",
+                "a:DeleteConstraint": "1",
+                "c:ParentTable": {
+                  "o:Table": {
+                    "Ref": "o44"
+                  }
+                },
+                "c:ChildTable": {
+                  "o:Table": {
+                    "Ref": "o35"
+                  }
+                },
+                "c:ParentKey": {
+                  "o:Key": {
+                    "Ref": "o126"
+                  }
+                },
+                "c:Joins": {
+                  "o:ReferenceJoin": {
+                    "Id": "o139",
+                    "a:ObjectID": "6EF48F73-0BCA-436E-88D8-635D8FDD0F62",
+                    "a:CreationDate": "1498997686",
+                    "a:Creator": "xjq",
+                    "a:ModificationDate": "1498998676",
+                    "a:Modifier": "xjq",
+                    "c:Object1": {
+                      "o:Column": {
+                        "Ref": "o121"
+                      }
+                    },
+                    "c:Object2": {
+                      "o:Column": {
+                        "Ref": "o71"
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "Id": "o11",
+                "a:ObjectID": "619FCAF9-81EA-4EAF-9377-03DEAA202225",
+                "a:Name": "Reference_2",
+                "a:Code": "Reference_2",
+                "a:CreationDate": "1498997773",
+                "a:Creator": "xjq",
+                "a:ModificationDate": "1498997773",
+                "a:Modifier": "xjq",
+                "a:Cardinality": "0..*",
+                "a:UpdateConstraint": "1",
+                "a:DeleteConstraint": "1",
+                "c:ParentTable": {
+                  "o:Table": {
+                    "Ref": "o44"
+                  }
+                },
+                "c:ChildTable": {
+                  "o:Table": {
+                    "Ref": "o41"
+                  }
+                },
+                "c:ParentKey": {
+                  "o:Key": {
+                    "Ref": "o126"
+                  }
+                },
+                "c:Joins": {
+                  "o:ReferenceJoin": {
+                    "Id": "o140",
+                    "a:ObjectID": "89E5E926-D3B7-466D-96CE-7D65375BE715",
+                    "a:CreationDate": "1498997773",
+                    "a:Creator": "xjq",
+                    "a:ModificationDate": "1498997773",
+                    "a:Modifier": "xjq",
+                    "c:Object1": {
+                      "o:Column": {
+                        "Ref": "o121"
+                      }
+                    },
+                    "c:Object2": {
+                      "o:Column": {
+                        "Ref": "o100"
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "Id": "o14",
+                "a:ObjectID": "39D8CC3D-958E-4D27-9A2D-2B1C27116207",
+                "a:Name": "Reference_3",
+                "a:Code": "Reference_3",
+                "a:CreationDate": "1498998096",
+                "a:Creator": "xjq",
+                "a:ModificationDate": "1498998529",
+                "a:Modifier": "xjq",
+                "a:Cardinality": "0..*",
+                "a:UpdateConstraint": "1",
+                "a:DeleteConstraint": "1",
+                "c:ParentTable": {
+                  "o:Table": {
+                    "Ref": "o44"
+                  }
+                },
+                "c:ChildTable": {
+                  "o:Table": {
+                    "Ref": "o48"
+                  }
+                },
+                "c:ParentKey": {
+                  "o:Key": {
+                    "Ref": "o126"
+                  }
+                },
+                "c:Joins": {
+                  "o:ReferenceJoin": {
+                    "Id": "o141",
+                    "a:ObjectID": "1DD3E520-1A8B-4C5C-AE76-05C6914250D7",
+                    "a:CreationDate": "1498998096",
+                    "a:Creator": "xjq",
+                    "a:ModificationDate": "1498998529",
+                    "a:Modifier": "xjq",
+                    "c:Object1": {
+                      "o:Column": {
+                        "Ref": "o121"
+                      }
+                    },
+                    "c:Object2": {
+                      "o:Column": {
+                        "Ref": "o135"
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "Id": "o17",
+                "a:ObjectID": "BD57A271-2AC1-465C-97B8-BCF8862D72EC",
+                "a:Name": "Reference_4",
+                "a:Code": "Reference_4",
+                "a:CreationDate": "1498998101",
+                "a:Creator": "xjq",
+                "a:ModificationDate": "1498998570",
+                "a:Modifier": "xjq",
+                "a:Cardinality": "0..*",
+                "a:UpdateConstraint": "1",
+                "a:DeleteConstraint": "1",
+                "c:ParentTable": {
+                  "o:Table": {
+                    "Ref": "o44"
+                  }
+                },
+                "c:ChildTable": {
+                  "o:Table": {
+                    "Ref": "o43"
+                  }
+                },
+                "c:ParentKey": {
+                  "o:Key": {
+                    "Ref": "o126"
+                  }
+                },
+                "c:Joins": {
+                  "o:ReferenceJoin": {
+                    "Id": "o142",
+                    "a:ObjectID": "46378097-695F-4C8E-8D92-C896822FB03C",
+                    "a:CreationDate": "1498998101",
+                    "a:Creator": "xjq",
+                    "a:ModificationDate": "1498998570",
+                    "a:Modifier": "xjq",
+                    "c:Object1": {
+                      "o:Column": {
+                        "Ref": "o121"
+                      }
+                    },
+                    "c:Object2": {
+                      "o:Column": {
+                        "Ref": "o119"
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "Id": "o20",
+                "a:ObjectID": "9344BCF6-29BD-42DA-92FE-BF9E35661C11",
+                "a:Name": "Reference_5",
+                "a:Code": "Reference_5",
+                "a:CreationDate": "1498998111",
+                "a:Creator": "xjq",
+                "a:ModificationDate": "1498998594",
+                "a:Modifier": "xjq",
+                "a:Cardinality": "0..*",
+                "a:UpdateConstraint": "1",
+                "a:DeleteConstraint": "1",
+                "c:ParentTable": {
+                  "o:Table": {
+                    "Ref": "o42"
+                  }
+                },
+                "c:ChildTable": {
+                  "o:Table": {
+                    "Ref": "o43"
+                  }
+                },
+                "c:ParentKey": {
+                  "o:Key": {
+                    "Ref": "o117"
+                  }
+                },
+                "c:Joins": {
+                  "o:ReferenceJoin": {
+                    "Id": "o143",
+                    "a:ObjectID": "65677974-068C-449E-ACAA-10D85A0F7B94",
+                    "a:CreationDate": "1498998111",
+                    "a:Creator": "xjq",
+                    "a:ModificationDate": "1498998594",
+                    "a:Modifier": "xjq",
+                    "c:Object1": {
+                      "o:Column": {
+                        "Ref": "o106"
+                      }
+                    },
+                    "c:Object2": {
+                      "o:Column": {
+                        "Ref": "o120"
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "Id": "o24",
+                "a:ObjectID": "37412958-4695-479C-814E-C0B2934AB351",
+                "a:Name": "Reference_6",
+                "a:Code": "Reference_6",
+                "a:CreationDate": "1498998191",
+                "a:Creator": "xjq",
+                "a:ModificationDate": "1498998759",
+                "a:Modifier": "xjq",
+                "a:Cardinality": "0..*",
+                "a:UpdateConstraint": "1",
+                "a:DeleteConstraint": "1",
+                "c:ParentTable": {
+                  "o:Table": {
+                    "Ref": "o33"
+                  }
+                },
+                "c:ChildTable": {
+                  "o:Table": {
+                    "Ref": "o45"
+                  }
+                },
+                "c:ParentKey": {
+                  "o:Key": {
+                    "Ref": "o62"
+                  }
+                },
+                "c:Joins": {
+                  "o:ReferenceJoin": {
+                    "Id": "o144",
+                    "a:ObjectID": "787F0907-A324-4E45-9616-985101BCCF21",
+                    "a:CreationDate": "1498998191",
+                    "a:Creator": "xjq",
+                    "a:ModificationDate": "1498998759",
+                    "a:Modifier": "xjq",
+                    "c:Object1": {
+                      "o:Column": {
+                        "Ref": "o50"
+                      }
+                    },
+                    "c:Object2": {
+                      "o:Column": {
+                        "Ref": "o129"
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "Id": "o26",
+                "a:ObjectID": "72F37BE1-8E00-43D1-9DF0-FB36C741EDAB",
+                "a:Name": "Reference_7",
+                "a:Code": "Reference_7",
+                "a:CreationDate": "1498998201",
+                "a:Creator": "xjq",
+                "a:ModificationDate": "1498998450",
+                "a:Modifier": "xjq",
+                "a:Cardinality": "0..*",
+                "a:UpdateConstraint": "1",
+                "a:DeleteConstraint": "1",
+                "c:ParentTable": {
+                  "o:Table": {
+                    "Ref": "o44"
+                  }
+                },
+                "c:ChildTable": {
+                  "o:Table": {
+                    "Ref": "o45"
+                  }
+                },
+                "c:ParentKey": {
+                  "o:Key": {
+                    "Ref": "o126"
+                  }
+                },
+                "c:Joins": {
+                  "o:ReferenceJoin": {
+                    "Id": "o145",
+                    "a:ObjectID": "47C3A31C-FD78-4985-B697-524580ADF1B9",
+                    "a:CreationDate": "1498998201",
+                    "a:Creator": "xjq",
+                    "a:ModificationDate": "1498998450",
+                    "a:Modifier": "xjq",
+                    "c:Object1": {
+                      "o:Column": {
+                        "Ref": "o121"
+                      }
+                    },
+                    "c:Object2": {
+                      "o:Column": {
+                        "Ref": "o128"
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "Id": "o29",
+                "a:ObjectID": "967F6257-8B6F-46CA-AA02-71579F332670",
+                "a:Name": "Reference_8",
+                "a:Code": "Reference_8",
+                "a:CreationDate": "1498998212",
+                "a:Creator": "xjq",
+                "a:ModificationDate": "1498998494",
+                "a:Modifier": "xjq",
+                "a:Cardinality": "0..*",
+                "a:UpdateConstraint": "1",
+                "a:DeleteConstraint": "1",
+                "c:ParentTable": {
+                  "o:Table": {
+                    "Ref": "o44"
+                  }
+                },
+                "c:ChildTable": {
+                  "o:Table": {
+                    "Ref": "o40"
+                  }
+                },
+                "c:ParentKey": {
+                  "o:Key": {
+                    "Ref": "o126"
+                  }
+                },
+                "c:Joins": {
+                  "o:ReferenceJoin": {
+                    "Id": "o146",
+                    "a:ObjectID": "0ABB5EB4-CD91-4A21-8AC3-08DBF50F605E",
+                    "a:CreationDate": "1498998212",
+                    "a:Creator": "xjq",
+                    "a:ModificationDate": "1498998494",
+                    "a:Modifier": "xjq",
+                    "c:Object1": {
+                      "o:Column": {
+                        "Ref": "o121"
+                      }
+                    },
+                    "c:Object2": {
+                      "o:Column": {
+                        "Ref": "o96"
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "Id": "o32",
+                "a:ObjectID": "D2FF7C03-019E-48BC-8C62-C6724F463B9B",
+                "a:Name": "Reference_9",
+                "a:Code": "Reference_9",
+                "a:CreationDate": "1498998218",
+                "a:Creator": "xjq",
+                "a:ModificationDate": "1498998622",
+                "a:Modifier": "xjq",
+                "a:Cardinality": "0..*",
+                "a:UpdateConstraint": "1",
+                "a:DeleteConstraint": "1",
+                "c:ParentTable": {
+                  "o:Table": {
+                    "Ref": "o33"
+                  }
+                },
+                "c:ChildTable": {
+                  "o:Table": {
+                    "Ref": "o34"
+                  }
+                },
+                "c:ParentKey": {
+                  "o:Key": {
+                    "Ref": "o62"
+                  }
+                },
+                "c:Joins": {
+                  "o:ReferenceJoin": {
+                    "Id": "o147",
+                    "a:ObjectID": "60E5130B-8B9A-40B3-97F1-24321F189CAE",
+                    "a:CreationDate": "1498998218",
+                    "a:Creator": "xjq",
+                    "a:ModificationDate": "1498998622",
+                    "a:Modifier": "xjq",
+                    "c:Object1": {
+                      "o:Column": {
+                        "Ref": "o50"
+                      }
+                    },
+                    "c:Object2": {
+                      "o:Column": {
+                        "Ref": "o65"
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          },
+          "c:DefaultGroups": {
+            "o:Group": {
+              "Id": "o148",
+              "a:ObjectID": "602C50D3-F8BB-49A9-B900-DDE12176D35F",
+              "a:Name": "PUBLIC",
+              "a:Code": "PUBLIC",
+              "a:CreationDate": "1498990637",
+              "a:Creator": "hm20160509",
+              "a:ModificationDate": "1498990637",
+              "a:Modifier": "hm20160509"
+            }
+          },
+          "c:TargetModels": {
+            "o:TargetModel": {
+              "Id": "o149",
+              "a:ObjectID": "8423EC36-53AF-4D98-9E86-D24E2ADB844F",
+              "a:Name": "ORACLE Version 11g",
+              "a:Code": "ORA11GR1",
+              "a:CreationDate": "1498990661",
+              "a:Creator": "hm20160509",
+              "a:ModificationDate": "1498990661",
+              "a:Modifier": "hm20160509",
+              "a:TargetModelURL": "file:///%_DBMS%/ora11g.xdb",
+              "a:TargetModelID": "BAE632F3-AC04-4059-9893-259ABA89351C",
+              "a:TargetModelClassID": "4BA9F647-DAB1-11D1-9944-006097355D9B",
+              "a:TargetModelLastModificationDate": "1355934917",
+              "c:SessionShortcuts": {
+                "o:Shortcut": {
+                  "Ref": "o3"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
